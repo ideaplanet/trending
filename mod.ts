@@ -2,6 +2,7 @@ import { persist, persistMerged, toMergedEntries } from "./lib/persist.ts";
 import type { MergedEntry, Source } from "./lib/source.ts";
 import { baiduHot } from "./lib/sources/baidu-hot.ts";
 import { douyinHot } from "./lib/sources/douyin-hot.ts";
+import { kuaishouHot } from "./lib/sources/kuaishou-hot.ts";
 import { toutiaoSearch } from "./lib/sources/toutiao-search.ts";
 import { weiboSearch } from "./lib/sources/weibo-search.ts";
 import { zhihuSearch } from "./lib/sources/zhihu-search.ts";
@@ -14,6 +15,7 @@ const sources = [
   toutiaoSearch,
   baiduHot,
   douyinHot,
+  kuaishouHot,
 ] as Source<unknown>[];
 
 export async function init() {
