@@ -173,11 +173,13 @@ test("toMergedEntries 按 hotScore 倒序后线性归一化到万分制写入 no
   const entries = toMergedEntries(baiduHot, items);
   // 订正后 hotScore: a=10, b=1, c=1
   // 按 hotScore 降序: [a, b, c]（b/c 同分时由 Array.prototype.sort 稳定性保证顺序）
-  // N=3 线性归一化: rank 0/1/2 → round(10000 * (1 - rank/3)) = 10000 / 6667 / 3333
+  // N=3 线性归一化: round(10000 * (N - rank) / (N + 1)) = round(10000 * (3-rank) / 4)
+  //   → rank 0/1/2 → 7500 / 5000 / 2500
+  // 公式让分数落在 (0, 10000) 开区间，N 大的源 #1 自然更接近 10000，提供跨源 tie-break。
   expect(entries).toEqual([
-    { title: "a", url: "u1", hotScore: 10, normalizedScore: 10000, source: "baidu-hot" },
-    { title: "b", url: "u2", hotScore: 1, normalizedScore: 6667, source: "baidu-hot" },
-    { title: "c", url: "u3", hotScore: 1, normalizedScore: 3333, source: "baidu-hot" },
+    { title: "a", url: "u1", hotScore: 10, normalizedScore: 7500, source: "baidu-hot" },
+    { title: "b", url: "u2", hotScore: 1, normalizedScore: 5000, source: "baidu-hot" },
+    { title: "c", url: "u3", hotScore: 1, normalizedScore: 2500, source: "baidu-hot" },
   ]);
 });
 

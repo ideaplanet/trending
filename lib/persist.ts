@@ -96,7 +96,9 @@ export function rankMerged(entries: MergedEntry[]): MergedEntry[] {
 
 /** 把 source 当日全量数据投影为统一 entry，注入 source 名。
  *  订正 hotScore：缺失或 <1 置为 1；按 hotScore 降序排序后做线性 rank 归一化写入 normalizedScore。
- *  normalizedScore = round(10000 × (1 - rank / N))，10000 = 该源 #1，hotScore 原值保留。 */
+ *  normalizedScore = round(10000 × (N - rank) / (N + 1))，落在 (0, 10000) 开区间内：
+ *  条数越多的源 #1 越接近 10000，跨源排序时 N 大的源自然占优，避免榜首并列。
+ *  hotScore 原值保留。 */
 export function toMergedEntries<T>(
   source: Source<T>,
   items: T[],
@@ -112,11 +114,12 @@ export function toMergedEntries<T>(
 
   // 按 hotScore 降序确定 rank，再做线性归一化。
   // 不依赖各 source 抓取代码返回数组的顺序约定，hotScore 是唯一的热度信号。
-  // 跨源排序时直接用 normalizedScore；榜首通常并列（每个源的 #1 都是 10000）。
+  // 公式 (N - rank) / (N + 1) 让分数落在 (0, 10000) 开区间：N 大的源 #1 更接近 10000，
+  // 自然提供跨源 tie-break——条数多的源被认为信号更可信。
   entries.sort((a, b) => (b.hotScore ?? 0) - (a.hotScore ?? 0));
   const n = entries.length;
   for (let rank = 0; rank < n; rank++) {
-    entries[rank].normalizedScore = Math.round(10000 * (1 - rank / n));
+    entries[rank].normalizedScore = Math.round(10000 * (n - rank) / (n + 1));
   }
   return entries;
 }
