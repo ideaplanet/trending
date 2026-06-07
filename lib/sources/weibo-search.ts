@@ -10,11 +10,11 @@ const regexp =
 export const weiboSearch: Source<Word> = {
   name: "weibo-search",
   marker: "WEIBO",
-  key: (x) => x.url,
-  render: (x) => `[${x.title}](https://s.weibo.com/${x.url})`,
+  key: (x) => x.title,
+  render: (x) => `[${x.title}](https://s.weibo.com${x.url})`,
   toEntry: (x) => ({
     title: x.title,
-    url: `https://s.weibo.com/${x.url}`,
+    url: `https://s.weibo.com${x.url}`,
     ...(x.hotScore !== undefined ? { hotScore: x.hotScore } : {}),
   }),
   async fetch() {

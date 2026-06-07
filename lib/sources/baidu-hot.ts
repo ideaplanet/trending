@@ -26,7 +26,7 @@ interface BaiduSData {
 export const baiduHot: Source<Word> = {
   name: "baidu-hot",
   marker: "BAIDU",
-  key: (x) => x.url,
+  key: (x) => x.title,
   render: (x) => `[${x.title}](${x.url})`,
   async fetch() {
     const response = await fetch("https://top.baidu.com/board?tab=realtime", {

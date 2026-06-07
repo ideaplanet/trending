@@ -36,7 +36,7 @@ async function fetchCsrfToken(): Promise<string> {
 export const douyinHot: Source<Word> = {
   name: "douyin-hot",
   marker: "DOUYIN",
-  key: (x) => x.url,
+  key: (x) => x.title,
   render: (x) => `[${x.title}](${x.url})`,
   async fetch() {
     const token = await fetchCsrfToken();
