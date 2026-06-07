@@ -108,10 +108,11 @@ export function toMergedEntries<T>(
     }
     return entry;
   });
-  const sum = entries.reduce((acc, e) => acc + (e.hotScore ?? 0), 0);
-  if (sum > 0) {
+  const max = entries.reduce((acc, e) => Math.max(acc, e.hotScore ?? 0), 0);
+
+  if (max > 0) {
     for (const e of entries) {
-      e.hotScore = Math.round((10000.0 * (e.hotScore ?? 0) / sum));
+      e.hotScore = Math.round((1000.0 * (e.hotScore ?? 0) / max));
     }
   }
   return entries;

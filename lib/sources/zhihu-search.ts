@@ -26,7 +26,7 @@ export const zhihuSearch: Source<SearchWord> = {
     const words = result.top_search.words || [];
     return words.map((w, index) => ({
       ...w,
-      hotScore: 2 * words.length - index,
+      hotScore: words.length - index,
     }));
   },
 };
