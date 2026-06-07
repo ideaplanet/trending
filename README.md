@@ -5,7 +5,8 @@
 [![Build Status](https://github.com/hu-qi/trending-in-one/workflows/ci/badge.svg?branch=master)](https://github.com/hu-qi/trending-in-one/actions)
 [![license](https://img.shields.io/github/license/hu-qi/trending-in-one)](https://github.com/hu-qi/trending-in-one/blob/master/LICENSE)
 
-今日头条热搜,知乎热门视频，知乎热搜榜，知乎热门话题，微博热搜榜；记录从 2020-11-29 日开始的热搜。每小时抓取一次数据，按天[归档](./archives)。
+今日头条热搜,知乎热门视频，知乎热搜榜，知乎热门话题，微博热搜榜；记录从
+2020-11-29 日开始的热搜。每小时抓取一次数据，按天[归档](./archives)。
 
 <!-- 感谢Deno中国之父jjc大佬，99%的代码来自于jjc大佬的仓库 -->
 
@@ -19,14 +20,17 @@
 ## 使用
 
 可通过访问**jsdelivr**提供的 CDN 文件路径获取到本项目的存档文件，
-如想获取**2020-11-29**当天的知乎热搜，只需访问[**https://cdn.jsdelivr.net/gh/hu-qi/trending-in-one/raw/zhihu-search/2020-11-29.json**](https://cdn.jsdelivr.net/gh/hu-qi/trending-in-one/raw/zhihu-search/2020-11-29.json) 即可；
+如想获取**2020-11-29**当天的知乎热搜，只需访问[**https://cdn.jsdelivr.net/gh/hu-qi/trending-in-one/raw/zhihu-search/2020-11-29.json**](https://cdn.jsdelivr.net/gh/hu-qi/trending-in-one/raw/zhihu-search/2020-11-29.json)
+即可；
 
-如需想访问**2020-11-29**当天的知乎热搜，只需访问[**https://cdn.jsdelivr.net/gh/hu-qi/trending-in-one/archives/zhihu-search/2020-11-29.md**](https://cdn.jsdelivr.net/gh/hu-qi/trending-in-one/archives/zhihu-search/2020-11-29.md) 即可；
+如需想访问**2020-11-29**当天的知乎热搜，只需访问[**https://cdn.jsdelivr.net/gh/hu-qi/trending-in-one/archives/zhihu-search/2020-11-29.md**](https://cdn.jsdelivr.net/gh/hu-qi/trending-in-one/archives/zhihu-search/2020-11-29.md)
+即可；
 
 ## 今日头条热搜
 
 <!-- BEGIN TOUTIAO -->
 <!-- 最后更新时间 Thu Apr 24 2025 05:12:31 GMT+0800 (China Standard Time) -->
+
 1. [中方回应特朗普称或将降低对华关税](https://so.toutiao.com/search?keyword=中方回应特朗普称或将降低对华关税)
 1. [“仅退款”为何被抛弃了](https://so.toutiao.com/search?keyword=“仅退款”为何被抛弃了)
 1. [金融“活水”精准滴灌发展所需](https://so.toutiao.com/search?keyword=金融“活水”精准滴灌发展所需)
@@ -77,6 +81,7 @@
 1. [特朗普措辞改变后中美会展开谈判吗](https://so.toutiao.com/search?keyword=特朗普措辞改变后中美会展开谈判吗)
 1. [小伙垂钓“钓”上条落水“美人鱼”](https://so.toutiao.com/search?keyword=小伙垂钓“钓”上条落水“美人鱼”)
 1. [CBA半决赛完整对阵出炉](https://so.toutiao.com/search?keyword=CBA半决赛完整对阵出炉)
+
 <!-- END TOUTIAO -->
 
 历史归档 [./archives/toutiao-search](./archives/toutiao-search)
@@ -85,6 +90,7 @@
 
 <!-- BEGIN ZHIHUSEARCH -->
 <!-- 最后更新时间 Thu Apr 24 2025 05:12:31 GMT+0800 (China Standard Time) -->
+
 1. [金价下跌](https://www.zhihu.com/search?q=金价下跌)
 1. [樊振东还能回来吗](https://www.zhihu.com/search?q=樊振东还能回来吗)
 1. [活塞险胜尼克斯](https://www.zhihu.com/search?q=活塞险胜尼克斯)
@@ -95,6 +101,7 @@
 1. [爱马仕宣布在美国全线涨价](https://www.zhihu.com/search?q=爱马仕宣布在美国全线涨价)
 1. [中国被曝已不再生产出口美国的玩具](https://www.zhihu.com/search?q=中国被曝已不再生产出口美国的玩具)
 1. [北理工通报教师宫某涉嫌师德失范](https://www.zhihu.com/search?q=北理工通报教师宫某涉嫌师德失范)
+
 <!-- END ZHIHUSEARCH -->
 
 历史归档 [./archives/zhihu-search](./archives/zhihu-search)
@@ -103,6 +110,7 @@
 
 <!-- BEGIN ZHIHUQUESTIONS -->
 <!-- 最后更新时间 Thu Apr 24 2025 05:12:31 GMT+0800 (China Standard Time) -->
+
 1. [董明珠疑似再次内涵雷军，称格力电车跑十几年从没有火灾事故，如何评价她这番表述？](https://www.zhihu.com/question/1898361869783238100)
 1. [洛阳文旅确认白马寺内为狄仁杰墓，有哪些文献或考古证据支持？为何外界仍有不同观点？](https://www.zhihu.com/question/1898300099563581700)
 1. [中方回应特朗普承认对自中国进口商品的关税过高，美方此前称预计税率将大幅降低，预计降到多少双方都能满意？](https://www.zhihu.com/question/1898309261072757000)
@@ -133,6 +141,7 @@
 1. [这届年轻人为何热衷三十分钟文学？](https://www.zhihu.com/question/1895502375155890000)
 1. [山东产出 2 米高番茄树，单株年产 6000 斤，这是怎么做到的？有可能推广种植吗？](https://www.zhihu.com/question/1897936876964372700)
 1. [2025 上海车展，各大车企都在比拼什么？由此洞察到哪些发展趋势？](https://www.zhihu.com/question/1897625201648300500)
+
 <!-- END ZHIHUQUESTIONS -->
 
 历史归档 [./archives/zhihu-questions](./archives/zhihu-questions)
@@ -141,6 +150,7 @@
 
 <!-- BEGIN ZHIHUVIDEO -->
 <!-- 最后更新时间 Thu Apr 24 2025 05:12:31 GMT+0800 (China Standard Time) -->
+
 1. [董明珠疑似再次内涵雷军，称格力电车跑十几年从没有火灾事故，如何评价她这番表述？](https://www.zhihu.com/question/1898361869783238096)
 1. [洛阳文旅确认白马寺内为狄仁杰墓，有哪些文献或考古证据支持？为何外界仍有不同观点？](https://www.zhihu.com/question/1898300099563581740)
 1. [中方回应特朗普承认对自中国进口商品的关税过高，美方此前称预计税率将大幅降低，预计降到多少双方都能满意？](https://www.zhihu.com/question/1898309261072756888)
@@ -171,6 +181,7 @@
 1. [这届年轻人为何热衷三十分钟文学？](https://www.zhihu.com/question/1895502375155889907)
 1. [山东产出 2 米高番茄树，单株年产 6000 斤，这是怎么做到的？有可能推广种植吗？](https://www.zhihu.com/question/1897936876964372743)
 1. [2025 上海车展，各大车企都在比拼什么？由此洞察到哪些发展趋势？](https://www.zhihu.com/question/1897625201648300592)
+
 <!-- END ZHIHUVIDEO -->
 
 历史归档 [./archives/zhihu-video](./archives/zhihu-video)
@@ -179,6 +190,7 @@
 
 <!-- BEGIN WEIBO -->
 <!-- 最后更新时间 Thu Apr 24 2025 05:12:31 GMT+0800 (China Standard Time) -->
+
 1. [习近平的书香情缘](https://s.weibo.com//weibo?q=%23%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%9A%84%E4%B9%A6%E9%A6%99%E6%83%85%E7%BC%98%23&Refer=new_time)
 1. [特朗普正为与中国达成协议做准备](https://s.weibo.com//weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E6%AD%A3%E4%B8%BA%E4%B8%8E%E4%B8%AD%E5%9B%BD%E8%BE%BE%E6%88%90%E5%8D%8F%E8%AE%AE%E5%81%9A%E5%87%86%E5%A4%87%23&t=31&band_rank=1&Refer=top)
 1. [多名观众称被演唱会座椅扎伤](https://s.weibo.com//weibo?q=%23%E5%A4%9A%E5%90%8D%E8%A7%82%E4%BC%97%E7%A7%B0%E8%A2%AB%E6%BC%94%E5%94%B1%E4%BC%9A%E5%BA%A7%E6%A4%85%E6%89%8E%E4%BC%A4%23&t=31&band_rank=2&Refer=top)
@@ -230,10 +242,12 @@
 1. [中国阿塞拜疆互免签证](https://s.weibo.com//weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%98%BF%E5%A1%9E%E6%8B%9C%E7%96%86%E4%BA%92%E5%85%8D%E7%AD%BE%E8%AF%81%23&t=31&band_rank=48&Refer=top)
 1. [烟花少年](https://s.weibo.com//weibo?q=%E7%83%9F%E8%8A%B1%E5%B0%91%E5%B9%B4&t=31&band_rank=49&Refer=top)
 1. [肖战热爱填充生活点滴](https://s.weibo.com//weibo?q=%23%E8%82%96%E6%88%98%E7%83%AD%E7%88%B1%E5%A1%AB%E5%85%85%E7%94%9F%E6%B4%BB%E7%82%B9%E6%BB%B4%23&t=31&band_rank=50&Refer=top)
+
 <!-- END WEIBO -->
 
 历史归档 [./archives/weibo-search](./archives/weibo-search)
 
 ## License
 
-[trending-in-one/](https://github.com/hu-qi/trending-in-one) 的源码使用 MIT License 发布。具体内容请查看 [LICENSE](./LICENSE) 文件。
+[trending-in-one/](https://github.com/hu-qi/trending-in-one) 的源码使用 MIT
+License 发布。具体内容请查看 [LICENSE](./LICENSE) 文件。

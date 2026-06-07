@@ -33,7 +33,9 @@ if (await exists(fullPath)) {
 const wordsAll = mergeWords(words, wordsAlreadyDownload);
 
 export const zhihuSearchData = wordsAll.map((x) => {
-  x.url = `https://www.zhihu.com/search?q=${x.query.replace(/(^\s+)|(\s+$)|\s+/g,'%20')}`;
+  x.url = `https://www.zhihu.com/search?q=${
+    x.query.replace(/(^\s+)|(\s+$)|\s+/g, "%20")
+  }`;
   return x;
 });
 
