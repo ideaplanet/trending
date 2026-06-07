@@ -110,9 +110,12 @@ export function toMergedEntries<T>(
   });
   const max = entries.reduce((acc, e) => Math.max(acc, e.hotScore ?? 0), 0);
 
-  if (max > 0) {
+  // 取对数压缩长尾：log(1+x) / log(1+max) * 1000，避免头部条目数量级过大
+  // 导致后续条目都被压成接近 0。
+  const denom = Math.log1p(max);
+  if (denom > 0) {
     for (const e of entries) {
-      e.hotScore = Math.round((1000.0 * (e.hotScore ?? 0) / max));
+      e.hotScore = Math.round(1000.0 * Math.log1p(e.hotScore ?? 0) / denom);
     }
   }
   return entries;
