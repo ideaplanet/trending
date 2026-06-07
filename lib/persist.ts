@@ -137,11 +137,6 @@ export async function persist<T>(source: Source<T>): Promise<T[]> {
   // raw
   await writeFileEnsureDir(rawPath, JSON.stringify(all));
 
-  // README
-  const section = renderSection(source.marker, all, source.render);
-  const readme = await replaceReadmeSection(source.marker, section);
-  await writeFile("./README.md", readme);
-
   return all;
 }
 
