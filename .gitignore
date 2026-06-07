@@ -1,0 +1,8 @@
+*.log
+.cache
+.DS_Store
+*bak
+.history
+.temp/**
+
+.env
