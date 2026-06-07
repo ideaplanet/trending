@@ -30,7 +30,7 @@ type DefaultClient = Record<string, unknown> & {
 export const kuaishouHot: Source<Word> = {
   name: "kuaishou-hot",
   marker: "KUAISHOU",
-  key: (x) => x.url,
+  key: (x) => x.title,
   render: (x) => `[${x.title}](${x.url})`,
   async fetch() {
     const response = await fetch(URL, {

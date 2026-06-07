@@ -5,7 +5,7 @@ import type { ToutiaoTopSearch, ToutiaoWord } from "../types.ts";
 export const toutiaoSearch: Source<ToutiaoWord> = {
   name: "toutiao-search",
   marker: "TOUTIAO",
-  key: (x) => x.url,
+  key: (x) => x.word,
   render: (x) => `[${x.word}](${x.url})`,
   toEntry: (x) => ({
     title: x.word,

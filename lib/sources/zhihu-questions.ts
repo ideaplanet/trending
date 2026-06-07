@@ -5,7 +5,7 @@ import type { Question, ZhihuQuestionList } from "../types.ts";
 export const zhihuQuestions: Source<Question> = {
   name: "zhihu-questions",
   marker: "ZHIHUQUESTIONS",
-  key: (x) => x.url,
+  key: (x) => x.title,
   render: (x) => `[${x.title}](${x.url})`,
   async fetch() {
     const response = await fetch(
