@@ -8,6 +8,19 @@ const APOLLO_RE =
   /window\.__APOLLO_STATE__=([\s\S]*?);\(function\(\)/;
 const CACHE_KEY_RE = /clientCacheKey=([A-Za-z0-9]+)/;
 const HOT_RANK_KEY = '$ROOT_QUERY.visionHotRank({"page":"home"})';
+const HOT_VALUE_RE = /^(\d+(?:\.\d+)?)(万|亿)?$/;
+
+// 快手返回的热度形如 "1343.6万" / "1.2亿" / "9876"；解析为整数。
+function parseHotValue(raw: unknown): number {
+  if (typeof raw === "number") return raw;
+  if (typeof raw !== "string") return NaN;
+  const m = raw.trim().match(HOT_VALUE_RE);
+  if (!m) return NaN;
+  const n = Number(m[1]);
+  if (!Number.isFinite(n)) return NaN;
+  const unit = m[2] === "万" ? 1e4 : m[2] === "亿" ? 1e8 : 1;
+  return Math.round(n * unit);
+}
 
 interface ApolloRef {
   id: string;
@@ -20,7 +33,8 @@ interface VisionHotRank {
 interface PhotoNode {
   name?: string;
   poster?: string;
-  hotValue?: number;
+  hotValue?: string | number | null;
+  tagType?: string | null;
 }
 
 type DefaultClient = Record<string, unknown> & {
@@ -61,10 +75,12 @@ export const kuaishouHot: Source<Word> = {
     for (const ref of items) {
       const node = client[ref.id] as PhotoNode | undefined;
       if (!node?.name || !node.poster) continue;
+      // 排除置顶条目（tagType === "置顶"）
+      if (node.tagType === "置顶" || !node.hotValue) continue;
       const cacheKey = node.poster.match(CACHE_KEY_RE)?.[1];
       // 没拿到 clientCacheKey 的条目构不出可用 URL，丢掉。
       if (!cacheKey) continue;
-      const score = typeof node.hotValue === "number" ? node.hotValue : NaN;
+      const score = parseHotValue(node.hotValue);
       out.push({
         title: node.name,
         url: `https://www.kuaishou.com/short-video/${cacheKey}`,
