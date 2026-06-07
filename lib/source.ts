@@ -13,4 +13,19 @@ export interface Source<T> {
   key(item: T): string;
   /** 渲染单条记录为一行 markdown，会被前置 `1. ` */
   render(item: T): string;
+  /**
+   * 投影为跨 source 的统一条目，供合并 raw/archives 使用。
+   * 缺省实现见 lib/persist.ts，仅当 source 字段与 {title,url,hotScore} 不一致时才需自定义。
+   */
+  toEntry?(item: T): MergedEntry;
+}
+
+/** 跨 source 统一的合并条目。 */
+export interface MergedEntry {
+  title: string;
+  url: string;
+  /** 热度，缺失时按 0 处理。 */
+  hotScore?: number;
+  /** 来源 source.name，写入合并 raw/markdown 时由 persist 注入。 */
+  source?: string;
 }

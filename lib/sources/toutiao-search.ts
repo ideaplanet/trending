@@ -7,6 +7,11 @@ export const toutiaoSearch: Source<ToutiaoWord> = {
   marker: "TOUTIAO",
   key: (x) => x.url,
   render: (x) => `[${x.word}](${x.url})`,
+  toEntry: (x) => ({
+    title: x.word,
+    url: x.url,
+    ...(x.hotScore !== undefined ? { hotScore: x.hotScore } : {}),
+  }),
   async fetch() {
     const response = await fetch(
       "https://is-lq.snssdk.com/api/suggest_words/?business_id=10016",
@@ -19,11 +24,17 @@ export const toutiaoSearch: Source<ToutiaoWord> = {
     }
 
     const result = await response.json() as ToutiaoTopSearch;
-    return result.data[0].words.map((x) => ({
-      ...x,
-      url: `https://so.toutiao.com/search?keyword=${
-        x.word.replace(/(^\s+)|(\s+$)|\s+/g, "%20")
-      }`,
-    }));
+    return result.data[0].words.map((x) => {
+      const score = x.params?.fake_click_cnt;
+      return {
+        ...x,
+        url: `https://so.toutiao.com/search?keyword=${
+          x.word.replace(/(^\s+)|(\s+$)|\s+/g, "%20")
+        }`,
+        ...(typeof score === "number" && Number.isFinite(score)
+          ? { hotScore: score }
+          : {}),
+      };
+    });
   },
 };

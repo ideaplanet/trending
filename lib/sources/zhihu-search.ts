@@ -8,6 +8,10 @@ export const zhihuSearch: Source<SearchWord> = {
   key: (x) => x.display_query,
   render: (x) =>
     `[${x.display_query}](https://www.zhihu.com/search?q=${x.query})`,
+  toEntry: (x) => ({
+    title: x.display_query,
+    url: `https://www.zhihu.com/search?q=${x.query}`,
+  }),
   async fetch() {
     const response = await fetch(
       "https://www.zhihu.com/api/v4/search/top_search",

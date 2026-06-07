@@ -2,13 +2,21 @@
 import type { Source } from "../source.ts";
 import type { Word } from "../types.ts";
 
-const regexp = /<a href="(\/weibo\?q=[^"]+)".*?>(.+)<\/a>/g;
+// 微博 SSR 出来的每条热搜：<a href="/weibo?q=..." ...>标题</a> 后面跟着
+// <span>[分类 ]热度数字</span>。榜首的「置顶」条没有 span，故 score 可缺。
+const regexp =
+  /<a href="(\/weibo\?q=[^"]+)"[^>]*>(.+?)<\/a>(?:\s*<span>(?:[^<]*?\s)?(\d+)<\/span>)?/g;
 
 export const weiboSearch: Source<Word> = {
   name: "weibo-search",
   marker: "WEIBO",
   key: (x) => x.url,
   render: (x) => `[${x.title}](https://s.weibo.com/${x.url})`,
+  toEntry: (x) => ({
+    title: x.title,
+    url: `https://s.weibo.com/${x.url}`,
+    ...(x.hotScore !== undefined ? { hotScore: x.hotScore } : {}),
+  }),
   async fetch() {
     const response = await fetch("https://s.weibo.com/top/summary", {
       headers: {
@@ -22,9 +30,13 @@ export const weiboSearch: Source<Word> = {
     }
 
     const html = await response.text();
-    return Array.from(html.matchAll(regexp)).map((x) => ({
-      url: x[1],
-      title: x[2],
-    }));
+    return Array.from(html.matchAll(regexp)).map((x) => {
+      const score = x[3] ? Number(x[3]) : NaN;
+      return {
+        url: x[1],
+        title: x[2],
+        ...(Number.isFinite(score) ? { hotScore: score } : {}),
+      };
+    });
   },
 };

@@ -45,6 +45,8 @@ export type Word = {
   title: string;
   url: string;
   realurl?: string;
+  /** 热度数值；越大越热，跨 source 含义不同（百度热搜分、微博讨论数等），仅用于排序。 */
+  hotScore?: number;
 };
 
 export type ToutiaoTopSearch = {
@@ -58,4 +60,9 @@ export type ToutiaoTopSearch = {
 export type ToutiaoWord = {
   word: string;
   url: string;
+  hotScore?: number;
+  params?: {
+    fake_click_cnt?: number;
+    real_click_cnt?: number;
+  };
 };

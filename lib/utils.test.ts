@@ -1,6 +1,13 @@
 import { expect, test } from "bun:test";
 
-import { mergeByKey, renderArchive, renderSection } from "./persist.ts";
+import {
+  mergeByKey,
+  rankMerged,
+  renderArchive,
+  renderSection,
+  toMergedEntries,
+} from "./persist.ts";
+import { baiduHot } from "./sources/baidu-hot.ts";
 import { toutiaoSearch } from "./sources/toutiao-search.ts";
 import { weiboSearch } from "./sources/weibo-search.ts";
 import { zhihuQuestions } from "./sources/zhihu-questions.ts";
@@ -8,22 +15,40 @@ import { zhihuSearch } from "./sources/zhihu-search.ts";
 import { zhihuVideo } from "./sources/zhihu-video.ts";
 import type { Question, SearchWord, ToutiaoWord, Word } from "./types.ts";
 
-test("mergeByKey 合并去重 —— 后出现覆盖先出现", () => {
+test("mergeByKey 合并去重 —— existing 保留，fresh 中的 hotScore 覆盖旧值", () => {
   const k = (x: { url: string }) => x.url;
   expect(mergeByKey([], [{ url: "a", title: "x" }], k)).toEqual([
     { url: "a", title: "x" },
   ]);
 
-  // 同 url，后者覆盖前者
+  // 同 url，existing 的 title 保留（不被 fresh 覆盖）
   expect(
     mergeByKey(
-      [{ url: "a", title: "old" }],
-      [{ url: "a", title: "new" }],
+      [{ url: "a", title: "fresh" }],
+      [{ url: "a", title: "existing" }],
       k,
     ),
-  ).toEqual([{ url: "a", title: "new" }]);
+  ).toEqual([{ url: "a", title: "existing" }]);
 
-  // 不同 url 全部保留，顺序：a 先来，后来的 b 追加
+  // 同 url，fresh 带 hotScore 时覆盖 existing 上的旧热度
+  expect(
+    mergeByKey(
+      [{ url: "a", title: "fresh", hotScore: 999 }],
+      [{ url: "a", title: "existing", hotScore: 1 }],
+      k,
+    ),
+  ).toEqual([{ url: "a", title: "existing", hotScore: 999 }]);
+
+  // 同 url，fresh 没有 hotScore 时不动 existing 上的热度
+  expect(
+    mergeByKey(
+      [{ url: "a", title: "fresh" }],
+      [{ url: "a", title: "existing", hotScore: 5 }],
+      k,
+    ),
+  ).toEqual([{ url: "a", title: "existing", hotScore: 5 }]);
+
+  // 不同 url 全部保留，existing 先 fresh 后
   expect(
     mergeByKey(
       [{ url: "a", title: "x" }],
@@ -31,8 +56,8 @@ test("mergeByKey 合并去重 —— 后出现覆盖先出现", () => {
       k,
     ),
   ).toEqual([
-    { url: "a", title: "x" },
     { url: "b", title: "y" },
+    { url: "a", title: "x" },
   ]);
 });
 
@@ -102,4 +127,61 @@ test("source 描述：toutiao-search", () => {
   const w: ToutiaoWord = { word: "foo", url: "bar" };
   expect(toutiaoSearch.key(w)).toBe("bar");
   expect(toutiaoSearch.render(w)).toBe("[foo](bar)");
+});
+
+test("toutiao-search toEntry 携带 fake_click_cnt 来的 hotScore", () => {
+  const w: ToutiaoWord = {
+    word: "foo",
+    url: "u",
+    hotScore: 41502029,
+  };
+  expect(toutiaoSearch.toEntry?.(w)).toEqual({
+    title: "foo",
+    url: "u",
+    hotScore: 41502029,
+  });
+});
+
+test("weibo-search toEntry 把相对 url 展开为绝对地址，携带热度", () => {
+  const w: Word = { title: "t", url: "/weibo?q=foo", hotScore: 123 };
+  expect(weiboSearch.toEntry?.(w)).toEqual({
+    title: "t",
+    url: "https://s.weibo.com//weibo?q=foo",
+    hotScore: 123,
+  });
+  // 没热度时不要塞 undefined 字段
+  expect(weiboSearch.toEntry?.({ title: "t", url: "/weibo?q=foo" })).toEqual({
+    title: "t",
+    url: "https://s.weibo.com//weibo?q=foo",
+  });
+});
+
+test("zhihu-search toEntry 用 display_query 作标题、拼搜索 URL", () => {
+  const w: SearchWord = { query: "foo", display_query: "bar" };
+  expect(zhihuSearch.toEntry?.(w)).toEqual({
+    title: "bar",
+    url: "https://www.zhihu.com/search?q=foo",
+  });
+});
+
+test("toMergedEntries 注入 source 名，缺省投影读出 title/url/hotScore", () => {
+  const items: Word[] = [
+    { title: "a", url: "u1", hotScore: 10 },
+    { title: "b", url: "u2" },
+  ];
+  const entries = toMergedEntries(baiduHot, items);
+  expect(entries).toEqual([
+    { title: "a", url: "u1", hotScore: 10, source: "baidu-hot" },
+    { title: "b", url: "u2", source: "baidu-hot" },
+  ]);
+});
+
+test("rankMerged 按 hotScore 倒序，缺失热度排末尾", () => {
+  const ranked = rankMerged([
+    { title: "low", url: "u1", hotScore: 1 },
+    { title: "missing", url: "u2" },
+    { title: "high", url: "u3", hotScore: 99 },
+    { title: "mid", url: "u4", hotScore: 50 },
+  ]);
+  expect(ranked.map((e) => e.title)).toEqual(["high", "mid", "low", "missing"]);
 });
