@@ -95,14 +95,14 @@ test("source 描述：zhihu-video", () => {
   expect(zhihuVideo.name).toBe("zhihu-video");
   expect(zhihuVideo.marker).toBe("ZHIHUVIDEO");
   const q: Question = { title: "t", url: "u" };
-  expect(zhihuVideo.key(q)).toBe("u");
+  expect(zhihuVideo.key(q)).toBe("t");
   expect(zhihuVideo.render(q)).toBe("[t](u)");
 });
 
 test("source 描述：zhihu-questions", () => {
   expect(zhihuQuestions.marker).toBe("ZHIHUQUESTIONS");
   const q: Question = { title: "t", url: "u" };
-  expect(zhihuQuestions.key(q)).toBe("u");
+  expect(zhihuQuestions.key(q)).toBe("t");
   expect(zhihuQuestions.render(q)).toBe("[t](u)");
 });
 
@@ -118,14 +118,14 @@ test("source 描述：zhihu-search 用 display_query 去重，render 拼搜索 U
 test("source 描述：weibo-search render 拼接 s.weibo.com 前缀", () => {
   expect(weiboSearch.marker).toBe("WEIBO");
   const w: Word = { title: "t", url: "/weibo?q=foo" };
-  expect(weiboSearch.key(w)).toBe("/weibo?q=foo");
-  expect(weiboSearch.render(w)).toBe("[t](https://s.weibo.com//weibo?q=foo)");
+  expect(weiboSearch.key(w)).toBe("t");
+  expect(weiboSearch.render(w)).toBe("[t](https://s.weibo.com/weibo?q=foo)");
 });
 
 test("source 描述：toutiao-search", () => {
   expect(toutiaoSearch.marker).toBe("TOUTIAO");
   const w: ToutiaoWord = { word: "foo", url: "bar" };
-  expect(toutiaoSearch.key(w)).toBe("bar");
+  expect(toutiaoSearch.key(w)).toBe("foo");
   expect(toutiaoSearch.render(w)).toBe("[foo](bar)");
 });
 
@@ -146,13 +146,13 @@ test("weibo-search toEntry 把相对 url 展开为绝对地址，携带热度", 
   const w: Word = { title: "t", url: "/weibo?q=foo", hotScore: 123 };
   expect(weiboSearch.toEntry?.(w)).toEqual({
     title: "t",
-    url: "https://s.weibo.com//weibo?q=foo",
+    url: "https://s.weibo.com/weibo?q=foo",
     hotScore: 123,
   });
   // 没热度时不要塞 undefined 字段
   expect(weiboSearch.toEntry?.({ title: "t", url: "/weibo?q=foo" })).toEqual({
     title: "t",
-    url: "https://s.weibo.com//weibo?q=foo",
+    url: "https://s.weibo.com/weibo?q=foo",
   });
 });
 
