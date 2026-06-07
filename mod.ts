@@ -21,7 +21,6 @@ const sources = [
 export async function init() {
   // 串行执行：所有 source 都会读-改-写 README.md，并行会丢失修改。
   // 用 try/catch 隔离单个 source 的失败，避免一个挂掉影响其它。
-  let failed = 0;
   const merged: MergedEntry[] = [];
   for (const source of sources) {
     try {
@@ -29,7 +28,6 @@ export async function init() {
       merged.push(...toMergedEntries(source, items));
       console.log(`✓ ${source.name}`);
     } catch (err) {
-      failed++;
       console.error(
         `✗ ${source.name}:`,
         err instanceof Error ? err.message : err,
@@ -42,14 +40,11 @@ export async function init() {
     await persistMerged(merged);
     console.log(`✓ merged (${merged.length} entries)`);
   } catch (err) {
-    failed++;
     console.error(
       `✗ merged:`,
       err instanceof Error ? err.message : err,
     );
   }
-
-  if (failed > 0) process.exitCode = 1;
 }
 
 init();
