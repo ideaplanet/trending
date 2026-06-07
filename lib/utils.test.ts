@@ -164,15 +164,18 @@ test("zhihu-search toEntry 用 display_query 作标题、拼搜索 URL", () => {
   });
 });
 
-test("toMergedEntries 注入 source 名，缺省投影读出 title/url/hotScore", () => {
+test("toMergedEntries 注入 source 名，缺省投影读出 title/url/hotScore，缺失或 <1 的 hotScore 置 1 后按 source 内总和归一化", () => {
   const items: Word[] = [
     { title: "a", url: "u1", hotScore: 10 },
     { title: "b", url: "u2" },
+    { title: "c", url: "u3", hotScore: 0 },
   ];
   const entries = toMergedEntries(baiduHot, items);
+  // 订正后 hotScore: a=10, b=1, c=1, sum=12 → 乘 10000 取整：a≈8333, b≈833, c≈833
   expect(entries).toEqual([
-    { title: "a", url: "u1", hotScore: 10, source: "baidu-hot" },
-    { title: "b", url: "u2", source: "baidu-hot" },
+    { title: "a", url: "u1", hotScore: Math.round(10000 * 10 / 12), source: "baidu-hot" },
+    { title: "b", url: "u2", hotScore: Math.round(10000 * 1 / 12), source: "baidu-hot" },
+    { title: "c", url: "u3", hotScore: Math.round(10000 * 1 / 12), source: "baidu-hot" },
   ]);
 });
 

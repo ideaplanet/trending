@@ -33,6 +33,7 @@ export type SearchWord = {
   query: string;
   display_query: string;
   url?: string;
+  hotScore?: number;
 };
 
 export type TopSearch = {

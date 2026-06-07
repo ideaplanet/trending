@@ -94,13 +94,27 @@ export function rankMerged(entries: MergedEntry[]): MergedEntry[] {
   });
 }
 
-/** 把 source 当日全量数据投影为统一 entry，注入 source 名。 */
+/** 把 source 当日全量数据投影为统一 entry，注入 source 名。
+ *  订正 hotScore：缺失或 <1 置为 1；同 source 内按 hotScore 之和归一化。 */
 export function toMergedEntries<T>(
   source: Source<T>,
   items: T[],
 ): MergedEntry[] {
   const project = source.toEntry ?? defaultToEntry;
-  return items.map((it) => ({ ...project(it), source: source.name }));
+  const entries = items.map((it) => {
+    const entry = { ...project(it), source: source.name };
+    if (entry.hotScore === undefined || entry.hotScore < 1) {
+      entry.hotScore = 1;
+    }
+    return entry;
+  });
+  const sum = entries.reduce((acc, e) => acc + (e.hotScore ?? 0), 0);
+  if (sum > 0) {
+    for (const e of entries) {
+      e.hotScore = Math.round((10000.0 * (e.hotScore ?? 0) / sum));
+    }
+  }
+  return entries;
 }
 
 function renderMergedMarkdown(date: string, entries: MergedEntry[]): string {
