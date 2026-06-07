@@ -1,15 +1,36 @@
-import { zhihuVideo } from "./zhihu-video.ts";
-import { zhihuQuestions } from "./zhihu-questions.ts";
-import { zhihuSearch } from "./zhihu-search.ts";
-import { weiboSearch } from "./weibo-search.ts";
-import { toutiaoSearch } from "./toutiao-search.ts";
+import { persist } from "./lib/persist.ts";
+import type { Source } from "./lib/source.ts";
+import { toutiaoSearch } from "./lib/sources/toutiao-search.ts";
+import { weiboSearch } from "./lib/sources/weibo-search.ts";
+import { zhihuQuestions } from "./lib/sources/zhihu-questions.ts";
+import { zhihuSearch } from "./lib/sources/zhihu-search.ts";
+import { zhihuVideo } from "./lib/sources/zhihu-video.ts";
+
+const sources = [
+  zhihuVideo,
+  zhihuQuestions,
+  zhihuSearch,
+  weiboSearch,
+  toutiaoSearch,
+] as Source<unknown>[];
 
 export async function init() {
-  await zhihuVideo();
-  await zhihuQuestions();
-  await zhihuSearch();
-  await weiboSearch();
-  await toutiaoSearch();
+  // 串行执行：所有 source 都会读-改-写 README.md，并行会丢失修改。
+  // 用 try/catch 隔离单个 source 的失败，避免一个挂掉影响其它。
+  let failed = 0;
+  for (const source of sources) {
+    try {
+      await persist(source);
+      console.log(`✓ ${source.name}`);
+    } catch (err) {
+      failed++;
+      console.error(
+        `✗ ${source.name}:`,
+        err instanceof Error ? err.message : err,
+      );
+    }
+  }
+  if (failed > 0) process.exitCode = 1;
 }
 
 init();
