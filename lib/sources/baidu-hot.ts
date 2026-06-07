@@ -11,6 +11,7 @@ interface BaiduHotItem {
   url?: string;
   rawUrl?: string;
   hotScore?: string;
+  isTop?: boolean;
 }
 
 interface BaiduSData {
@@ -50,6 +51,8 @@ export const baiduHot: Source<Word> = {
     const items = hotList?.content ?? [];
 
     return items
+      // 榜首常驻的「置顶」要闻和实时热度不是一回事，剔掉。
+      .filter((x) => !x.isTop)
       .filter((x) => x.word && (x.url || x.rawUrl || x.query))
       .map((x) => {
         const score = x.hotScore ? Number(x.hotScore) : NaN;

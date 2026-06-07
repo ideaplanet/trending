@@ -30,13 +30,16 @@ export const weiboSearch: Source<Word> = {
     }
 
     const html = await response.text();
-    return Array.from(html.matchAll(regexp)).map((x) => {
-      const score = x[3] ? Number(x[3]) : NaN;
-      return {
-        url: x[1],
-        title: x[2],
-        ...(Number.isFinite(score) ? { hotScore: score } : {}),
-      };
-    });
+    return Array.from(html.matchAll(regexp))
+      .map((x) => {
+        const score = x[3] ? Number(x[3]) : NaN;
+        return {
+          url: x[1],
+          title: x[2],
+          ...(Number.isFinite(score) ? { hotScore: score } : {}),
+        };
+      })
+      // 微博偶尔会返回热度为 0 的条目（多为撤榜/异常），剔除掉。
+      .filter((x) => !!x.hotScore);
   },
 };
