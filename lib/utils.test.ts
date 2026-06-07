@@ -164,18 +164,22 @@ test("zhihu-search toEntry 用 display_query 作标题、拼搜索 URL", () => {
   });
 });
 
-test("toMergedEntries 注入 source 名，缺省投影读出 title/url/hotScore，缺失或 <1 的 hotScore 置 1 后按 source 内总和归一化", () => {
+test("toMergedEntries 注入 source 名，缺省投影读出 title/url/hotScore，缺失或 <1 的 hotScore 置 1 后按 log(1+x)/log(1+max) 归一化到千分制", () => {
   const items: Word[] = [
     { title: "a", url: "u1", hotScore: 10 },
     { title: "b", url: "u2" },
     { title: "c", url: "u3", hotScore: 0 },
   ];
   const entries = toMergedEntries(baiduHot, items);
-  // 订正后 hotScore: a=10, b=1, c=1, sum=12 → 乘 10000 取整：a≈8333, b≈833, c≈833
+  // 订正后 hotScore: a=10, b=1, c=1，max=10
+  // 对数压缩：round(1000 * log1p(x) / log1p(10))
+  //   a: log1p(10)/log1p(10) * 1000 = 1000
+  //   b/c: log1p(1)/log1p(10) * 1000 ≈ 289
+  const denom = Math.log1p(10);
   expect(entries).toEqual([
-    { title: "a", url: "u1", hotScore: Math.round(10000 * 10 / 12), source: "baidu-hot" },
-    { title: "b", url: "u2", hotScore: Math.round(10000 * 1 / 12), source: "baidu-hot" },
-    { title: "c", url: "u3", hotScore: Math.round(10000 * 1 / 12), source: "baidu-hot" },
+    { title: "a", url: "u1", hotScore: Math.round(1000 * Math.log1p(10) / denom), source: "baidu-hot" },
+    { title: "b", url: "u2", hotScore: Math.round(1000 * Math.log1p(1) / denom), source: "baidu-hot" },
+    { title: "c", url: "u3", hotScore: Math.round(1000 * Math.log1p(1) / denom), source: "baidu-hot" },
   ]);
 });
 
