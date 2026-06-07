@@ -2,13 +2,11 @@ import { persist } from "./lib/persist.ts";
 import type { Source } from "./lib/source.ts";
 import { toutiaoSearch } from "./lib/sources/toutiao-search.ts";
 import { weiboSearch } from "./lib/sources/weibo-search.ts";
-import { zhihuQuestions } from "./lib/sources/zhihu-questions.ts";
 import { zhihuSearch } from "./lib/sources/zhihu-search.ts";
-import { zhihuVideo } from "./lib/sources/zhihu-video.ts";
 
 const sources = [
-  zhihuVideo,
-  zhihuQuestions,
+  // zhihuVideo,
+  // zhihuQuestions,
   zhihuSearch,
   weiboSearch,
   toutiaoSearch,
