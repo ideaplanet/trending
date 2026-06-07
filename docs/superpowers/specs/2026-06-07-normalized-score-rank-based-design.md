@@ -156,9 +156,9 @@ test("toMergedEntries 按 hotScore 倒序后线性归一化到万分制写入 no
 
 ### `README.md`
 
-在"数据目录说明"段落里 `raw/all/` 那一项的描述后追加一句：
+"数据目录说明"段落里 `raw/all/` 那一行当前是过时描述（声称字段为 `{title, url, hotScore, source}`、按 `hotScore` 倒序——实际代码已经写入 `normalizedScore` 并按它排序）。改为：
 
-> 每条新增 `normalizedScore` 字段：该条在原源内 `hotScore` 降序排序后的排名百分位（万分制，10000 = 该源 #1）。跨源排序按此字段倒序，缺失沉底。
+> - [raw/all/](./raw/all) — 跨数据源合并后的当日 JSON，每条统一为 `{title, url, hotScore, normalizedScore, source}`，按 `normalizedScore` 倒序排列，缺失沉底，便于一次性消费全部热搜。`normalizedScore` 是该条在原源内 `hotScore` 降序排序后的排名百分位（万分制，10000 = 该源 #1）。
 
 ## 边界情况
 
@@ -166,7 +166,7 @@ test("toMergedEntries 按 hotScore 倒序后线性归一化到万分制写入 no
 |---|---|
 | N = 0 | for 循环不执行，函数返回空数组 |
 | N = 1 | 唯一条目 normalizedScore = 10000 |
-| 全部 hotScore 相同（含全部缺失被订正为 1） | sort 稳定 → 保持 project 后的数组顺序，依然写入 10000 / ... / round(10000 × (1 - (N-1)/N)) |
+| 全部 hotScore 相同（含全部缺失被订正为 1） | sort 稳定 → 保持 project 后的数组顺序，依然写入 10000 / ... / round(10000 × (1 - (N-1)/N))。**测试用例 b/c 同分时断言 b 在前**，依赖 `Array.prototype.sort` 稳定性（ECMAScript 2019 起规范保证，Bun/V8 均符合）——这是有意的，未来读者不应为"修正 tie-break"而改写这部分。 |
 | hotScore 全相同时**用户可能期望**全部得 10000 | **不实现**——会让"无热度差异的源"全部沉到 normalizedScore=10000 的并列里，且使跨源排序失去意义。本设计明确选择"始终分散到 [round(10000/N), 10000] 区间"。 |
 | zhihu-search（无原始 hotScore） | `fetch()` 已注入伪分数 `words.length - index`，进入 `toMergedEntries` 后排序结果与抓取顺序一致 |
 
@@ -186,5 +186,5 @@ test("toMergedEntries 按 hotScore 倒序后线性归一化到万分制写入 no
 - 手动跑一次 `bun mod.ts`，检查 `raw/all/2026-06-07.json` 中：
   - 每个 source 的 #1 `normalizedScore` 都是 10000
   - 每个 source 内 `normalizedScore` 单调递减且分差均匀
-  - 跨源排序结果合理（榜首存在并列符合预期）
+  - 跨源排序结果合理（榜首并列符合预期——`rankMerged` 内部用 `Array.prototype.sort` 稳定排序，tie-break 顺序由 `mod.ts` 中 sources 数组的顺序决定）
 - 检查 `archives/2026-06-07.md` 渲染出的 `· {score}` 数字与 raw JSON 一致
