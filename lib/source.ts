@@ -28,8 +28,9 @@ export interface MergedEntry {
   hotScore?: number;
   /**
    * 源内排名百分位（万分制）：该条在原源内 hotScore 降序排序后的位置，
-   * 10000 = 该源 #1，越靠后越低；由 toMergedEntries 计算注入。
-   * 跨 source 排序时直接用此字段，但榜首通常并列（每个源的 #1 都是 10000）。
+   * 由 toMergedEntries 计算注入，公式 round(10000 × (N - rank) / (N + 1))。
+   * 取值落在开区间 (0, 10000) 内：条数越多的源 #1 越接近 10000，越靠后越低。
+   * 跨 source 排序时直接用此字段，N 大的源 #1 自然胜出，避免榜首恒并列。
    */
   normalizedScore?: number;
   /** 来源 source.name，写入合并 raw/markdown 时由 persist 注入。 */
