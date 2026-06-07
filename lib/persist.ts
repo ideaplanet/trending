@@ -85,17 +85,18 @@ function defaultToEntry<T>(item: T): MergedEntry {
   return { title, url, ...(hotScore !== undefined ? { hotScore } : {}) };
 }
 
-/** 把一批 source 的当日合并条目按热度排序，缺失热度排在后面。 */
+/** 把一批 source 的当日合并条目按归一化热度排序，缺失排在后面。 */
 export function rankMerged(entries: MergedEntry[]): MergedEntry[] {
   return [...entries].sort((a, b) => {
-    const sa = a.hotScore ?? -Infinity;
-    const sb = b.hotScore ?? -Infinity;
+    const sa = a.normalizedScore ?? -Infinity;
+    const sb = b.normalizedScore ?? -Infinity;
     return sb - sa;
   });
 }
 
 /** 把 source 当日全量数据投影为统一 entry，注入 source 名。
- *  订正 hotScore：缺失或 <1 置为 1；同 source 内按 hotScore 之和归一化。 */
+ *  订正 hotScore：缺失或 <1 置为 1；按 hotScore 降序排序后做线性 rank 归一化写入 normalizedScore。
+ *  normalizedScore = round(10000 × (1 - rank / N))，10000 = 该源 #1，hotScore 原值保留。 */
 export function toMergedEntries<T>(
   source: Source<T>,
   items: T[],
@@ -108,22 +109,21 @@ export function toMergedEntries<T>(
     }
     return entry;
   });
-  const max = entries.reduce((acc, e) => Math.max(acc, e.hotScore ?? 0), 0);
 
-  // 取对数压缩长尾：log(1+x) / log(1+max) * 1000，避免头部条目数量级过大
-  // 导致后续条目都被压成接近 0。
-  const denom = Math.log1p(max);
-  if (denom > 0) {
-    for (const e of entries) {
-      e.hotScore = Math.round(1000.0 * Math.log1p(e.hotScore ?? 0) / denom);
-    }
+  // 按 hotScore 降序确定 rank，再做线性归一化。
+  // 不依赖各 source 抓取代码返回数组的顺序约定，hotScore 是唯一的热度信号。
+  // 跨源排序时直接用 normalizedScore；榜首通常并列（每个源的 #1 都是 10000）。
+  entries.sort((a, b) => (b.hotScore ?? 0) - (a.hotScore ?? 0));
+  const n = entries.length;
+  for (let rank = 0; rank < n; rank++) {
+    entries[rank].normalizedScore = Math.round(10000 * (1 - rank / n));
   }
   return entries;
 }
 
 function renderMergedMarkdown(date: string, entries: MergedEntry[]): string {
   const lines = entries.map((e) => {
-    const score = e.hotScore !== undefined ? ` · ${e.hotScore}` : "";
+    const score = e.normalizedScore !== undefined ? ` · ${e.normalizedScore}` : "";
     const src = e.source ? ` _(${e.source})_` : "";
     return `1. [${e.title}](${e.url})${score}${src}`;
   });
@@ -159,8 +159,9 @@ export async function persist<T>(source: Source<T>): Promise<T[]> {
 }
 
 /**
- * 把多 source 当日数据合并写入 raw/all/yyyy-MM-dd.json 和 archives/yyyy-MM-dd.md。
- * 字段统一为 {title, url, hotScore, source}，按 hotScore 倒序，缺热度的排末尾。
+ * 把多 source 当日数据合并写入 raw/all/yyyy-MM-dd.json、raw/all/latest.json 和 archives/yyyy-MM-dd.md。
+ * 字段统一为 {title, url, hotScore, normalizedScore, source}，按 normalizedScore 倒序，缺热度的排末尾。
+ * latest.json 与当日 yyyy-MM-dd.json 内容一致，提供固定路径让外部消费者拉到最新合并结果。
  */
 export async function persistMerged(
   entries: MergedEntry[],
@@ -168,17 +169,24 @@ export async function persistMerged(
   const yyyyMMdd = formatDate(new Date());
   const ranked = rankMerged(entries);
 
-  // raw 合并 JSON：字段 {title, url, hotScore, source}，按热度倒序，
+  // raw 合并 JSON：字段 {title, url, hotScore, normalizedScore, source}，按归一化热度倒序，
   // 缺失热度的排末尾。
-  const rawSlim = ranked.map(({ title, url, hotScore, source }) => ({
+  const rawSlim = ranked.map(({ title, url, hotScore, normalizedScore, source }) => ({
     title,
     url,
     ...(hotScore !== undefined ? { hotScore } : {}),
+    ...(normalizedScore !== undefined ? { normalizedScore } : {}),
     ...(source !== undefined ? { source } : {}),
   }));
+  const rawSlimJson = JSON.stringify(rawSlim);
   await writeFileEnsureDir(
     join("raw", "all", `${yyyyMMdd}.json`),
-    JSON.stringify(rawSlim),
+    rawSlimJson,
+  );
+  // 同步写一份 latest 快照，方便外部消费者用固定路径拉到最新合并结果。
+  await writeFileEnsureDir(
+    join("raw", "all", "latest.json"),
+    rawSlimJson,
   );
 
   // archives 合并 markdown：放在 archives 根目录下。

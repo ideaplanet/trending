@@ -15,7 +15,7 @@
 ## 数据目录说明
 
 - [raw/](./raw) — 各数据源的原始抓取结果，按 `源名/yyyy-MM-dd.json` 组织，例如 [raw/zhihu-search/](./raw/zhihu-search)、[raw/weibo-search/](./raw/weibo-search)、[raw/baidu-hot/](./raw/baidu-hot)、[raw/douyin-hot/](./raw/douyin-hot)、[raw/toutiao-search/](./raw/toutiao-search)。同一天内多次抓取会按 key 合并去重，最新的 `hotScore` 覆盖旧值，保留首次出现的其它字段。
-- [raw/all/](./raw/all) — 跨数据源合并后的当日 JSON，每条统一为 `{title, url, hotScore, source}`，按 `hotScore` 倒序排列，缺失热度的条目排在末尾，便于一次性消费全部热搜。
+- [raw/all/](./raw/all) — 跨数据源合并后的当日 JSON，每条统一为 `{title, url, hotScore, normalizedScore, source}`，按 `normalizedScore` 倒序排列，缺失沉底，便于一次性消费全部热搜。`normalizedScore` 是该条在原源内 `hotScore` 降序排序后的排名百分位（万分制，10000 = 该源 #1）。
 - [archives/](./archives) — 跨数据源合并后的当日 Markdown 归档（`yyyy-MM-dd.md`），内容与 `raw/all` 对应，可直接在 GitHub 上阅读历史热点。
 
 
