@@ -164,31 +164,29 @@ test("zhihu-search toEntry 用 display_query 作标题、拼搜索 URL", () => {
   });
 });
 
-test("toMergedEntries 注入 source 名，缺省投影读出 title/url/hotScore，缺失或 <1 的 hotScore 置 1 后按 log(1+x)/log(1+max) 归一化到千分制", () => {
+test("toMergedEntries 按 hotScore 倒序后线性归一化到万分制写入 normalizedScore；hotScore 缺失或 <1 订正为 1；hotScore 原值保留", () => {
   const items: Word[] = [
+    { title: "b", url: "u2" }, // 无 hotScore → 订正为 1
     { title: "a", url: "u1", hotScore: 10 },
-    { title: "b", url: "u2" },
-    { title: "c", url: "u3", hotScore: 0 },
+    { title: "c", url: "u3", hotScore: 0 }, // <1 → 订正为 1
   ];
   const entries = toMergedEntries(baiduHot, items);
-  // 订正后 hotScore: a=10, b=1, c=1，max=10
-  // 对数压缩：round(1000 * log1p(x) / log1p(10))
-  //   a: log1p(10)/log1p(10) * 1000 = 1000
-  //   b/c: log1p(1)/log1p(10) * 1000 ≈ 289
-  const denom = Math.log1p(10);
+  // 订正后 hotScore: a=10, b=1, c=1
+  // 按 hotScore 降序: [a, b, c]（b/c 同分时由 Array.prototype.sort 稳定性保证顺序）
+  // N=3 线性归一化: rank 0/1/2 → round(10000 * (1 - rank/3)) = 10000 / 6667 / 3333
   expect(entries).toEqual([
-    { title: "a", url: "u1", hotScore: Math.round(1000 * Math.log1p(10) / denom), source: "baidu-hot" },
-    { title: "b", url: "u2", hotScore: Math.round(1000 * Math.log1p(1) / denom), source: "baidu-hot" },
-    { title: "c", url: "u3", hotScore: Math.round(1000 * Math.log1p(1) / denom), source: "baidu-hot" },
+    { title: "a", url: "u1", hotScore: 10, normalizedScore: 10000, source: "baidu-hot" },
+    { title: "b", url: "u2", hotScore: 1, normalizedScore: 6667, source: "baidu-hot" },
+    { title: "c", url: "u3", hotScore: 1, normalizedScore: 3333, source: "baidu-hot" },
   ]);
 });
 
-test("rankMerged 按 hotScore 倒序，缺失热度排末尾", () => {
+test("rankMerged 按 normalizedScore 倒序，缺失排末尾", () => {
   const ranked = rankMerged([
-    { title: "low", url: "u1", hotScore: 1 },
+    { title: "low", url: "u1", normalizedScore: 1 },
     { title: "missing", url: "u2" },
-    { title: "high", url: "u3", hotScore: 99 },
-    { title: "mid", url: "u4", hotScore: 50 },
+    { title: "high", url: "u3", normalizedScore: 99 },
+    { title: "mid", url: "u4", normalizedScore: 50 },
   ]);
   expect(ranked.map((e) => e.title)).toEqual(["high", "mid", "low", "missing"]);
 });
