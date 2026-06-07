@@ -1,5 +1,13 @@
 import type { Question, SearchWord, ToutiaoWord, Word } from "./types.ts";
 
+/** 格式化日期为 yyyy-MM-dd */
+export function formatDate(date: Date): string {
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, "0");
+  const d = String(date.getDate()).padStart(2, "0");
+  return `${y}-${m}-${d}`;
+}
+
 /** 合并两次热门话题并根据 id 去重 */
 export function mergeQuestions(
   words: Question[],
@@ -61,7 +69,7 @@ export function mergeWords4Weibo(
 }
 
 export async function createReadme4Video(words: Question[]): Promise<string> {
-  const readme = await Deno.readTextFile("./README.md");
+  const readme = await Bun.file("./README.md").text();
   return readme.replace(
     /<!-- BEGIN ZHIHUVIDEO -->[\W\w]*<!-- END ZHIHUVIDEO -->/,
     createVideoList(words),
@@ -71,7 +79,7 @@ export async function createReadme4Video(words: Question[]): Promise<string> {
 export async function createReadme4Question(
   words: Question[],
 ): Promise<string> {
-  const readme = await Deno.readTextFile("./README.md");
+  const readme = await Bun.file("./README.md").text();
   return readme.replace(
     /<!-- BEGIN ZHIHUQUESTIONS -->[\W\w]*<!-- END ZHIHUQUESTIONS -->/,
     createQuestionList(words),
@@ -81,7 +89,7 @@ export async function createReadme4Question(
 export async function createReadme4Search(
   words: SearchWord[],
 ): Promise<string> {
-  const readme = await Deno.readTextFile("./README.md");
+  const readme = await Bun.file("./README.md").text();
   return readme.replace(
     /<!-- BEGIN ZHIHUSEARCH -->[\W\w]*<!-- END ZHIHUSEARCH -->/,
     createSearchList(words),
@@ -89,7 +97,7 @@ export async function createReadme4Search(
 }
 
 export async function createReadme4Weibo(words: Word[]): Promise<string> {
-  const readme = await Deno.readTextFile("./README.md");
+  const readme = await Bun.file("./README.md").text();
   return readme.replace(
     /<!-- BEGIN WEIBO -->[\W\w]*<!-- END WEIBO -->/,
     createWeiboList(words),
@@ -99,7 +107,7 @@ export async function createReadme4Weibo(words: Word[]): Promise<string> {
 export async function createReadme4Toutiao(
   words: ToutiaoWord[],
 ): Promise<string> {
-  const readme = await Deno.readTextFile("./README.md");
+  const readme = await Bun.file("./README.md").text();
   return readme.replace(
     /<!-- BEGIN TOUTIAO -->[\W\w]*<!-- END TOUTIAO -->/,
     createTuotiaoList(words),

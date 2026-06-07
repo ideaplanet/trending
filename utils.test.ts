@@ -1,5 +1,4 @@
-#!/usr/bin/env -S deno run --unstable --allow-net --allow-read --allow-write --import-map=import_map.json
-import { assertEquals, assertStringIncludes } from "std/testing/asserts.ts";
+import { expect, test } from "bun:test";
 import type { Question, SearchWord, ToutiaoWord, Word } from "./types.ts";
 
 import {
@@ -23,7 +22,7 @@ import {
   mergeWords4Weibo,
 } from "./utils.ts";
 
-Deno.test("mergeWords4Toutiao", function (): void {
+test("mergeWords4Toutiao", () => {
   const words1: ToutiaoWord[] = [];
   const words2: ToutiaoWord[] = [{ word: "foo", url: "bar" }];
   const words3: ToutiaoWord[] = [{ word: "foo", url: "hello" }];
@@ -33,70 +32,58 @@ Deno.test("mergeWords4Toutiao", function (): void {
     { word: "hello", url: "world" },
   ];
 
-  assertEquals(mergeWords4Toutiao(words1, words2), words2);
-  assertEquals(mergeWords4Toutiao(words1, words5), words5);
-  assertEquals(mergeWords4Toutiao(words2, words2), words2);
-  assertEquals(
-    mergeWords4Toutiao(words2, words3),
-    [
-      { word: "foo", url: "bar" },
-      { word: "foo", url: "hello" },
-    ],
-  );
-  assertEquals(mergeWords4Toutiao(words4, words5), [
+  expect(mergeWords4Toutiao(words1, words2)).toEqual(words2);
+  expect(mergeWords4Toutiao(words1, words5)).toEqual(words5);
+  expect(mergeWords4Toutiao(words2, words2)).toEqual(words2);
+  expect(mergeWords4Toutiao(words2, words3)).toEqual([
+    { word: "foo", url: "bar" },
+    { word: "foo", url: "hello" },
+  ]);
+  expect(mergeWords4Toutiao(words4, words5)).toEqual([
     { word: "hello", url: "world" },
     { word: "foo", url: "bar" },
   ]);
-  assertEquals(
-    mergeWords4Toutiao(words3, words5),
-    [
-      { word: "foo", url: "hello" },
-      { word: "foo", url: "bar" },
-      { word: "hello", url: "world" },
-    ],
-  );
+  expect(mergeWords4Toutiao(words3, words5)).toEqual([
+    { word: "foo", url: "hello" },
+    { word: "foo", url: "bar" },
+    { word: "hello", url: "world" },
+  ]);
 });
 
-Deno.test("createTuotiaoList", function (): void {
+test("createTuotiaoList", () => {
   const words: ToutiaoWord[] = [
     { word: "foo", url: "bar" },
     { word: "hello", url: "world" },
   ];
 
-  assertStringIncludes(createTuotiaoList(words), "<!-- BEGIN TOUTIAO -->");
-  assertStringIncludes(createTuotiaoList(words), "<!-- END TOUTIAO -->");
-  assertStringIncludes(createTuotiaoList(words), "foo");
-  assertStringIncludes(createTuotiaoList(words), "world");
-  assertStringIncludes(createTuotiaoList(words), "hello");
+  expect(createTuotiaoList(words)).toContain("<!-- BEGIN TOUTIAO -->");
+  expect(createTuotiaoList(words)).toContain("<!-- END TOUTIAO -->");
+  expect(createTuotiaoList(words)).toContain("foo");
+  expect(createTuotiaoList(words)).toContain("world");
+  expect(createTuotiaoList(words)).toContain("hello");
 });
 
-Deno.test("createArchive4Toutiao", function (): void {
+test("createArchive4Toutiao", () => {
   const words: ToutiaoWord[] = [
     { word: "foo", url: "bar" },
     { word: "hello", url: "world" },
   ];
 
-  assertStringIncludes(
-    createArchive4Toutiao(words, "2020-02-02"),
-    "# 2020-02-02",
-  );
-  assertStringIncludes(createArchive4Toutiao(words, "2020-02-02"), "共 2 条");
+  expect(createArchive4Toutiao(words, "2020-02-02")).toContain("# 2020-02-02");
+  expect(createArchive4Toutiao(words, "2020-02-02")).toContain("共 2 条");
 });
 
-Deno.test("createReadme4Toutiao", async function (): Promise<void> {
+test("createReadme4Toutiao", async () => {
   const words: ToutiaoWord[] = [
     { word: "foo", url: "bar" },
     { word: "hello", url: "world" },
   ];
 
-  assertStringIncludes(await createReadme4Toutiao(words), "头条");
-  assertStringIncludes(
-    await createReadme4Toutiao(words),
-    "trending-in-one",
-  );
+  expect(await createReadme4Toutiao(words)).toContain("头条");
+  expect(await createReadme4Toutiao(words)).toContain("trending-in-one");
 });
 
-Deno.test("mergeQuestions", function (): void {
+test("mergeQuestions", () => {
   const words1: Question[] = [];
   const words2: Question[] = [{ title: "foo", url: "bar" }];
   const words3: Question[] = [{ title: "foo", url: "hello" }];
@@ -106,102 +93,78 @@ Deno.test("mergeQuestions", function (): void {
     { title: "hello", url: "world" },
   ];
 
-  assertEquals(mergeQuestions(words1, words2), words2);
-  assertEquals(mergeQuestions(words1, words5), words5);
-  assertEquals(mergeQuestions(words2, words2), words2);
-  assertEquals(
-    mergeQuestions(words2, words3),
-    [
-      { title: "foo", url: "bar" },
-      { title: "foo", url: "hello" },
-    ],
-  );
-  assertEquals(mergeQuestions(words4, words5), [
+  expect(mergeQuestions(words1, words2)).toEqual(words2);
+  expect(mergeQuestions(words1, words5)).toEqual(words5);
+  expect(mergeQuestions(words2, words2)).toEqual(words2);
+  expect(mergeQuestions(words2, words3)).toEqual([
+    { title: "foo", url: "bar" },
+    { title: "foo", url: "hello" },
+  ]);
+  expect(mergeQuestions(words4, words5)).toEqual([
     { title: "hello", url: "world" },
     { title: "foo", url: "bar" },
   ]);
-  assertEquals(
-    mergeQuestions(words3, words5),
-    [
-      { title: "foo", url: "hello" },
-      { title: "foo", url: "bar" },
-      { title: "hello", url: "world" },
-    ],
-  );
+  expect(mergeQuestions(words3, words5)).toEqual([
+    { title: "foo", url: "hello" },
+    { title: "foo", url: "bar" },
+    { title: "hello", url: "world" },
+  ]);
 });
 
-Deno.test("createQuestionList", function (): void {
+test("createQuestionList", () => {
   const words: Question[] = [
     { title: "foo", url: "bar" },
     { title: "hello", url: "world" },
   ];
 
-  assertStringIncludes(
-    createQuestionList(words),
-    "<!-- BEGIN ZHIHUQUESTIONS -->",
-  );
-  assertStringIncludes(
-    createQuestionList(words),
-    "<!-- END ZHIHUQUESTIONS -->",
-  );
-  assertStringIncludes(createQuestionList(words), "foo");
-  assertStringIncludes(createQuestionList(words), "world");
-  assertStringIncludes(createQuestionList(words), "hello");
+  expect(createQuestionList(words)).toContain("<!-- BEGIN ZHIHUQUESTIONS -->");
+  expect(createQuestionList(words)).toContain("<!-- END ZHIHUQUESTIONS -->");
+  expect(createQuestionList(words)).toContain("foo");
+  expect(createQuestionList(words)).toContain("world");
+  expect(createQuestionList(words)).toContain("hello");
 });
 
-Deno.test("createArchive4Question", function (): void {
+test("createArchive4Question", () => {
   const words: Question[] = [
     { title: "foo", url: "bar" },
     { title: "hello", url: "world" },
   ];
 
-  assertStringIncludes(
-    createArchive4Question(words, "2020-02-02"),
-    "# 2020-02-02",
-  );
-  assertStringIncludes(createArchive4Question(words, "2020-02-02"), "共 2 条");
+  expect(createArchive4Question(words, "2020-02-02")).toContain("# 2020-02-02");
+  expect(createArchive4Question(words, "2020-02-02")).toContain("共 2 条");
 });
 
-Deno.test("createReadme4Question", async function (): Promise<void> {
+test("createReadme4Question", async () => {
   const words: Question[] = [
     { title: "foo", url: "bar" },
     { title: "hello", url: "world" },
   ];
 
-  assertStringIncludes(await createReadme4Question(words), "热门");
-  assertStringIncludes(
-    await createReadme4Question(words),
-    "trending-in-one",
-  );
+  expect(await createReadme4Question(words)).toContain("热门");
+  expect(await createReadme4Question(words)).toContain("trending-in-one");
 });
 
-Deno.test("createArchive4Video", function (): void {
+test("createArchive4Video", () => {
   const words: Question[] = [
     { title: "foo", url: "bar" },
     { title: "hello", url: "world" },
   ];
 
-  assertStringIncludes(
-    createArchive4Video(words, "2020-02-02"),
-    "# 2020-02-02",
-  );
-  assertStringIncludes(createArchive4Video(words, "2020-02-02"), "共 2 条");
+  expect(createArchive4Video(words, "2020-02-02")).toContain("# 2020-02-02");
+  expect(createArchive4Video(words, "2020-02-02")).toContain("共 2 条");
 });
 
-Deno.test("createReadme4Video", async function (): Promise<void> {
+test("createReadme4Video", async () => {
   const words: Question[] = [
     { title: "foo", url: "bar" },
     { title: "hello", url: "world" },
   ];
 
-  assertStringIncludes(await createReadme4Video(words), "热门");
-  assertStringIncludes(
-    await createReadme4Video(words),
-    "trending-in-one",
-  );
+  expect(await createReadme4Video(words)).toContain("热门");
+  expect(await createReadme4Video(words)).toContain("trending-in-one");
 });
 
-Deno.test("mergeWords4Weibo", function (): void {
+test("mergeWords4Weibo", () => {
   const words1: Word[] = [];
   const words2: Word[] = [{ title: "foo", url: "bar" }];
   const words3: Word[] = [{ title: "foo", url: "hello" }];
@@ -211,70 +174,58 @@ Deno.test("mergeWords4Weibo", function (): void {
     { title: "hello", url: "world" },
   ];
 
-  assertEquals(mergeWords4Weibo(words1, words2), words2);
-  assertEquals(mergeWords4Weibo(words1, words5), words5);
-  assertEquals(mergeWords4Weibo(words2, words2), words2);
-  assertEquals(
-    mergeWords4Weibo(words2, words3),
-    [
-      { title: "foo", url: "bar" },
-      { title: "foo", url: "hello" },
-    ],
-  );
-  assertEquals(mergeWords4Weibo(words4, words5), [
+  expect(mergeWords4Weibo(words1, words2)).toEqual(words2);
+  expect(mergeWords4Weibo(words1, words5)).toEqual(words5);
+  expect(mergeWords4Weibo(words2, words2)).toEqual(words2);
+  expect(mergeWords4Weibo(words2, words3)).toEqual([
+    { title: "foo", url: "bar" },
+    { title: "foo", url: "hello" },
+  ]);
+  expect(mergeWords4Weibo(words4, words5)).toEqual([
     { title: "hello", url: "world" },
     { title: "foo", url: "bar" },
   ]);
-  assertEquals(
-    mergeWords4Weibo(words3, words5),
-    [
-      { title: "foo", url: "hello" },
-      { title: "foo", url: "bar" },
-      { title: "hello", url: "world" },
-    ],
-  );
+  expect(mergeWords4Weibo(words3, words5)).toEqual([
+    { title: "foo", url: "hello" },
+    { title: "foo", url: "bar" },
+    { title: "hello", url: "world" },
+  ]);
 });
 
-Deno.test("createWeiboList", function (): void {
+test("createWeiboList", () => {
   const words: Word[] = [
     { title: "foo", url: "bar" },
     { title: "hello", url: "world" },
   ];
 
-  assertStringIncludes(createWeiboList(words), "<!-- BEGIN WEIBO -->");
-  assertStringIncludes(createWeiboList(words), "<!-- END WEIBO -->");
-  assertStringIncludes(createWeiboList(words), "foo");
-  assertStringIncludes(createWeiboList(words), "world");
-  assertStringIncludes(createWeiboList(words), "hello");
+  expect(createWeiboList(words)).toContain("<!-- BEGIN WEIBO -->");
+  expect(createWeiboList(words)).toContain("<!-- END WEIBO -->");
+  expect(createWeiboList(words)).toContain("foo");
+  expect(createWeiboList(words)).toContain("world");
+  expect(createWeiboList(words)).toContain("hello");
 });
 
-Deno.test("createArchive4Weibo", function (): void {
+test("createArchive4Weibo", () => {
   const words: Word[] = [
     { title: "foo", url: "bar" },
     { title: "hello", url: "world" },
   ];
 
-  assertStringIncludes(
-    createArchive4Weibo(words, "2020-02-02"),
-    "# 2020-02-02",
-  );
-  assertStringIncludes(createArchive4Weibo(words, "2020-02-02"), "共 2 条");
+  expect(createArchive4Weibo(words, "2020-02-02")).toContain("# 2020-02-02");
+  expect(createArchive4Weibo(words, "2020-02-02")).toContain("共 2 条");
 });
 
-Deno.test("createReadme4Weibo", async function (): Promise<void> {
+test("createReadme4Weibo", async () => {
   const words: Word[] = [
     { title: "foo", url: "bar" },
     { title: "hello", url: "world" },
   ];
 
-  assertStringIncludes(await createReadme4Weibo(words), "微博");
-  assertStringIncludes(
-    await createReadme4Weibo(words),
-    "trending-in-one",
-  );
+  expect(await createReadme4Weibo(words)).toContain("微博");
+  expect(await createReadme4Weibo(words)).toContain("trending-in-one");
 });
 
-Deno.test("mergeWords", function (): void {
+test("mergeWords", () => {
   const words1: SearchWord[] = [];
   const words2: SearchWord[] = [{ query: "foo", display_query: "bar" }];
   const words3: SearchWord[] = [{ query: "foo", display_query: "hello" }];
@@ -284,65 +235,53 @@ Deno.test("mergeWords", function (): void {
     { query: "hello", display_query: "world" },
   ];
 
-  assertEquals(mergeWords(words1, words2), words2);
-  assertEquals(mergeWords(words1, words5), words5);
-  assertEquals(mergeWords(words2, words2), words2);
-  assertEquals(
-    mergeWords(words2, words3),
-    [
-      { query: "foo", display_query: "bar" },
-      { query: "foo", display_query: "hello" },
-    ],
-  );
-  assertEquals(mergeWords(words4, words5), [
+  expect(mergeWords(words1, words2)).toEqual(words2);
+  expect(mergeWords(words1, words5)).toEqual(words5);
+  expect(mergeWords(words2, words2)).toEqual(words2);
+  expect(mergeWords(words2, words3)).toEqual([
+    { query: "foo", display_query: "bar" },
+    { query: "foo", display_query: "hello" },
+  ]);
+  expect(mergeWords(words4, words5)).toEqual([
     { query: "hello", display_query: "world" },
     { query: "foo", display_query: "bar" },
   ]);
-  assertEquals(
-    mergeWords(words3, words5),
-    [
-      { query: "foo", display_query: "hello" },
-      { query: "foo", display_query: "bar" },
-      { query: "hello", display_query: "world" },
-    ],
-  );
+  expect(mergeWords(words3, words5)).toEqual([
+    { query: "foo", display_query: "hello" },
+    { query: "foo", display_query: "bar" },
+    { query: "hello", display_query: "world" },
+  ]);
 });
 
-Deno.test("createSearchList", function (): void {
+test("createSearchList", () => {
   const words: SearchWord[] = [
     { query: "foo", display_query: "bar" },
     { query: "hello", display_query: "world" },
   ];
 
-  assertStringIncludes(createSearchList(words), "<!-- BEGIN ZHIHUSEARCH -->");
-  assertStringIncludes(createSearchList(words), "<!-- END ZHIHUSEARCH -->");
-  assertStringIncludes(createSearchList(words), "foo");
-  assertStringIncludes(createSearchList(words), "world");
-  assertStringIncludes(createSearchList(words), "hello");
+  expect(createSearchList(words)).toContain("<!-- BEGIN ZHIHUSEARCH -->");
+  expect(createSearchList(words)).toContain("<!-- END ZHIHUSEARCH -->");
+  expect(createSearchList(words)).toContain("foo");
+  expect(createSearchList(words)).toContain("world");
+  expect(createSearchList(words)).toContain("hello");
 });
 
-Deno.test("createArchive4Search", function (): void {
+test("createArchive4Search", () => {
   const words: SearchWord[] = [
     { query: "foo", display_query: "bar" },
     { query: "hello", display_query: "world" },
   ];
 
-  assertStringIncludes(
-    createArchive4Search(words, "2020-02-02"),
-    "# 2020-02-02",
-  );
-  assertStringIncludes(createArchive4Search(words, "2020-02-02"), "共 2 条");
+  expect(createArchive4Search(words, "2020-02-02")).toContain("# 2020-02-02");
+  expect(createArchive4Search(words, "2020-02-02")).toContain("共 2 条");
 });
 
-Deno.test("createReadme4Search", async function (): Promise<void> {
+test("createReadme4Search", async () => {
   const words: SearchWord[] = [
     { query: "foo", display_query: "bar" },
     { query: "hello", display_query: "world" },
   ];
 
-  assertStringIncludes(await createReadme4Search(words), "热搜");
-  assertStringIncludes(
-    await createReadme4Search(words),
-    "trending-in-one",
-  );
+  expect(await createReadme4Search(words)).toContain("热搜");
+  expect(await createReadme4Search(words)).toContain("trending-in-one");
 });

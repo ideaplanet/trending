@@ -1,13 +1,12 @@
-#!/usr/bin/env -S deno run --unstable --allow-net --allow-read --allow-write --import-map=import_map.json
+#!/usr/bin/env -S bun run
 // Copyright 2020 justjavac(迷渡). All rights reserved. MIT license.
-import { format } from "std/datetime/mod.ts";
-import { join } from "std/path/mod.ts";
-import { exists } from "std/fs/mod.ts";
+import { join } from "node:path";
 
 import type { Word } from "./types.ts";
 import {
   createArchive4Weibo,
   createReadme4Weibo,
+  formatDate,
   mergeWords4Weibo,
 } from "./utils.ts";
 
@@ -22,7 +21,7 @@ const response = await fetch("https://s.weibo.com/top/summary", {
 
 if (!response.ok) {
   console.error(response.statusText);
-  Deno.exit(-1);
+  process.exit(-1);
 }
 
 const result: string = await response.text();
@@ -34,13 +33,13 @@ const words: Word[] = Array.from(matches).map((x) => ({
   title: x[2],
 }));
 
-const yyyyMMdd = format(new Date(), "yyyy-MM-dd");
+const yyyyMMdd = formatDate(new Date());
 const fullPath = join("raw/weibo-search", `${yyyyMMdd}.json`);
 
 let wordsAlreadyDownload: Word[] = [];
-if (await exists(fullPath)) {
-  const content = await Deno.readTextFile(fullPath);
-  wordsAlreadyDownload = JSON.parse(content);
+const existing = Bun.file(fullPath);
+if (await existing.exists()) {
+  wordsAlreadyDownload = JSON.parse(await existing.text());
 }
 
 const queswordsAll = mergeWords4Weibo(words, wordsAlreadyDownload);
@@ -52,14 +51,14 @@ export const weiboSearchData = queswordsAll.map((x) => {
 
 export async function weiboSearch() {
   // 保存原始数据
-  await Deno.writeTextFile(fullPath, JSON.stringify(queswordsAll));
+  await Bun.write(fullPath, JSON.stringify(queswordsAll));
 
   // 更新 README.md
   const readme = await createReadme4Weibo(queswordsAll);
-  await Deno.writeTextFile("./README.md", readme);
+  await Bun.write("./README.md", readme);
 
   // 更新 archives
   const archiveText = createArchive4Weibo(queswordsAll, yyyyMMdd);
   const archivePath = join("archives/weibo-search", `${yyyyMMdd}.md`);
-  await Deno.writeTextFile(archivePath, archiveText);
+  await Bun.write(archivePath, archiveText);
 }

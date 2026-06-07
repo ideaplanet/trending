@@ -1,13 +1,12 @@
-#!/usr/bin/env -S deno run --unstable --allow-net --allow-read --allow-write --import-map=import_map.json
+#!/usr/bin/env -S bun run
 // Copyright 2020 justjavac(迷渡). All rights reserved. MIT license.
-import { format } from "std/datetime/mod.ts";
-import { join } from "std/path/mod.ts";
-import { exists } from "std/fs/mod.ts";
+import { join } from "node:path";
 
 import type { ToutiaoTopSearch, ToutiaoWord } from "./types.ts";
 import {
   createArchive4Toutiao,
   createReadme4Toutiao,
+  formatDate,
   mergeWords4Toutiao,
 } from "./utils.ts";
 
@@ -17,19 +16,19 @@ const response = await fetch(
 
 if (!response.ok) {
   console.error(response.statusText);
-  Deno.exit(-1);
+  process.exit(-1);
 }
 
-const result: ToutiaoTopSearch = await response.json();
+const result = await response.json() as ToutiaoTopSearch;
 const words = result.data[0].words;
 
-const yyyyMMdd = format(new Date(), "yyyy-MM-dd");
+const yyyyMMdd = formatDate(new Date());
 const fullPath = join("raw/toutiao-search", `${yyyyMMdd}.json`);
 
 let wordsAlreadyDownload: ToutiaoWord[] = [];
-if (await exists(fullPath)) {
-  const content = await Deno.readTextFile(fullPath);
-  wordsAlreadyDownload = JSON.parse(content);
+const existing = Bun.file(fullPath);
+if (await existing.exists()) {
+  wordsAlreadyDownload = JSON.parse(await existing.text());
 }
 
 const _words = words.map((x) => {
@@ -45,14 +44,14 @@ export const ToutiaoSearchData = wordsAll;
 
 export async function toutiaoSearch() {
   // 保存原始数据
-  await Deno.writeTextFile(fullPath, JSON.stringify(wordsAll));
+  await Bun.write(fullPath, JSON.stringify(wordsAll));
 
   // 更新 README.md
   const readme = await createReadme4Toutiao(wordsAll);
-  await Deno.writeTextFile("./README.md", readme);
+  await Bun.write("./README.md", readme);
 
   // 更新 archives
   const archiveText = createArchive4Toutiao(wordsAll, yyyyMMdd);
   const archivePath = join("archives/toutiao-search", `${yyyyMMdd}.md`);
-  await Deno.writeTextFile(archivePath, archiveText);
+  await Bun.write(archivePath, archiveText);
 }

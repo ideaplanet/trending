@@ -1,14 +1,12 @@
-#!/usr/bin/env -S deno run --unstable --allow-net --allow-read --allow-write --import-map=import_map.json
+#!/usr/bin/env -S bun run
 // Copyright 2020 justjavac(迷渡). All rights reserved. MIT license.
-import { format } from "std/datetime/mod.ts";
-import { join } from "std/path/mod.ts";
-import { exists } from "std/fs/mod.ts";
-// import { config } from 'dotenv/mod.ts'
+import { join } from "node:path";
 
 import type { Question, ZhihuQuestionList } from "./types.ts";
 import {
   createArchive4Question,
   createReadme4Question,
+  formatDate,
   mergeQuestions,
 } from "./utils.ts";
 
@@ -18,23 +16,23 @@ const response = await fetch(
 
 if (!response.ok) {
   console.error(response.statusText);
-  Deno.exit(-1);
+  process.exit(-1);
 }
 
-const result: ZhihuQuestionList = await response.json();
+const result = await response.json() as ZhihuQuestionList;
 
 const questions: Question[] = result.data.map((x) => ({
   title: x.target.title,
   url: `https://www.zhihu.com/question/${x.target.id}`,
 }));
 
-const yyyyMMdd = format(new Date(), "yyyy-MM-dd");
+const yyyyMMdd = formatDate(new Date());
 const fullPath = join("raw/zhihu-questions", `${yyyyMMdd}.json`);
 
 let questionsAlreadyDownload: Question[] = [];
-if (await exists(fullPath)) {
-  const content = await Deno.readTextFile(fullPath);
-  questionsAlreadyDownload = JSON.parse(content);
+const existing = Bun.file(fullPath);
+if (await existing.exists()) {
+  questionsAlreadyDownload = JSON.parse(await existing.text());
 }
 
 const questionsAll = mergeQuestions(questions, questionsAlreadyDownload);
@@ -43,14 +41,14 @@ export const zhihuQuestionData = questionsAll;
 
 export async function zhihuQuestions() {
   // 保存原始数据
-  await Deno.writeTextFile(fullPath, JSON.stringify(questionsAll));
+  await Bun.write(fullPath, JSON.stringify(questionsAll));
 
   // 更新 README.md
   const readme = await createReadme4Question(questionsAll);
-  await Deno.writeTextFile("./README.md", readme);
+  await Bun.write("./README.md", readme);
 
   // 更新 archives
   const archiveText = createArchive4Question(questionsAll, yyyyMMdd);
   const archivePath = join("archives/zhihu-questions", `${yyyyMMdd}.md`);
-  await Deno.writeTextFile(archivePath, archiveText);
+  await Bun.write(archivePath, archiveText);
 }

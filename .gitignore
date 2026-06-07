@@ -6,3 +6,6 @@
 .temp/**
 
 .env
+
+node_modules
+bun.lockb

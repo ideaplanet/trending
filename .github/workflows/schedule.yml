@@ -21,17 +21,20 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install deno
-        uses: denoland/setup-deno@v1
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
         with:
-          deno-version: v1.x
+          bun-version: latest
 
-      - name: Run deno
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run bun
         run: |
           git config --local user.email "bot@github.com"
           git config --local user.name "bot"
           git pull --rebase
-          deno run --allow-net --allow-read --allow-write --import-map=import_map.json mod.ts
+          bun run mod.ts
           git add .
           git diff --cached --quiet || git commit -m "update by github action"
           git push
