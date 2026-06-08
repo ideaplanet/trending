@@ -1,0 +1,322 @@
+{
+  "date": "2026-06-09",
+  "overview": "今日热点聚焦于**高考**（作文、英语、数学讨论刷屏），**中朝关系**（习近平访问朝鲜，传统友谊），以及**全球地缘政治**（伊朗与以色列停火，菲律宾强震）。经济方面，**金价下跌**引发郑州金店挤爆，而**A股**则因AI泡沫担忧和全球市场波动出现巨震。此外，**胜宏科技“电梯门”**事件和**陕西桥梁垮塌**事故也引发关注。其他热点还包括**浪姐**选歌争议、**BLG**电竞比赛结果以及**12岁足球小将**的出圈之路。",
+  "topics": [
+    {
+      "title": "高考相关话题持续刷屏",
+      "summary": "高考结束后，关于作文（如“给阿嬷的情书”）、英语（李华缺席、难度讨论）和数学（宁夏青铜峡108塔、考生反应）的讨论在社交媒体上占据主导地位。",
+      "entryIndices": [
+        0,
+        7,
+        9,
+        17,
+        23,
+        28,
+        33,
+        34,
+        39,
+        49,
+        50,
+        55,
+        59,
+        68,
+        69,
+        74,
+        76,
+        79,
+        83,
+        91,
+        97,
+        100,
+        110,
+        122,
+        125,
+        130,
+        141,
+        155,
+        157,
+        159,
+        175,
+        182,
+        198,
+        201,
+        205,
+        207,
+        219,
+        232,
+        236,
+        248
+      ],
+      "sources": [
+        "weibo-search",
+        "baidu-hot",
+        "kuaishou-hot",
+        "douyin-hot",
+        "toutiao-search",
+        "zhihu-search"
+      ]
+    },
+    {
+      "title": "习近平访问朝鲜及中朝传统友谊",
+      "summary": "习近平和彭丽媛观看朝鲜文艺演出，各界群众和少年儿童身着节日盛装欢迎，中朝传统友谊崭新篇章如何续写成为热议话题。",
+      "entryIndices": [
+        2,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        149,
+        214,
+        245
+      ],
+      "sources": [
+        "baidu-hot",
+        "kuaishou-hot",
+        "weibo-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "金价下跌引发郑州金店挤爆",
+      "summary": "金价下跌后，郑州金店被挤爆，克价跌400元却没人买，引发市场关注。",
+      "entryIndices": [
+        6,
+        51,
+        244
+      ],
+      "sources": [
+        "toutiao-search",
+        "weibo-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "伊朗与以色列冲突升级及停火",
+      "summary": "伊朗宣布停止对以色列的军事行动，以色列暂停对伊朗袭击，双方先后宣布停止袭击对方，全球股市受影响。",
+      "entryIndices": [
+        37,
+        47,
+        58,
+        89,
+        240,
+        247
+      ],
+      "sources": [
+        "toutiao-search",
+        "baidu-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "菲律宾强震引发海啸预警及后续",
+      "summary": "菲律宾发生7.9级强震，多国发布海啸预警，现场画面及威力讨论引发关注。",
+      "entryIndices": [
+        18,
+        27,
+        30,
+        146,
+        183,
+        206
+      ],
+      "sources": [
+        "douyin-hot",
+        "toutiao-search",
+        "baidu-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "三峡水运新通道开工",
+      "summary": "三峡水运新通道正式开工，将提升长江航运能力。",
+      "entryIndices": [
+        1,
+        181
+      ],
+      "sources": [
+        "toutiao-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "中国男足主场迎战泰国队",
+      "summary": "中国男足将在主场迎战泰国队，引发球迷关注。",
+      "entryIndices": [
+        3,
+        250
+      ],
+      "sources": [
+        "douyin-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "浪姐节目组与李小冉/张月选歌争议",
+      "summary": "浪姐四公选歌引发争议，张月方停止选歌，李小冉发文回应与张月撞歌。",
+      "entryIndices": [
+        5,
+        15,
+        26,
+        56,
+        66,
+        82,
+        98,
+        158,
+        195,
+        222,
+        224
+      ],
+      "sources": [
+        "weibo-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "胜宏科技“电梯门”事件发酵",
+      "summary": "胜宏科技董事长电梯视频传闻引发热议，公司回应相关传闻。",
+      "entryIndices": [
+        78,
+        96,
+        185
+      ],
+      "sources": [
+        "toutiao-search",
+        "baidu-hot",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "陕西桥梁垮塌事故细节公布",
+      "summary": "陕西桥梁垮塌致62死失踪事故细节公布，系未按图纸施工。",
+      "entryIndices": [
+        62,
+        117
+      ],
+      "sources": [
+        "toutiao-search",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "BLG与WE/AL电竞比赛结果",
+      "summary": "BLG战胜WE和AL，比赛结果引发讨论。",
+      "entryIndices": [
+        45,
+        54,
+        116,
+        138
+      ],
+      "sources": [
+        "zhihu-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "A股巨震及全球股市波动",
+      "summary": "A股巨震，日韩股市暴跌，AI泡沫担忧引发全球市场恐慌。",
+      "entryIndices": [
+        20,
+        77,
+        95,
+        108,
+        220,
+        237
+      ],
+      "sources": [
+        "zhihu-search",
+        "weibo-search",
+        "baidu-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "李在明批评以色列及日韩关系",
+      "summary": "李在明批评以色列侵犯人权主权，日方应先向韩方真诚道歉。",
+      "entryIndices": [
+        19,
+        46,
+        165
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "小米SU7电吸门无防夹功能争议",
+      "summary": "小米回应SU7电吸门无防夹功能，引发消费者讨论。",
+      "entryIndices": [
+        36,
+        86
+      ],
+      "sources": [
+        "weibo-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "94岁胡枫演唱会开近5小时",
+      "summary": "94岁胡枫演唱会开近5小时，刘德华深情演唱忘情水。",
+      "entryIndices": [
+        43,
+        161
+      ],
+      "sources": [
+        "baidu-hot",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "12岁足球小将的出圈之路",
+      "summary": "12岁足球小将的出圈之路引发关注。",
+      "entryIndices": [
+        44,
+        168
+      ],
+      "sources": [
+        "douyin-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "郑钦文世界排名跌至第122位",
+      "summary": "郑钦文世界排名跌至第122位，引发讨论。",
+      "entryIndices": [
+        41,
+        134,
+        169
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "官方辟谣“人造大米有毒”",
+      "summary": "网传“人造大米有毒”不实，官方辟谣。",
+      "entryIndices": [
+        57,
+        64
+      ],
+      "sources": [
+        "toutiao-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "奔跑吧节目组致歉",
+      "summary": "奔跑吧因安阳特辑用邯郸画面致歉。",
+      "entryIndices": [
+        101,
+        112,
+        140
+      ],
+      "sources": [
+        "douyin-hot",
+        "weibo-search",
+        "toutiao-search"
+      ]
+    }
+  ]
+}
