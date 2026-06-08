@@ -3,9 +3,9 @@ import {
   formatEntries,
   renderSummaryMarkdown,
   validateSummary,
-} from "./summary.ts";
-import type { SummaryResult, LlmSummaryOutput } from "./summary.ts";
-import type { MergedEntry } from "./source.ts";
+} from "../lib/summary.ts";
+import type { SummaryResult, LlmSummaryOutput } from "../lib/summary.ts";
+import type { MergedEntry } from "../lib/source.ts";
 
 test("formatEntries formats entries as [index] title | hotScore | source", () => {
   const entries: MergedEntry[] = [

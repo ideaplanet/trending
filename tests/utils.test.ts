@@ -6,14 +6,14 @@ import {
   renderArchive,
   renderSection,
   toMergedEntries,
-} from "./persist.ts";
-import { baiduHot } from "./sources/baidu-hot.ts";
-import { toutiaoSearch } from "./sources/toutiao-search.ts";
-import { weiboSearch } from "./sources/weibo-search.ts";
-import { zhihuQuestions } from "./sources/zhihu-questions.ts";
-import { zhihuSearch } from "./sources/zhihu-search.ts";
-import { zhihuVideo } from "./sources/zhihu-video.ts";
-import type { Question, SearchWord, ToutiaoWord, Word } from "./types.ts";
+} from "../lib/persist.ts";
+import { baiduHot } from "../lib/sources/baidu-hot.ts";
+import { toutiaoSearch } from "../lib/sources/toutiao-search.ts";
+import { weiboSearch } from "../lib/sources/weibo-search.ts";
+import { zhihuQuestions } from "../lib/sources/zhihu-questions.ts";
+import { zhihuSearch } from "../lib/sources/zhihu-search.ts";
+import { zhihuVideo } from "../lib/sources/zhihu-video.ts";
+import type { Question, SearchWord, ToutiaoWord, Word } from "../lib/types.ts";
 
 test("mergeByKey 合并去重 —— existing 保留，fresh 中的 hotScore 覆盖旧值", () => {
   const k = (x: { url: string }) => x.url;
