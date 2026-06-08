@@ -5,7 +5,7 @@ import { dirname, join } from "node:path";
 import type { MergedEntry, Source } from "./source.ts";
 import { formatDate } from "./utils.ts";
 
-async function writeFileEnsureDir(
+export async function writeFileEnsureDir(
   path: string,
   data: string,
 ): Promise<void> {
@@ -70,7 +70,9 @@ export async function replaceReadmeSection(
   section: string,
 ): Promise<string> {
   const readme = await readFile("./README.md", "utf-8");
-  const re = new RegExp(`<!-- BEGIN ${marker} -->[\\W\\w]*<!-- END ${marker} -->`);
+  const re = new RegExp(
+    `<!-- BEGIN ${marker} -->[\\W\\w]*<!-- END ${marker} -->`,
+  );
   return readme.replace(re, section);
 }
 
@@ -79,9 +81,8 @@ function defaultToEntry<T>(item: T): MergedEntry {
   const o = item as Record<string, unknown>;
   const title = (o.title ?? o.word ?? o.display_query ?? "") as string;
   const url = (o.url ?? "") as string;
-  const hotScore = typeof o.hotScore === "number"
-    ? (o.hotScore as number)
-    : undefined;
+  const hotScore =
+    typeof o.hotScore === "number" ? (o.hotScore as number) : undefined;
   return { title, url, ...(hotScore !== undefined ? { hotScore } : {}) };
 }
 
@@ -119,14 +120,15 @@ export function toMergedEntries<T>(
   entries.sort((a, b) => (b.hotScore ?? 0) - (a.hotScore ?? 0));
   const n = entries.length;
   for (let rank = 0; rank < n; rank++) {
-    entries[rank].normalizedScore = Math.round(10000 * (n - rank) / (n + 1));
+    entries[rank].normalizedScore = Math.round((10000 * (n - rank)) / (n + 1));
   }
   return entries;
 }
 
 function renderMergedMarkdown(date: string, entries: MergedEntry[]): string {
   const lines = entries.map((e) => {
-    const score = e.normalizedScore !== undefined ? ` · ${e.normalizedScore}` : "";
+    const score =
+      e.normalizedScore !== undefined ? ` · ${e.normalizedScore}` : "";
     const src = e.source ? ` _(${e.source})_` : "";
     return `1. [${e.title}](${e.url})${score}${src}`;
   });
@@ -167,30 +169,26 @@ export async function persist<T>(source: Source<T>): Promise<T[]> {
  * latest.json 与当日 yyyy-MM-dd.json 内容一致，提供固定路径让外部消费者拉到最新合并结果。
  */
 export async function persistMerged(
+  yyyyMMdd: string,
   entries: MergedEntry[],
 ): Promise<void> {
-  const yyyyMMdd = formatDate(new Date());
   const ranked = rankMerged(entries);
 
   // raw 合并 JSON：字段 {title, url, hotScore, normalizedScore, source}，按归一化热度倒序，
   // 缺失热度的排末尾。
-  const rawSlim = ranked.map(({ title, url, hotScore, normalizedScore, source }) => ({
-    title,
-    url,
-    ...(hotScore !== undefined ? { hotScore } : {}),
-    ...(normalizedScore !== undefined ? { normalizedScore } : {}),
-    ...(source !== undefined ? { source } : {}),
-  }));
+  const rawSlim = ranked.map(
+    ({ title, url, hotScore, normalizedScore, source }) => ({
+      title,
+      url,
+      ...(hotScore !== undefined ? { hotScore } : {}),
+      ...(normalizedScore !== undefined ? { normalizedScore } : {}),
+      ...(source !== undefined ? { source } : {}),
+    }),
+  );
   const rawSlimJson = JSON.stringify(rawSlim);
-  await writeFileEnsureDir(
-    join("raw", "all", `${yyyyMMdd}.json`),
-    rawSlimJson,
-  );
+  await writeFileEnsureDir(join("raw", "all", `${yyyyMMdd}.json`), rawSlimJson);
   // 同步写一份 latest 快照，方便外部消费者用固定路径拉到最新合并结果。
-  await writeFileEnsureDir(
-    join("raw", "all", "latest.json"),
-    rawSlimJson,
-  );
+  await writeFileEnsureDir(join("raw", "all", "latest.json"), rawSlimJson);
 
   // archives 合并 markdown：放在 archives 根目录下。
   await writeFileEnsureDir(

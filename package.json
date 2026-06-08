@@ -1,5 +1,5 @@
 {
-  "name": "trending-in-one",
+  "name": "trending",
   "version": "1.0.0",
   "description": "记录每天的热门话题（知乎热搜/视频，微博热搜，今日头条等）",
   "type": "module",
