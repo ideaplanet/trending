@@ -189,10 +189,6 @@ export async function persistMerged(
   await writeFileEnsureDir(join("raw", "all", `${yyyyMMdd}.json`), rawSlimJson);
   // 同步写一份 latest 快照，方便外部消费者用固定路径拉到最新合并结果。
   await writeFileEnsureDir(join("raw", "all", "latest.json"), rawSlimJson);
-
-  // archives 合并 markdown：放在 archives 根目录下。
-  await writeFileEnsureDir(
-    join("archives", `${yyyyMMdd}.md`),
-    renderMergedMarkdown(yyyyMMdd, ranked),
-  );
+  // 更新 markdown
+  await writeFileEnsureDir(join("raw", "all", `${yyyyMMdd}.md`), renderMergedMarkdown(yyyyMMdd, ranked));
 }
