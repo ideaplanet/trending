@@ -2,66 +2,48 @@
 
 ## 今日总览
 
-今日热点聚焦于欧洲极端高温导致大量死亡，中国空调借此机会加速出海；世界杯赛程过半，32强席位已定28席，佛得角创造足球奇迹；多省高考分数线公布，考生查分现场情绪激动；军事方面，轰-6K与俄图-95在日本海同框巡航，日本模拟攻击辽宁舰引发关注；综艺方面，乘风破浪系列成团名单出炉；经济方面，存储芯片大涨，金价与A股波动引发投资者关注。
+今日热点聚焦于娱乐、体育及地缘政治三大领域。在娱乐方面，热门综艺《乘风2026》总决赛圆满落幕，成团名单及比赛结果引发全网热议。体育领域，世界杯赛程推进，多场焦点战役及韩国队出线形势成为焦点。军事方面，中日关系紧张，日本模拟攻击辽宁舰及轰-6K与俄图95在日本海同框，引发舆论关注。此外，多省高考分数线公布及社会热点事件也占据热搜榜。
 
 ## 话题列表
 
-### 1. 欧洲极端高温致大量死亡，中国空调成“救命稻草”
+### 1. 《乘风2026》总决赛成团
 
-欧洲遭遇极端高温，巴黎等地死亡人数激增，德国等缺乏空调的国家陷入困境。中国空调企业借机加速出海，成为欧洲民众的“救命稻草”。
+热门综艺《乘风2026》迎来总决赛，曾沛慈、萧蔷等艺人表现抢眼，成团名单及比赛结果引发网友广泛讨论。
 
-> 来源：baidu-hot, toutiao-search, baidu-hot, toutiao-search, weibo-search, baidu-hot, baidu-hot, baidu-hot | 涉及 8 条热搜
+> 来源：baidu-hot, kuaishou-hot, weibo-search, douyin-hot, toutiao-search | 涉及 33 条热搜
 
-### 2. 世界杯32强已定28席，佛得角创造足球奇迹
+### 2. 世界杯赛况及韩国队出线
 
-世界杯赛程过半，32强席位已定28席，法国队展露冠军相，伊朗队更衣室打气。非洲小国佛得角凭借“奇迹”小组出线，成为史上进淘汰赛面积最小的国家。
+世界杯赛事持续进行，多支球队晋级，韩国队出线形势引发球迷热议，伊朗绝杀等精彩比赛成为焦点。
 
-> 来源：baidu-hot, toutiao-search, douyin-hot, baidu-hot, baidu-hot, douyin-hot, toutiao-search, baidu-hot, toutiao-search, douyin-hot, toutiao-search, douyin-hot, toutiao-search, toutiao-search | 涉及 14 条热搜
+> 来源：baidu-hot, kuaishou-hot, douyin-hot, toutiao-search | 涉及 16 条热搜
 
-### 3. 多省高考分数线公布，考生查分引关注
+### 3. 中日军事对峙及海空动态
 
-河南、广东、四川、山西、北京、浙江等多地高考分数线公布。考生查分现场情绪激动，有699分、710分高分考生，也有复读生、脑瘫考生等引发关注，同时准大学生报志愿建议成为热点。
+日本方面被曝模拟攻击辽宁舰，引发中方强烈关注。与此同时，中国空军轰-6K与俄军图-95在日本海空域同框巡航，展现军力存在。
 
-> 来源：zhihu-search, baidu-hot, zhihu-search, zhihu-search, zhihu-search, weibo-search, toutiao-search, weibo-search, kuaishou-hot, kuaishou-hot, kuaishou-hot, toutiao-search, weibo-search, baidu-hot, douyin-hot, baidu-hot, baidu-hot, toutiao-search | 涉及 18 条热搜
+> 来源：kuaishou-hot, toutiao-search, baidu-hot, weibo-search | 涉及 9 条热搜
 
-### 4. 轰-6K与俄图-95在日本海同框，日本模拟攻击辽宁舰引关注
+### 4. 田径冠军赛及电竞动态
 
-日本军机频繁模拟攻击辽宁舰，引发中方警惕。中国空军轰-6K与俄罗斯图-95在日本海空域同框巡航，展示军威。东风-61导弹常态参训，美军火商勾连日车企造导弹的消息也引发热议。
+全国田径冠军赛中，吴艳妮、陈妤颉等选手夺冠；电竞方面，AG被RW零封及《英雄联盟》怀旧模式官宣引发玩家关注。
 
-> 来源：kuaishou-hot, toutiao-search, baidu-hot, toutiao-search, weibo-search, toutiao-search, toutiao-search | 涉及 7 条热搜
+> 来源：kuaishou-hot, douyin-hot, baidu-hot, toutiao-search, weibo-search | 涉及 17 条热搜
 
-### 5. 乘风破浪系列成团名单公布，曾沛慈获总冠军
+### 5. 欧洲高温与中国产业机遇
 
-多档“浪姐”系列节目成团名单出炉，曾沛慈、徐洁儿等成员成团情况引发讨论。总决赛直播中，王濛与李小冉合作、任素汐发言等环节成为亮点。
+欧洲极端高温致空调需求激增，中国空调企业迎来机遇。同时，存储芯片市场波动及日本半导体产业对华担忧成为焦点。
 
-> 来源：weibo-search, baidu-hot, baidu-hot, kuaishou-hot, baidu-hot, weibo-search, weibo-search, baidu-hot, weibo-search, kuaishou-hot, douyin-hot, toutiao-search, douyin-hot, baidu-hot, baidu-hot, baidu-hot, weibo-search, douyin-hot | 涉及 19 条热搜
+> 来源：baidu-hot, kuaishou-hot, weibo-search, toutiao-search | 涉及 17 条热搜
 
-### 6. 存储芯片大涨，金价与A股波动引关注
+### 6. 社会热点与法治新闻
 
-存储芯片价格大涨，苹果与美光打口水战。国际金价银价波动，A股在暴力调整后引发投资者关注。奔驰取消德国9万名员工年终奖，iPhone涨价传闻也备受瞩目。
+包括万绍芬逝世、太原贩毒案、委内瑞拉强震、毒贩悬赏缉毒警等社会热点及法治新闻引发关注。
 
-> 来源：weibo-search, douyin-hot, baidu-hot, kuaishou-hot, toutiao-search, baidu-hot, kuaishou-hot, toutiao-search, toutiao-search, baidu-hot, weibo-search, baidu-hot, weibo-search | 涉及 13 条热搜
+> 来源：kuaishou-hot, toutiao-search, baidu-hot, weibo-search, douyin-hot | 涉及 26 条热搜
 
-### 7. 多起社会案件与安全事件引发关注
+### 7. 高考分数线及自然奇观
 
-被电瓶烧伤学生判赔151万事件引发争议；泰国发生多起外籍男子谋杀少女案；毒贩悬赏缉毒警人头引发愤怒。此外，新型毒品伪装成奶茶、13岁女孩性侵案撤案等事件也引发社会讨论。
+多省高考分数线陆续公布，考生查分情况引发关注。此外，李白笔下“银河落九天”奇观及塔克拉玛干沙漠发洪水等自然现象也登上热搜。
 
-> 来源：kuaishou-hot, weibo-search, kuaishou-hot, baidu-hot, toutiao-search, kuaishou-hot, weibo-search, toutiao-search, kuaishou-hot, weibo-search, kuaishou-hot | 涉及 11 条热搜
-
-### 8. 白玉兰奖获奖名单公布
-
-白玉兰奖颁奖典礼举行，任素汐在白玉兰现场留下一句话，萧蔷获年度乘风精神奖，生命树获2项大奖。
-
-> 来源：douyin-hot, douyin-hot, baidu-hot | 涉及 3 条热搜
-
-### 9. 蔡依林封后，杨紫获奖，金曲奖名单出炉
-
-蔡依林获得金曲奖后座，杨紫在影视之夜获奖引发粉丝热议。金曲奖获奖名单公布，单依纯、常石磊等音乐人受关注。此外，张一山祝福杨紫、我喜欢的漫画被AI改编等话题也登上热搜。
-
-> 来源：kuaishou-hot, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, douyin-hot | 涉及 9 条热搜
-
-### 10. 万绍芬逝世，委内瑞拉强震，俄罗斯月球核电站计划
-
-新中国第一位女省委书记万绍芬逝世。委内瑞拉发生强震，华人讲述惊魂时刻。俄罗斯计划在月球表面建核电站。此外，四川藏马熊摔落死亡、塔克拉玛干沙漠发洪水等自然奇观也引发关注。
-
-> 来源：toutiao-search, kuaishou-hot, toutiao-search, baidu-hot, kuaishou-hot, douyin-hot, kuaishou-hot, baidu-hot, douyin-hot, zhihu-search | 涉及 10 条热搜
+> 来源：toutiao-search, douyin-hot, zhihu-search, baidu-hot | 涉及 14 条热搜
