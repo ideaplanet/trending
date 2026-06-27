@@ -1,500 +1,280 @@
 {
   "date": "2026-06-28",
-  "overview": "今日热点聚焦于欧洲极端高温与中国空调的关联，以及中国制造业的全球影响力。体育方面，吴艳妮在田径冠军赛夺冠，佛得角在世界杯上演奇迹，中超山东泰山大胜。娱乐上，《乘风2026》总决赛落幕，曾沛慈夺冠，杨紫获奖。此外，万绍芬逝世、金价大跌、油价下调等财经新闻也备受关注。",
+  "overview": "今日热点聚焦于世界杯赛事，佛得角的小组出线奇迹与法国队的强势表现成为焦点。体育方面，吴艳妮在田径冠军赛中的夺冠表现持续引发热议。高考季，多省份分数线公布，查分与志愿填报成为社会关注重点。国际局势上，欧洲遭遇极端高温热浪，而亚太地区则因日本模拟攻击辽宁舰及美军空袭伊朗等事件引发地缘政治担忧。此外，中国制造业出海及股市动态也占据经济版图重要位置。",
   "topics": [
     {
-      "title": "欧洲极端高温与中国空调及制造业出海",
-      "summary": "欧洲多地遭遇极端高温，德国等无空调国家陷入困境，中国空调企业因此迎来出海机遇，成为当地“救命稻草”，同时中国机电产品加速出海。",
-      "entryIndices": [
-        4,
-        7,
-        12,
-        60,
-        77,
-        113,
-        217,
-        242,
-        245
-      ],
-      "sources": [
-        "weibo-search",
-        "baidu-hot",
-        "weibo-search",
-        "baidu-hot",
-        "baidu-hot",
-        "toutiao-search",
-        "baidu-hot",
-        "weibo-search",
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "乘风2026总决赛落幕",
-      "summary": "《乘风2026》总决赛举行，曾沛慈获得年度总冠军，杨紫、萧蔷等也各有收获，陈瑶、徐梦洁等遗憾未能成团。",
-      "entryIndices": [
-        29,
-        35,
-        41,
-        54,
-        67,
-        83,
-        97,
-        123,
-        124,
-        147,
-        155,
-        158,
-        167,
-        183,
-        185,
-        188,
-        192,
-        196,
-        197,
-        202,
-        204,
-        214,
-        231
-      ],
-      "sources": [
-        "baidu-hot",
-        "weibo-search",
-        "baidu-hot",
-        "weibo-search",
-        "douyin-hot",
-        "douyin-hot",
-        "douyin-hot",
-        "toutiao-search",
-        "douyin-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "weibo-search",
-        "baidu-hot",
-        "weibo-search",
-        "weibo-search",
-        "weibo-search",
-        "weibo-search",
-        "baidu-hot",
-        "baidu-hot",
-        "douyin-hot",
-        "baidu-hot",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "世界杯焦点：佛得角奇迹与亚洲球队",
-      "summary": "佛得角队成为世界杯历史上进淘汰赛面积最小的国家，上演奇迹；伊朗队绝杀越位引发争议；韩国队世界杯出线形势迎来转机。",
-      "entryIndices": [
-        3,
-        64,
-        73,
-        90,
-        115,
-        148,
-        167,
-        193,
-        201,
-        212,
-        229,
-        234
-      ],
-      "sources": [
-        "baidu-hot",
-        "toutiao-search",
-        "toutiao-search",
-        "toutiao-search",
-        "toutiao-search",
-        "toutiao-search",
-        "douyin-hot",
-        "douyin-hot",
-        "douyin-hot",
-        "douyin-hot",
-        "toutiao-search",
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "中超联赛：山东泰山大胜",
-      "summary": "中超联赛进行多场比赛，山东泰山以5:1大胜辽宁铁人，蓉城13分领跑积分榜。",
-      "entryIndices": [
-        53,
-        79,
-        198,
-        209
-      ],
-      "sources": [
-        "douyin-hot",
-        "douyin-hot",
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "吴艳妮全国冠军赛夺冠",
-      "summary": "吴艳妮在女子100米栏决赛中以12秒99夺冠，陈妤颉和莫家蝶也分获冠亚军，引发广泛关注。",
-      "entryIndices": [
-        17,
-        19,
-        114,
-        120
-      ],
-      "sources": [
-        "toutiao-search",
-        "baidu-hot",
-        "douyin-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "高考相关话题",
-      "summary": "多省份高考分数线公布，河南、广东、四川等地考生查分，志愿填报成为关注焦点，也有考生因未考好产生情绪波动。",
-      "entryIndices": [
-        11,
-        14,
-        20,
-        42,
-        44,
-        65,
-        88,
-        88,
-        111,
-        134,
-        122,
-        130,
-        140,
-        152
-      ],
-      "sources": [
-        "baidu-hot",
-        "douyin-hot",
-        "zhihu-search",
-        "zhihu-search",
-        "toutiao-search",
-        "zhihu-search",
-        "zhihu-search",
-        "zhihu-search",
-        "zhihu-search",
-        "zhihu-search",
-        "toutiao-search",
-        "toutiao-search",
-        "toutiao-search",
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "新中国第一位女省委书记万绍芬逝世",
-      "summary": "新中国第一位女省委书记万绍芬逝世，享年100岁。",
-      "entryIndices": [
-        5
-      ],
-      "sources": [
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "日本模拟攻击辽宁舰与中俄军机同框",
-      "summary": "日本模拟攻击辽宁舰，引发中方强烈反应；同时，轰6K与俄图95在日本海上空同框，展示中俄联合巡航。",
-      "entryIndices": [
-        22,
-        30,
-        117,
-        168
-      ],
-      "sources": [
-        "toutiao-search",
-        "toutiao-search",
-        "baidu-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "金价大跌",
-      "summary": "金价出现大幅下跌，有商家称跌没一辆迈巴赫。",
-      "entryIndices": [
-        39
-      ],
-      "sources": [
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "东鹏饮料辟谣创始人不喝自家饮料",
-      "summary": "东鹏饮料针对“创始人饭局拒喝自家饮料”的传闻发布辟谣声明。",
-      "entryIndices": [
-        59,
-        94
-      ],
-      "sources": [
-        "baidu-hot",
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "杨紫获奖与旧闻被翻出",
-      "summary": "杨紫因获奖引发热议，宋丹丹早年评价杨紫的旧话也被翻出。",
-      "entryIndices": [
-        56,
-        124,
-        138
-      ],
-      "sources": [
-        "toutiao-search",
-        "douyin-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "陈瑶",
-      "summary": "演员陈瑶在《乘风2026》总决赛中未成团，引发网友讨论。",
-      "entryIndices": [
-        25,
-        28,
-        188
-      ],
-      "sources": [
-        "weibo-search",
-        "weibo-search",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "单依纯",
-      "summary": "歌手单依纯在《乘风2026》中表现活跃，并举办广州演唱会。",
-      "entryIndices": [
-        21,
-        97,
-        135
-      ],
-      "sources": [
-        "weibo-search",
-        "douyin-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "日本作家谈侵略历史与签证费涨价",
-      "summary": "日本作家指出日政府对侵略历史毫无悔意，同时日本签证费涨价被指针对中国游客。",
-      "entryIndices": [
-        166,
-        177
-      ],
-      "sources": [
-        "baidu-hot",
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "美军空袭伊朗",
-      "summary": "美军深夜空袭伊朗，引发国际关注。",
-      "entryIndices": [
-        102
-      ],
-      "sources": [
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "俄罗斯计划在月球建核电站",
-      "summary": "俄罗斯计划在月球表面建立核电站，用于为月球基地供电。",
-      "entryIndices": [
-        187
-      ],
-      "sources": [
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "东盟领导人访华",
-      "summary": "1个月内3位东盟国家重要领导人访华，加强双边关系。",
-      "entryIndices": [
-        191
-      ],
-      "sources": [
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "山西挖眼案嫌疑人跳井身亡",
-      "summary": "山西挖眼案嫌疑人跳井身亡，案件动机成谜。",
-      "entryIndices": [
-        100
-      ],
-      "sources": [
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "泰国少女被杀案",
-      "summary": "泰国17岁少女遭外国男子谋杀并抛尸，引发社会关注。",
-      "entryIndices": [
-        164
-      ],
-      "sources": [
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "江西公安清查",
-      "summary": "江西公安出动3.8万余人对1.4万处场所进行清查。",
-      "entryIndices": [
-        13
-      ],
-      "sources": [
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "阿姨两套房被赶出家门",
-      "summary": "一位阿姨称两套房都写儿媳名却被赶出家门，引发家庭财产纠纷讨论。",
-      "entryIndices": [
-        26
-      ],
-      "sources": [
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "笔趣阁APP",
-      "summary": "笔趣阁APP相关话题引发关注。",
-      "entryIndices": [
-        8
-      ],
-      "sources": [
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "恋与深空回应玩家关切",
-      "summary": "游戏《恋与深空》针对玩家反馈的“敷衍”和“承诺”问题做出回应。",
+      "title": "世界杯赛事与佛得角奇迹",
+      "summary": "世界杯赛事持续进行，佛得角队作为小组出线面积最小的球队创造了历史奇迹，引发全球关注。法国队大胜挪威等比赛也备受瞩目，姆巴佩与哈兰德的动态成为球迷讨论热点。",
       "entryIndices": [
         0,
+        24,
+        33,
+        98,
+        99,
+        101,
+        118,
+        183,
+        185,
+        197,
+        199,
+        224,
+        225,
+        244,
+        249,
+        250,
+        251,
+        281,
+        309,
+        314,
+        344
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "baidu-search",
+        "douyin-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "日美军事动态与中日海空对峙",
+      "summary": "日本被曝模拟攻击辽宁舰，引发中方强烈反应；美军深夜空袭伊朗，中东局势紧张。同时，轰-6K与俄图-95在日本海空域同框，展现了中国海军的远海训练能力。",
+      "entryIndices": [
+        5,
+        18,
+        23,
+        31,
+        96,
+        151,
+        156,
+        165,
+        200,
+        230,
+        248,
+        274,
+        333,
+        341
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "toutiao-search",
+        "weibo-search",
+        "baidu-search"
+      ]
+    },
+    {
+      "title": "《乘风2026》总决赛与成团名单",
+      "summary": "综艺《乘风2026》总决赛落幕，曾沛慈获得年度总冠军，成团名单公布引发粉丝热议。萧蔷、田馥甄等嘉宾的舞台表现及获奖情况也成为网络讨论焦点。",
+      "entryIndices": [
+        39,
+        56,
+        88,
+        102,
+        113,
+        116,
+        152,
+        177,
+        202,
+        208,
+        209,
+        219,
+        227,
+        232,
+        242,
+        259,
+        261,
+        266,
+        272,
+        279,
+        286,
+        289,
+        303,
+        311,
+        312,
+        313,
+        328
+      ],
+      "sources": [
+        "baidu-search",
+        "weibo-search",
+        "douyin-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "吴艳妮夺冠与体育热点",
+      "summary": "吴艳妮在全国冠军赛中以12秒99的成绩夺冠，再次成为舆论焦点。此外，体育生扣篮、脑瘫女孩高考等励志或争议性体育新闻也占据热搜榜。",
+      "entryIndices": [
+        27,
+        37,
+        43,
+        52,
+        67,
+        70,
+        106,
+        143,
+        158,
+        189,
+        197,
+        237,
+        264,
+        270,
+        321,
+        325
+      ],
+      "sources": [
+        "baidu-search",
+        "douyin-hot",
+        "kuaishou-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "高考查分与志愿填报",
+      "summary": "河南等省份高考分数线公布，查分系统上线。考生查分后的激动反应、志愿填报指南以及关于高考分数的各类网络段子（如考710分）成为今日热点。",
+      "entryIndices": [
+        14,
+        15,
+        19,
+        28,
+        58,
+        100,
+        154,
+        237,
+        264,
+        270
+      ],
+      "sources": [
+        "douyin-hot",
+        "baidu-search",
+        "toutiao-search",
+        "weibo-search",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "欧洲极端高温热浪",
+      "summary": "欧洲多地遭遇极端高温，巴黎等地单日死亡人数激增。高温不仅影响居民生活，也对中国空调出口企业带来机遇，引发关于欧洲空调普及率的讨论。",
+      "entryIndices": [
+        74,
+        110,
+        137,
+        163,
+        193,
+        206,
+        306
+      ],
+      "sources": [
+        "baidu-search",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "中国产业出海与股市动态",
+      "summary": "中国机电产品及空调加速出海，成为欧洲“救命稻草”。同时，东鹏饮料辟谣董事长拒喝自家饮料，存储芯片市场波动，A股市场调整及基金经理套现等财经话题备受关注。",
+      "entryIndices": [
+        1,
+        9,
+        41,
+        45,
+        76,
+        85,
+        94,
+        112,
+        151,
+        167,
+        187,
+        191,
+        218,
+        240,
+        258,
+        269,
+        319
+      ],
+      "sources": [
+        "weibo-search",
+        "baidu-search",
+        "kuaishou-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "社会治安与恶性事件",
+      "summary": "广西、太原等地毒贩被执行死刑，泰国杀害少女案、山西挖眼案等恶性案件引发社会关注。此外，委内瑞拉强震、巴黎高温致死等国际灾难新闻也占据热搜。",
+      "entryIndices": [
+        17,
+        34,
+        55,
+        58,
+        81,
+        100,
+        105,
+        108,
+        129,
+        137,
+        163,
+        193,
+        196,
+        206,
+        231,
+        254,
+        282,
+        323
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "toutiao-search",
+        "weibo-search",
+        "baidu-search"
+      ]
+    },
+    {
+      "title": "网络热点与生活趣闻",
+      "summary": "大蛇挡路、李白诗中银河、六年级毕业哭戏等视频素材在网络上广泛传播。此外，女子把饮料当水喝、iPhone涨价预测等生活类话题也引发网友讨论。",
+      "entryIndices": [
+        2,
+        3,
+        8,
+        29,
+        42,
+        51,
+        59,
+        70,
+        126,
+        140,
+        159,
+        171,
+        176,
+        196,
+        202,
+        215,
+        257,
+        285,
+        297,
+        317
+      ],
+      "sources": [
+        "toutiao-search",
+        "douyin-hot",
+        "weibo-search",
+        "baidu-search"
+      ]
+    },
+    {
+      "title": "政治与社会治理",
+      "summary": "中央统战部原副部长万绍芬逝世，江西公安开展大规模清查行动，河南提级调查冻货问题，以及东盟国家领导人密集访华等政治与社会治理相关新闻受到关注。",
+      "entryIndices": [
+        13,
         47,
-        112
+        123,
+        169,
+        235,
+        265
       ],
       "sources": [
+        "toutiao-search",
         "weibo-search",
-        "weibo-search",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "异环1.2版本前瞻",
-      "summary": "游戏《异环》发布1.2版本前瞻，公布新内容。",
-      "entryIndices": [
-        27
-      ],
-      "sources": [
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "凡人181集预告燃炸了",
-      "summary": "动画《凡人修仙传》181集预告发布，引发粉丝热议。",
-      "entryIndices": [
-        40
-      ],
-      "sources": [
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "英雄联盟怀旧模式",
-      "summary": "英雄联盟官宣即将推出怀旧模式，引发玩家期待。",
-      "entryIndices": [
-        93
-      ],
-      "sources": [
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "GPT-5.6作弊率",
-      "summary": "GPT-5.6被曝创下史上最高作弊率，引发对AI伦理的讨论。",
-      "entryIndices": [
-        110
-      ],
-      "sources": [
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "北大与DeepSeek合作",
-      "summary": "北京大学与DeepSeek达成合作，共同推动人工智能研究。",
-      "entryIndices": [
-        70
-      ],
-      "sources": [
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "2025年人口增长10强城市出炉",
-      "summary": "2025年人口增长10强城市名单公布，显示部分城市人口吸引力增强。",
-      "entryIndices": [
-        106
-      ],
-      "sources": [
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "油价大幅下调",
-      "summary": "国内油价将迎大幅下调，车主出行成本降低。",
-      "entryIndices": [
-        36
-      ],
-      "sources": [
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "存储芯片大涨 苹果美光打口水战",
-      "summary": "存储芯片价格大涨，苹果与美光高管发生口水战。",
-      "entryIndices": [
-        63
-      ],
-      "sources": [
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "iPhone涨价",
-      "summary": "关于iPhone是否会涨价的讨论引发关注。",
-      "entryIndices": [
-        225
-      ],
-      "sources": [
-        "zhihu-search"
-      ]
-    },
-    {
-      "title": "F1",
-      "summary": "F1相关话题引发关注。",
-      "entryIndices": [
-        74
-      ],
-      "sources": [
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "登贝莱上演世界杯第二快帽子戏法",
-      "summary": "登贝莱在世界杯比赛中上演第二快的帽子戏法。",
-      "entryIndices": [
-        136
-      ],
-      "sources": [
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "C罗J罗传奇对决",
-      "summary": "C罗与J罗进行传奇对决，引发球迷关注。",
-      "entryIndices": [
-        161
-      ],
-      "sources": [
-        "toutiao-search"
+        "baidu-search"
       ]
     }
   ]
