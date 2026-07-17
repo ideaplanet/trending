@@ -2,78 +2,48 @@
 
 ## 今日总览
 
-今日热点聚焦于重庆彭水发生的严重山体崩塌事故，已造成8人死亡、34人失联，救援工作正在艰难进行中。资本市场方面，A股今日大幅下跌，市场恐慌情绪蔓延，关于牛市是否结束的讨论甚嚣尘上。科技领域，全球首个AI国际组织在上海诞生，国产十万卡AI超集群全球首秀，中国AI发展备受瞩目。娱乐领域，电影《功夫女足》票房突破10亿，引发广泛热议。此外，飞天茅台宣布涨价、世界杯相关话题及多地极端天气也占据热搜榜。
+今日热点聚焦于重庆彭水山体崩塌事故，造成重大人员伤亡，救援工作正在进行中。与此同时，电影《功夫女足》票房突破10亿，成为年度现象级作品。国际方面，美伊关系紧张，中东局势持续动荡，俄乌冲突及墨西哥地震也引发关注。经济领域，A股市场出现大幅波动，茅台宣布涨价，引发市场热议。此外，世界杯相关话题热度不减，AI技术发展也成为焦点。
 
 ## 话题列表
 
-### 1. 重庆山体崩塌事故
+### 1. 重庆彭水山体崩塌事故
 
-重庆彭水发生山体崩塌，造成8人死亡、34人失联。救援工作面临地形复杂等困难，国家专业队已赶赴现场。
+重庆彭水发生山体崩塌，造成8人死亡、34人失联，救援工作正在紧张进行。
 
-> 来源：kuaishou-hot, toutiao-search, douyin-hot, baidu-hot, weibo-search | 涉及 15 条热搜
+> 来源：kuaishou-hot, douyin-hot, baidu-hot, toutiao-search, weibo-search | 涉及 20 条热搜
 
-### 2. A股市场大幅波动
+### 2. 电影《功夫女足》票房破10亿
 
-A股今日出现大幅下跌，市场恐慌情绪蔓延，关于牛市是否结束的讨论成为焦点。同时有4人因操纵股票被罚。
+周星驰执导的《功夫女足》票房表现优异，成为今年第六部破10亿影片，引发社会广泛讨论。
 
-> 来源：kuaishou-hot, toutiao-search, weibo-search | 涉及 8 条热搜
+> 来源：weibo-search, baidu-hot, douyin-hot, kuaishou-hot, toutiao-search | 涉及 10 条热搜
 
-### 3. 人工智能技术突破
+### 3. 国际局势：美伊冲突与俄乌局势
 
-全球首个AI国际组织在上海诞生，国产十万卡AI超集群真机全球首秀，中国AI发展逻辑引发热议。
+国际局势紧张，美伊冲突升级，俄乌战场持续，墨西哥发生7.4级地震，美国取消涉港紧急状态。
 
-> 来源：douyin-hot, weibo-search, baidu-hot, toutiao-search, kuaishou-hot | 涉及 10 条热搜
+> 来源：toutiao-search, douyin-hot, baidu-hot, kuaishou-hot, weibo-search | 涉及 24 条热搜
 
-### 4. 电影《功夫女足》票房破10亿
+### 4. A股市场大幅波动
 
-电影《功夫女足》票房突破10亿，成为今年第6部破10亿影片。影片引发韩国网友热议，周星驰也对此作出回应。
+A股市场出现年内最强无差别杀跌，关于牛市结束或中期调整的讨论增多，投资者情绪波动较大。
 
-> 来源：weibo-search, baidu-hot, douyin-hot, kuaishou-hot | 涉及 9 条热搜
+> 来源：toutiao-search, zhihu-search, weibo-search | 涉及 8 条热搜
 
-### 5. 飞天茅台宣布涨价
+### 5. 世界杯相关话题
 
-飞天茅台宣布涨价，引发市场关注。专家分析黄金价格波动逻辑，白酒行业动态持续发酵。
+世界杯相关话题热度居高不下，阿根廷队成为焦点，关于决赛裁判、奖金分配及冠军预测的讨论较多。
 
-> 来源：toutiao-search, weibo-search, kuaishou-hot | 涉及 3 条热搜
+> 来源：kuaishou-hot, baidu-hot, weibo-search | 涉及 19 条热搜
 
-### 6. 世界杯相关话题
+### 6. 全球AI技术发展
 
-世界杯相关话题持续发酵，包括阿根廷决赛裁判争议、大力神杯抵达纽约、奖金分配方案公布等。
+全球AI技术快速发展，中国AI超集群发布，开源模型Kimi K3亮相，AI应用场景不断拓展。
 
-> 来源：kuaishou-hot, baidu-hot, weibo-search, toutiao-search | 涉及 10 条热搜
+> 来源：weibo-search, douyin-hot, baidu-hot, toutiao-search, kuaishou-hot | 涉及 14 条热搜
 
-### 7. 国际局势与地缘政治
+### 7. 贵州茅台宣布上调飞天茅台价格
 
-中美关系、俄乌冲突、中东局势等国际热点持续更新，包括美取消涉港紧急状态、伊朗袭击美军等。
+贵州茅台宣布上调飞天茅台价格，引发市场对白酒行业及消费市场的关注。
 
-> 来源：baidu-hot, toutiao-search, kuaishou-hot | 涉及 13 条热搜
-
-### 8. 英国政治动态
-
-英国工党党首基尔·斯塔默（Keir Starmer）当选，即将接任英国首相。
-
-> 来源：baidu-hot | 涉及 2 条热搜
-
-### 9. 天气与自然灾害
-
-全国多地遭遇极端天气，包括高温、暴雨、洪水等，气象台辟谣40℃预警。
-
-> 来源：kuaishou-hot, toutiao-search, baidu-hot, douyin-hot | 涉及 13 条热搜
-
-### 10. 娱乐与综艺动态
-
-多位艺人动态更新，包括TF家族运动会、歌手节目淘汰、新剧定档等。
-
-> 来源：weibo-search, douyin-hot, baidu-hot, kuaishou-hot | 涉及 38 条热搜
-
-### 11. 食品安全与健康
-
-NFC果汁勾兑事件引发关注，同时关于排便黄金时间、乳腺癌预防等健康话题也备受讨论。
-
-> 来源：kuaishou-hot, toutiao-search, baidu-hot, douyin-hot, weibo-search | 涉及 14 条热搜
-
-### 12. 经济与消费趋势
-
-住房被定调为消费品引发热议，电池消费税政策调整，以及黄金价格波动逻辑成为焦点。
-
-> 来源：kuaishou-hot, toutiao-search, baidu-hot | 涉及 12 条热搜
+> 来源：douyin-hot, toutiao-search, weibo-search | 涉及 4 条热搜
