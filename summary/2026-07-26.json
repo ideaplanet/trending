@@ -1,199 +1,183 @@
 {
   "date": "2026-07-26",
-  "overview": "今日热点主要集中在自然灾害、市场监管、体育赛事、国际关系及文化娱乐领域。气象方面，中央气象台发布今年首个台风红色预警，台风“红霞”已加强为强台风，预计将正面袭击深汕地区。市场监管方面，携程因垄断行为被罚没51.79亿元。体育方面，中国女排止步四强，中国男篮击败格鲁吉亚男篮。国际关系方面，马科斯表示要“重置”中菲关系，美国轰炸机打击伊朗，特朗普关税政策引发关注。文化方面，周星驰电影《八仙》票房破6亿，“阿凡提”扮演者吐依贡去世。此外，关于美关税政策、韩国KF-21战机、台湾民众游行等话题也引发热议。",
+  "overview": "今日热点主要集中在极端天气与重大经济处罚上。今年首个台风“红霞”生成并加强为强台风，预计正面袭击广东，多地发布红色预警，市民积极备货，海上出现极端天气现象。经济领域，携程因垄断行为被罚51.79亿元，引发市场广泛关注。此外，经典角色“阿凡提”扮演者吐依贡去世，引发全网缅怀。体育方面，中国女排止步四强，王楚钦在双打比赛中失利，詹姆斯加盟76人队。社会热点方面，台湾民众大游行怒喊“下架民进党”，中国海警在台东海域拦截日巡视船。整体来看，自然灾害与民生经济话题占据热搜前列。",
   "topics": [
     {
-      "title": "台风“红霞”登陆广东并发布今年首个台风红色预警",
-      "summary": "中央气象台发布今年首个台风红色预警，台风“红霞”已加强为强台风，预计将正面袭击深汕地区，登陆后滞留时间长，降水极端，广州等地出现绝美晚霞。",
+      "title": "今年首个台风“红霞”登陆广东",
+      "summary": "今年首个台风“红霞”生成并加强为强台风，预计正面袭击广东，多地发布红色预警，市民积极备货，海上出现极端天气现象。",
       "entryIndices": [
-        1,
+        0,
         2,
         3,
         4,
-        21,
-        24,
-        29,
+        16,
+        18,
         30,
-        33,
-        36,
-        56,
-        59,
-        91,
-        104,
-        112,
-        191,
-        220,
-        235
+        32,
+        35,
+        41,
+        51,
+        69,
+        71,
+        79,
+        80,
+        99,
+        132,
+        141,
+        169,
+        170,
+        255,
+        261
       ],
       "sources": [
+        "kuaishou-hot",
         "toutiao-search",
         "baidu-hot",
-        "kuaishou-hot",
         "douyin-hot",
         "weibo-search"
       ]
     },
     {
-      "title": "新冠疫情升至中流行水平",
-      "summary": "专家建议，当前新冠疫情已升至中流行水平，部分药店店员对新冠特效药缺乏了解。",
-      "entryIndices": [
-        5,
-        90,
-        121
-      ],
-      "sources": [
-        "weibo-search",
-        "baidu-hot",
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "携程因垄断行为被罚没51.79亿元",
-      "summary": "国家市场监督管理总局对携程处以51.79亿元罚款，央视解读称这是对垄断行为的重罚，携程回应称将依法处理。",
+      "title": "携程因垄断行为被罚51.79亿元",
+      "summary": "市场监管总局对携程处以51.79亿元罚款，引发市场热议，专家解读其垄断性质。",
       "entryIndices": [
         9,
+        64,
+        65,
+        75,
+        92,
+        115,
+        138,
+        222
+      ],
+      "sources": [
+        "douyin-hot",
+        "kuaishou-hot",
+        "toutiao-search",
+        "baidu-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "经典角色“阿凡提”扮演者吐依贡去世",
+      "summary": "著名演员吐依贡（阿凡提扮演者）去世，享年80岁，引发全网缅怀。",
+      "entryIndices": [
+        5,
+        45,
+        223
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "toutiao-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "中国女排止步四强",
+      "summary": "中国女排在比赛中0:3负于土耳其队，无缘决赛，球迷感到惋惜。",
+      "entryIndices": [
+        23,
         48,
         85,
-        86,
-        108,
-        135,
-        150,
-        177,
-        254
+        91,
+        191,
+        256
       ],
       "sources": [
-        "douyin-hot",
         "toutiao-search",
+        "douyin-hot",
         "baidu-hot",
         "weibo-search"
       ]
     },
     {
-      "title": "“阿凡提”扮演者吐依贡去世",
-      "summary": "享年80岁的著名演员吐依贡（阿凡提扮演者）去世，引发网友缅怀。",
+      "title": "景德镇陶瓷申遗成功",
+      "summary": "景德镇陶瓷申遗成功，见证千年瓷都新跨越，中方代表激动落泪。",
       "entryIndices": [
-        8,
-        37,
-        209
-      ],
-      "sources": [
-        "kuaishou-hot",
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "中国女排0:3不敌土耳其女排止步四强",
-      "summary": "在国际赛事中，中国女排0:3不敌土耳其女排，无缘决赛及四强。",
-      "entryIndices": [
-        22,
-        51,
-        102,
-        145,
-        204
-      ],
-      "sources": [
-        "toutiao-search",
-        "douyin-hot",
-        "kuaishou-hot",
-        "baidu-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "中国男篮击败格鲁吉亚男篮",
-      "summary": "中国男篮在比赛中击败格鲁吉亚男篮。",
-      "entryIndices": [
-        35
-      ],
-      "sources": [
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "景德镇瓷器申遗成功",
-      "summary": "景德镇瓷器申遗成功，见证千年瓷都新跨越，中方代表在仪式上难掩喜悦。",
-      "entryIndices": [
-        11,
         12,
-        38
+        13,
+        46
       ],
       "sources": [
         "toutiao-search",
         "baidu-hot",
-        "baidu-hot"
+        "weibo-search"
       ]
     },
     {
-      "title": "我国发现大型深层煤层气田",
-      "summary": "我国又发现一个大型深层煤层气田，对能源安全具有重要意义。",
+      "title": "台湾民众大游行怒喊“下架民进党”",
+      "summary": "大批台湾民众在赖清德办公大楼前集会游行，高喊“下架民进党”口号。",
       "entryIndices": [
-        13
+        28,
+        67,
+        261
       ],
       "sources": [
-        "kuaishou-hot"
-      ]
-    },
-    {
-      "title": "周星驰电影《八仙》票房破6亿",
-      "summary": "周星驰执导的电影《八仙》总票房突破6亿，周星驰现身佛山宠粉，华流成为顶流。",
-      "entryIndices": [
-        26,
-        77,
-        159,
-        175,
-        176,
-        153
-      ],
-      "sources": [
-        "weibo-search",
-        "douyin-hot",
-        "kuaishou-hot",
         "toutiao-search",
-        "weibo-search",
-        "douyin-hot"
+        "baidu-hot",
+        "weibo-search"
       ]
     },
     {
       "title": "电影《三国第一部：争洛阳》撤档",
-      "summary": "电影《三国第一部：争洛阳》宣布撤档，引发观众关注。",
+      "summary": "备受关注的电影《三国第一部：争洛阳》宣布撤档，引发观众讨论。",
       "entryIndices": [
-        23,
-        160,
-        161
+        24,
+        39,
+        181
       ],
       "sources": [
         "baidu-hot",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "谢霆锋演唱会火爆",
+      "summary": "谢霆锋在青岛和三亚举办演唱会，现场气氛热烈，粉丝反响强烈。",
+      "entryIndices": [
+        43,
+        76,
+        93,
+        109,
+        124,
+        210
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "douyin-hot",
         "weibo-search",
         "toutiao-search"
       ]
     },
     {
-      "title": "A股市场震荡与美股动态",
-      "summary": "A股下周面临更猛烈震荡，美股出现提前跑路现象，英伟达被质疑“错杀”，明星投资转向硬科技。",
+      "title": "王楚钦比赛表现及双打失利",
+      "summary": "王楚钦在比赛中表现活跃，但双打组合不敌对手，引发网友讨论。",
       "entryIndices": [
-        6,
-        67,
-        84,
-        187,
-        208,
-        240
+        20,
+        47,
+        122,
+        123,
+        130,
+        143,
+        205,
+        206,
+        226
       ],
       "sources": [
-        "toutiao-search",
-        "zhihu-search",
-        "toutiao-search",
-        "toutiao-search",
+        "douyin-hot",
+        "kuaishou-hot",
+        "weibo-search",
         "toutiao-search",
         "baidu-hot"
       ]
     },
     {
       "title": "詹姆斯宣布加盟76人",
-      "summary": "詹姆斯宣布加盟76人队，媒体人分析认为史蒂文斯需承担责任。",
+      "summary": "勒布朗·詹姆斯宣布加盟费城76人队，引发NBA球迷热议。",
       "entryIndices": [
-        46,
-        110
+        42,
+        144
       ],
       "sources": [
         "douyin-hot",
@@ -201,22 +185,64 @@
       ]
     },
     {
-      "title": "印度和日本因高铁项目闹翻",
-      "summary": "印度和日本因高铁项目产生分歧，引发国际关注。",
+      "title": "中国海警在台东海域拦截日巡视船",
+      "summary": "中国海警在台东海域依法拦截试图逼近中国科考船的日本巡视船，展现维护主权决心。",
       "entryIndices": [
-        55,
-        100
+        149,
+        244,
+        259
       ],
       "sources": [
         "kuaishou-hot",
-        "toutiao-search"
+        "baidu-hot",
+        "weibo-search"
       ]
     },
     {
-      "title": "中国海军与海警动态",
-      "summary": "10艘万吨大驱亮相，中国海警在台东海域拦截日巡视船，海上“超级心脏”就位。",
+      "title": "中国海军/军事动态",
+      "summary": "10艘万吨大驱亮相，海军中将陈先锋逝世，美军轰炸机出动打击伊朗。",
       "entryIndices": [
-        14
+        15,
+        95,
+        195,
+        243
+      ],
+      "sources": [
+        "douyin-hot",
+        "kuaishou-hot",
+        "toutiao-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "A股震荡与经济数据",
+      "summary": "A股下周面临震荡，数字经济交出亮眼成绩单，英伟达股价波动。",
+      "entryIndices": [
+        7,
+        21,
+        62,
+        97,
+        150,
+        245,
+        257
+      ],
+      "sources": [
+        "toutiao-search",
+        "weibo-search",
+        "baidu-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "25岁男星被指高铁占座",
+      "summary": "25岁男星被指在高铁上占座，引发公众对公共秩序的关注。",
+      "entryIndices": [
+        29,
+        44
+      ],
+      "sources": [
+        "baidu-hot",
+        "weibo-search"
       ]
     }
   ]
