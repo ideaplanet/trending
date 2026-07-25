@@ -2,90 +2,72 @@
 
 ## 今日总览
 
-今日热点聚焦于自然灾害与重大经济处罚。台风“红霞”生成并登陆，多地发布红色预警，市民抢购物资，港珠澳大桥临时封桥。市场监管总局对携程处以51.79亿元罚款，引发对互联网平台垄断行为的关注。同时，台湾民众大游行怒喊“下架民进党”，中国女排0:3不敌土耳其止步四强，以及景德镇陶瓷成功申遗，均为社会关注焦点。此外，日本南鸟岛海泥含中重稀土、A股震荡等经济话题也引发热议。
+今日热点聚焦于自然灾害与重大社会事件。台风“红霞”正面袭击广东，多地发布红色预警，导致停课、封桥及物资抢购，引发高度关注。商业领域，携程因垄断行为被罚51.79亿元，成为市场焦点。体育方面，中国女排止步四强引发热议，而王楚钦不敌张煜东也备受关注。此外，“阿凡提”扮演者吐依贡去世引发怀念，台湾民众大游行喊话“下架民进党”持续发酵，景德镇陶瓷申遗成功也备受瞩目，中菲关系紧张亦引发讨论。
 
 ## 话题列表
 
-### 1. 台风“红霞”生成并登陆，多地发布红色预警
+### 1. 台风“红霞”来袭，多地发布红色预警
 
-今年首个台风红色预警发布，台风“红霞”加强为强台风，正面袭击广东，多地停课，市民抢购物资。
+今年首个台风红色预警发布，台风“红霞”将正面袭击深汕，致灾风险高，多地停课封桥，市民抢购物资。
 
-> 来源：kuaishou-hot, baidu-hot, douyin-hot, toutiao-search, weibo-search | 涉及 24 条热搜
+> 来源：kuaishou-hot, toutiao-search, douyin-hot, baidu-hot | 涉及 18 条热搜
 
 ### 2. 携程因垄断行为被罚51.79亿元
 
-市场监管总局对携程处以51.79亿元罚款，引发对互联网平台垄断行为的讨论。
+市场监管总局对携程处以51.79亿元罚款，引发市场关注，央视解读罚单细节。
 
-> 来源：douyin-hot, toutiao-search, weibo-search, baidu-hot | 涉及 11 条热搜
+> 来源：douyin-hot, toutiao-search, baidu-hot, weibo-search | 涉及 11 条热搜
 
-### 3. 经典角色“阿凡提”扮演者吐依贡去世
+### 3. 中国女排止步四强
 
-著名演员吐依贡去世，引发网友对其经典形象的怀念。
+中国女排在比赛中不敌土耳其女排，无缘决赛，引发球迷讨论。
 
-> 来源：kuaishou-hot, baidu-hot | 涉及 3 条热搜
+> 来源：douyin-hot, toutiao-search, baidu-hot, weibo-search | 涉及 7 条热搜
 
-### 4. 中国女排0:3不敌土耳其女排止步四强
+### 4. “阿凡提”扮演者吐依贡去世
 
-在四分之一决赛中，中国女排以0:3负于土耳其队，无缘决赛。
+著名演员吐依贡（阿凡提扮演者）去世，享年80岁，引发网友缅怀。
 
-> 来源：toutiao-search, douyin-hot, kuaishou-hot, baidu-hot, weibo-search | 涉及 5 条热搜
+> 来源：kuaishou-hot, toutiao-search, baidu-hot | 涉及 3 条热搜
 
 ### 5. 台湾民众大游行怒喊“下架民进党”
 
-超5万民众在赖清德办公大楼前集会，高喊“下架民进党”口号。
+超5万人在赖清德办公大楼前喊话下台，抗议活动持续发酵。
 
 > 来源：toutiao-search, baidu-hot | 涉及 3 条热搜
 
-### 6. 景德镇陶瓷成功申遗
+### 6. 信阳女生王虹斩获大奖
 
-景德镇陶瓷成功列入世界遗产名录，展现千年瓷都魅力。
+信阳学生冷子豪（王虹）高考699分被清华录取，并斩获大奖，引发关注。
 
-> 来源：baidu-hot, toutiao-search, weibo-search | 涉及 5 条热搜
+> 来源：toutiao-search, baidu-hot, kuaishou-hot, douyin-hot | 涉及 5 条热搜
 
-### 7. 北大女生王虹回应未直接读数学系
+### 7. 景德镇陶瓷申遗成功
 
-北大女生王虹回应为何未直接攻读数学系，鼓励更多女孩追求梦想。
+景德镇陶瓷申遗成功，见证千年瓷都新跨越，引发热议。
 
-> 来源：baidu-hot, kuaishou-hot, douyin-hot | 涉及 3 条热搜
+> 来源：baidu-hot, toutiao-search, weibo-search, toutiao-hot | 涉及 5 条热搜
 
 ### 8. 中国男篮击败格鲁吉亚获2连胜
 
-中国男篮在比赛中战胜格鲁吉亚队，取得两连胜。
+中国男篮力克格鲁吉亚，取得两连胜。
 
 > 来源：douyin-hot, baidu-hot | 涉及 2 条热搜
 
-### 9. 社会热点与病毒视频：水泥柱、狗归家、坠楼男童等
+### 9. 王楚钦不敌张煜东
 
-包括水泥柱被巨浪拍断、狗被洪水冲走10天归家、男童坠楼生还等引发关注的视频事件。
+乒乓球选手王楚钦在比赛中不敌张煜东，引发关注。
 
-> 来源：toutiao-search, kuaishou-hot, baidu-hot, douyin-hot | 涉及 18 条热搜
+> 来源：kuaishou-hot, douyin-hot, baidu-hot | 涉及 7 条热搜
 
-### 10. 《三国第一部》撤档，周星驰相关话题热度高
+### 10. 小龙虾价格腰斩
 
-电影《三国第一部：争洛阳》宣布撤档，周星驰现身佛山宠粉引发热议。
+全国小龙虾价格大幅下跌，引发消费者热议。
 
-> 来源：baidu-hot, toutiao-search, douyin-hot, weibo-search, kuaishou-hot | 涉及 10 条热搜
+> 来源：baidu-hot | 涉及 1 条热搜
 
-### 11. 王楚钦比赛与IG战胜WBG
+### 11. 中菲关系紧张，马科斯言论引关注
 
-王楚钦在比赛中失利，IG战队战胜WBG。
+马科斯称要“重置”中菲关系，中方大使回应，专家分析菲方挑衅行为。
 
-> 来源：douyin-hot, toutiao-search, baidu-hot, weibo-search, kuaishou-hot | 涉及 9 条热搜
-
-### 12. 明星动态与八卦
-
-涉及鹿晗、张子萱、杨幂、宋威龙等明星的最新动态和八卦。
-
-> 来源：weibo-search, kuaishou-hot, douyin-hot | 涉及 19 条热搜
-
-### 13. 社会民生与安全事件
-
-包括儿童坠亡、醉驾、高铁占座、新冠特效药认知等民生话题。
-
-> 来源：kuaishou-hot, toutiao-search, baidu-hot, weibo-search | 涉及 22 条热搜
-
-### 14. 国际局势与经济动态
-
-涉及日本南鸟岛稀土、印度日本高铁争端、A股震荡、中国算力规模等。
-
-> 来源：toutiao-search, kuaishou-hot, baidu-hot, weibo-search | 涉及 14 条热搜
+> 来源：toutiao-search, toutiao-search, toutiao-search, toutiao-search, kuaishou-hot | 涉及 5 条热搜
