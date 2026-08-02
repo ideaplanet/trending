@@ -1,141 +1,266 @@
 {
   "date": "2026-08-03",
-  "overview": "今日热点聚焦社会公平与自然灾害。河南“三支一扶”考试作弊案引发广泛关注，相关责任人已被停职。青海海南州发生4.8级地震，所幸无重大人员伤亡报告。此外，超强台风“白海豚”逼近，气象部门持续发布预警。经济方面，超10万亿住房公积金迎来全面激活，多地上调缴存上限，成为市场关注焦点。体育领域，斯诺克上海大师赛特鲁姆普夺冠，中超上海申花主帅辞职引发热议。",
+  "overview": "今日热搜榜单呈现出自然灾害、社会热点、体育赛事与娱乐动态交织的态势。最受关注的是**青海海南州4.8级地震**（索引0, 177, 215, 239, 269）及**甘肃渭源山洪灾害**（索引98），造成了人员伤亡和财产损失，引发社会对防灾减灾的关注。社会层面，**胖东来直饮水管理**（索引2, 18, 165, 210）持续引发关于公共设施使用的讨论。体育方面，**孙颖莎与王楚钦**（索引15, 159, 220, 276, 316, 258）因伤退赛成为焦点，而**斯诺克特鲁姆普**（索引60, 68, 199）则在上海大师赛夺冠。娱乐领域，电视剧**《九门》**（索引24, 48, 51, 146, 189, 197, 218）热度居高不下，**HYBE新女团TUIDE**（索引39, 137, 186）及**蔡徐坤**（索引6, 35, 86, 330, 232）的相关话题也占据热搜高位。此外，**住房公积金激活**（索引17, 111, 238, 292, 296）及**超强台风白海豚**（索引54, 85, 106, 129, 240, 268）的动向也是经济与气象领域的重点。",
   "topics": [
     {
-      "title": "河南三支一扶考试作弊案查实 责任人停职",
-      "summary": "河南“三支一扶”考试被曝作弊，经查实后，相关案件负责人已被停职处理。",
+      "title": "青海海南州4.8级地震",
+      "summary": "青海海南州兴海县发生4.8级地震，随后连发余震，引发广泛关注。",
       "entryIndices": [
         0,
-        31,
-        79
-      ],
-      "sources": [
-        "weibo-search",
-        "baidu-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "青海海南州发生4.8级地震",
-      "summary": "青海海南州兴海县发生4.8级地震，当地已启动应急响应，目前暂无重大人员伤亡报告。",
-      "entryIndices": [
-        4,
-        211,
-        266
+        177,
+        215,
+        239,
+        269
       ],
       "sources": [
         "kuaishou-hot",
-        "baidu-hot",
+        "weibo-search",
         "baidu-hot"
       ]
     },
     {
-      "title": "超强台风“白海豚”逼近 或成今年“风王”",
-      "summary": "台风“白海豚”内眼壁崩塌，强度持续增强，气象部门预测其可能成为今年最强台风。",
+      "title": "登山者王钟遇难事件",
+      "summary": "登山公司称10人探险队全部遇难，遇难者遗体被雪崩冲到千米之下。",
       "entryIndices": [
-        9,
-        68,
-        86,
-        253
+        8,
+        20,
+        22,
+        179,
+        253,
+        254
+      ],
+      "sources": [
+        "baidu-hot",
+        "kuaishou-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "胖东来直饮水管理",
+      "summary": "胖东来将大量占用直饮水列为不文明行为，并设免费电脑体验区，引发热议。",
+      "entryIndices": [
+        2,
+        18,
+        165,
+        210
+      ],
+      "sources": [
+        "toutiao-search",
+        "baidu-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "经济与住房公积金",
+      "summary": "多重优势支撑中国经济向新向优，超10万亿住房公积金迎来全面激活，多地上调缴存上限。",
+      "entryIndices": [
+        10,
+        12,
+        17,
+        111,
+        238,
+        292,
+        296
       ],
       "sources": [
         "kuaishou-hot",
+        "toutiao-search",
+        "baidu-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "斯诺克上海大师赛特鲁姆普夺冠",
+      "summary": "特鲁姆普在上海大师赛上演大心脏逆转，最终夺冠。",
+      "entryIndices": [
+        60,
+        68,
+        199
+      ],
+      "sources": [
         "douyin-hot",
         "baidu-hot",
         "kuaishou-hot"
       ]
     },
     {
-      "title": "超10万亿住房公积金迎来全面激活",
-      "summary": "全国住房公积金缴存覆盖面扩大，多地上调缴存上限，超10万亿资金账户迎来全面激活，助力经济发展。",
+      "title": "电视剧《九门》热播",
+      "summary": "电视剧《九门》开播带火赵丽颖版尹新月，张启山寻找401部队等名场面引发模仿热潮。",
       "entryIndices": [
-        12,
-        22,
-        116,
-        178,
-        209,
-        263
+        24,
+        48,
+        51,
+        146,
+        189,
+        197,
+        218
       ],
       "sources": [
-        "toutiao-search",
-        "toutiao-search",
+        "kuaishou-hot",
         "baidu-hot",
         "toutiao-search",
-        "weibo-search",
-        "weibo-search"
+        "douyin-hot"
       ]
     },
     {
-      "title": "登山者王钟遗体被找到 探险队全员遇难",
-      "summary": "中国登山者王钟遗体被找到，其所在探险队10人全部遇难，遗体被冲至千米之下。",
+      "title": "超强台风白海豚逼近",
+      "summary": "台风白海豚内眼壁崩塌，或成今年“风王”，多地发布防御通知。",
+      "entryIndices": [
+        54,
+        85,
+        106,
+        129,
+        240,
+        268
+      ],
+      "sources": [
+        "douyin-hot",
+        "kuaishou-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "孙颖莎与王楚钦退赛",
+      "summary": "孙颖莎因伤退出WTT瑞典大满贯，王楚钦发文暂别赛场，引发球迷关注。",
+      "entryIndices": [
+        15,
+        159,
+        220,
+        276,
+        316,
+        258
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "weibo-search",
+        "baidu-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "HYBE新女团TUIDE公开",
+      "summary": "HYBE新女团TUIDE公开，成员阵容引发讨论。",
+      "entryIndices": [
+        39,
+        137,
+        186
+      ],
+      "sources": [
+        "weibo-search",
+        "kuaishou-hot",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "蔡徐坤相关话题",
+      "summary": "蔡徐坤亲吻粉丝手背、撕掉爱豆标签、情人水雾舞台及演唱会穿搭等话题引发关注。",
       "entryIndices": [
         6,
-        7,
-        219,
-        240
+        35,
+        86,
+        330,
+        232
       ],
       "sources": [
-        "baidu-hot",
-        "toutiao-search",
         "weibo-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "中央政法委严厉打击黑恶势力",
+      "summary": "中央政法委发声，严厉打击黑恶势力，维护社会稳定。",
+      "entryIndices": [
+        4
+      ],
+      "sources": [
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "甘肃渭源山洪灾害",
+      "summary": "甘肃渭源山洪已致25死23伤，当地正在全力开展救援和善后工作。",
+      "entryIndices": [
+        98
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "军事与地缘政治",
+      "summary": "中国预警机独立指挥、运-20J亮相黄岩岛、歼-20“龙吟”等军事动态引发关注，同时涉及俄乌冲突及中东局势。",
+      "entryIndices": [
+        1,
+        82,
+        108,
+        128,
+        173,
+        200,
+        281,
+        297,
+        309
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search",
+        "baidu-hot",
         "kuaishou-hot"
       ]
     },
     {
-      "title": "斯诺克上海大师赛特鲁姆普夺冠 中超申花换帅",
-      "summary": "斯诺克上海大师赛特鲁姆普夺冠，中超上海申花主帅宣布辞职，电竞领域IG战胜LNG。",
+      "title": "科技与芯片产业",
+      "summary": "国产大模型调用量全球领先，半导体产业全线爆发，但手机销量下滑导致芯片出货量暴跌。",
       "entryIndices": [
-        47,
-        63,
-        66,
-        67,
-        113
+        14,
+        280,
+        42,
+        154,
+        143,
+        182,
+        303,
+        259
       ],
       "sources": [
         "douyin-hot",
+        "baidu-hot",
+        "weibo-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "其他娱乐动态",
+      "summary": "包括蜘蛛侠联动、明星绯闻、综艺花絮等分散的娱乐热点。",
+      "entryIndices": [
+        21,
+        25,
+        44,
+        49,
+        53,
+        73,
+        78,
+        110,
+        121,
+        125,
+        130,
+        135,
+        155,
+        191,
+        192,
+        201,
+        221,
+        224,
+        234,
+        250,
+        272,
+        302,
+        312
+      ],
+      "sources": [
+        "weibo-search",
         "douyin-hot",
         "baidu-hot",
         "toutiao-search",
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "蔡徐坤新舞台及HYBE新女团TUIDE公开",
-      "summary": "蔡徐坤发布新舞台，HYBE新女团TUIDE公开，引发网友热议。",
-      "entryIndices": [
-        14,
-        29,
-        50,
-        135,
-        143,
-        172,
-        212
-      ],
-      "sources": [
-        "weibo-search",
-        "weibo-search",
-        "weibo-search",
-        "douyin-hot",
-        "douyin-hot",
-        "weibo-search",
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "瑞幸员工对嘴喷奶油引争议 产品下架",
-      "summary": "瑞幸员工对嘴喷奶油喂同事的视频走红，涉事账号注销，相关加奶油产品被下架。",
-      "entryIndices": [
-        182,
-        196,
-        222,
-        243
-      ],
-      "sources": [
-        "weibo-search",
-        "baidu-hot",
-        "weibo-search",
-        "weibo-search"
+        "kuaishou-hot"
       ]
     }
   ]
