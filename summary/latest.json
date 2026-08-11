@@ -1,52 +1,102 @@
 {
   "date": "2026-08-12",
-  "overview": "今日热点聚焦于自然灾害与社会民生。受台风“白海豚”影响，河南及北京等地遭遇强降雨，多地启动防汛应急响应，气象部门高度警惕极端天气风险。社会层面，抗癌博主“江小鱼”不幸去世引发广泛关注与悼念。此外，文献纪录片《江泽民》的播出成为文化热点，而电影《欢迎来龙餐馆》凭借票房与口碑双丰收成为娱乐焦点。在科技领域，AI技术的应用与突破持续引发热议。整体来看，今日热搜既有严肃的社会民生话题，也不乏娱乐与科技领域的动态。",
+  "overview": "今日热点聚焦于文化界与自然界的双重冲击。著名歌唱家郭兰英逝世引发全网缅怀，相关话题热度居高不下。与此同时，河南遭遇极端暴雨天气，多地发布预警，台风“白海豚”逼近，防汛形势严峻。此外，赵一鸣零食店价格争议、哥伦比亚地震、哪吒票房争议等社会及国际新闻也占据热搜榜前列。",
   "topics": [
     {
-      "title": "台风“白海豚”影响及河南北京暴雨预警",
-      "summary": "受台风“白海豚”外围环流影响，河南、北京等地出现强降雨天气，多地发布暴雨预警并启动防汛应急响应，气象部门高度警惕极端天气风险。",
+      "title": "著名歌唱家郭兰英逝世",
+      "summary": "著名歌唱家、表演艺术家郭兰英逝世，享年97岁。她的代表作《我的祖国》等传唱大江南北，引发全网缅怀与悼念。",
+      "entryIndices": [
+        0,
+        1,
+        2,
+        46
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search",
+        "baidu-hot",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "河南遭遇极端暴雨",
+      "summary": "河南多地发布暴雨橙色预警，局地特大暴雨，多地停课停工停产停业，防汛应急响应升级。",
       "entryIndices": [
         3,
-        7,
-        20,
-        37,
-        44,
-        47,
-        69,
-        92,
-        102,
-        109,
-        118,
-        121,
-        139,
-        144,
-        149,
-        152,
-        179,
-        213,
-        218,
-        220,
-        226,
-        227,
-        233,
-        236,
-        250,
-        254,
-        258
+        45,
+        57,
+        119
       ],
       "sources": [
         "douyin-hot",
+        "toutiao-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "赵一鸣零食店价格争议",
+      "summary": "网友爆料赵一鸣零食店4块牛肉干售价64元，复称仅17元，引发对食品安全和价格的关注。",
+      "entryIndices": [
+        4,
+        102
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "哪吒票房换不起圈内人起立",
+      "summary": "媒体评论哪吒系列159亿票房，却换不来台下嘉宾的起立致敬，引发关于行业态度的讨论。",
+      "entryIndices": [
+        5,
+        93,
+        173
+      ],
+      "sources": [
+        "toutiao-search",
+        "weibo-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "文献纪录片《江泽民》播出",
+      "summary": "文献纪录片《江泽民》在各大平台播出，回顾了江泽民同志的生平事迹。",
+      "entryIndices": [
+        6,
+        83,
+        139
+      ],
+      "sources": [
         "baidu-hot",
         "toutiao-search",
-        "weibo-search"
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "台风“白海豚”逼近",
+      "summary": "台风“白海豚”生成并逼近，预计将给多地带来风雨影响，气象部门持续发布预警。",
+      "entryIndices": [
+        7,
+        71,
+        96,
+        151,
+        206,
+        251,
+        271
+      ],
+      "sources": [
+        "douyin-hot",
+        "baidu-hot"
       ]
     },
     {
       "title": "抗癌博主“江小鱼”去世",
-      "summary": "抗癌博主“江小鱼”不幸去世，引发网友广泛悼念，相关话题登上热搜榜首。",
+      "summary": "抗癌博主“江小鱼”不幸去世，其生前抗癌经历感动众多网友。",
       "entryIndices": [
-        1,
-        25
+        9,
+        31,
+        129
       ],
       "sources": [
         "toutiao-search",
@@ -54,279 +104,552 @@
       ]
     },
     {
-      "title": "文献纪录片《江泽民》播出",
-      "summary": "文献纪录片《江泽民》在各大平台播出，引发社会广泛关注与讨论。",
+      "title": "兰州拉面归还兰州",
+      "summary": "关于兰州拉面归还兰州的事件引发关注，具体指代某种品牌或文化归属的讨论。",
       "entryIndices": [
-        2,
-        18,
-        99
+        10
       ],
       "sources": [
-        "baidu-hot",
-        "toutiao-search",
-        "douyin-hot"
+        "baidu-hot"
       ]
     },
     {
-      "title": "电影《欢迎来龙餐馆》票房与口碑",
-      "summary": "电影《欢迎来龙餐馆》票房突破两亿，豆瓣开分8.4，成为近期热门话题。",
+      "title": "炸鸡店员工晕倒",
+      "summary": "一家炸鸡店深夜爆单，店员因过度劳累情绪崩溃晕倒，引发对劳动权益的讨论。",
       "entryIndices": [
-        50,
-        55,
-        68,
-        146,
-        147,
-        197,
-        214,
-        246
+        11,
+        138
       ],
       "sources": [
-        "douyin-hot",
         "weibo-search",
         "toutiao-search"
       ]
     },
     {
-      "title": "明星动态与网络热点",
-      "summary": "涵盖明星结婚、综艺录制、影视奖项及社会热点事件，如TF家族澄清传闻、杨洋陈都灵新剧等。",
+      "title": "女子3万全款购入40平米住宅",
+      "summary": "女子全款3万元购入宝鸡40平米住宅，引发关于房产性价比的讨论。",
       "entryIndices": [
-        4,
-        8,
-        12,
-        19,
-        23,
-        27,
-        30,
-        34,
-        38,
-        49,
-        53,
-        57,
-        86,
-        95,
-        105,
-        114,
-        124,
-        130,
-        132,
-        140,
-        159,
-        168,
-        170,
-        188,
-        196,
-        205,
-        210,
-        215,
-        229,
-        234,
-        239,
-        240,
-        241,
-        243,
-        245,
-        249,
-        253,
-        257
+        16
       ],
       "sources": [
-        "weibo-search",
-        "baidu-hot",
-        "douyin-hot",
-        "toutiao-search",
-        "zhihu-search"
+        "toutiao-search"
       ]
     },
     {
-      "title": "体育赛事与明星动态",
-      "summary": "涵盖WTT乒乓球赛事、NBA比赛、电竞比赛（JDG淘汰EDG）及高校篮球赛事（上海交大夺冠）。",
+      "title": "赵心童遭张安达绝杀",
+      "summary": "斯诺克选手赵心童在比赛中遭张安达绝杀，止步首轮。",
       "entryIndices": [
-        16,
-        26,
-        29,
-        42,
-        43,
-        60,
-        61,
-        65,
-        104,
-        108,
-        133,
-        148,
-        162,
-        166,
-        171,
-        184,
-        192,
-        217,
-        232,
-        260
+        23
       ],
       "sources": [
-        "zhihu-search",
-        "douyin-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "时代峰峻澄清张极嫂子传闻",
+      "summary": "时代峰峻针对张极的“嫂子”传闻发布澄清声明。",
+      "entryIndices": [
+        24
+      ],
+      "sources": [
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "女子做核磁忘摘金手镯",
+      "summary": "女子做核磁共振检查时忘记摘下金手镯，导致检查异常，引发对医院流程的讨论。",
+      "entryIndices": [
+        33
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "女演员被曝1天只吃2个馒头",
+      "summary": "女演员被曝饮食极度节俭，本人回应称是为了保持状态。",
+      "entryIndices": [
+        35
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "网红逍遥客为救父亲氨气中毒去世",
+      "summary": "网红“逍遥客”为救父亲不幸氨气中毒去世，令人惋惜。",
+      "entryIndices": [
+        39
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "C罗晒照官宣完婚",
+      "summary": "C罗晒出结婚照，正式官宣完婚。",
+      "entryIndices": [
+        49
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "高考444分考生被殡葬专业录取",
+      "summary": "一名高考444分的考生被殡葬专业录取，本人回应称尊重职业选择。",
+      "entryIndices": [
+        52,
+        117
+      ],
+      "sources": [
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "女公厕大门正对着蹲位设计引争议",
+      "summary": "某地女公厕设计大门正对蹲位，引发关于隐私和设计规范的争议。",
+      "entryIndices": [
+        55
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "睡车里被酒店收150元住宿费事件反转",
+      "summary": "此前引发热议的“睡车里被收150元”事件出现反转，真相并非酒店恶意收费。",
+      "entryIndices": [
+        59
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "男子直播淫秽内容被判刑",
+      "summary": "男子为获利0.1元直播淫秽内容，最终被判刑。",
+      "entryIndices": [
+        61,
+        186
+      ],
+      "sources": [
         "baidu-hot",
         "weibo-search"
       ]
     },
     {
-      "title": "国际局势与经济动态",
-      "summary": "涉及中美关系、台海局势、哥伦比亚地震、日元汇率下跌及半导体行业动态。",
+      "title": "贵州抓猪大赛",
+      "summary": "贵州麻江举行“捉猪大赛”，场面趣味横生。",
       "entryIndices": [
-        5,
-        6,
-        9,
-        11,
-        31,
-        52,
-        54,
         66,
-        67,
-        78,
-        93,
-        100,
-        103,
-        115,
-        116,
-        131,
-        150,
-        158,
-        185,
-        189,
-        194,
-        201,
-        209,
-        216,
-        252
-      ],
-      "sources": [
-        "baidu-hot",
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "AI技术与应用热点",
-      "summary": "AI在记忆唤醒、广告审判、天庭构建等方面的应用引发热议。",
-      "entryIndices": [
-        22,
-        51,
-        97,
-        107,
-        116,
-        137,
-        154,
-        174,
-        178,
-        187,
-        199,
-        206,
-        224,
-        248,
-        259
+        229
       ],
       "sources": [
         "douyin-hot",
-        "baidu-hot",
-        "weibo-search",
-        "zhihu-search"
+        "baidu-hot"
       ]
     },
     {
-      "title": "食品安全与消费维权",
-      "summary": "涉及炸鸡店员工过劳、赵一鸣牛肉干复称问题及小菜园宠物投喂事件。",
+      "title": "世界芯片巨头“抱紧”河南",
+      "summary": "多家世界芯片巨头选择在河南布局，引发关注。",
       "entryIndices": [
-        0,
-        39,
-        57,
-        71,
-        114,
-        122,
-        222,
-        235
+        68
       ],
       "sources": [
-        "weibo-search",
-        "baidu-hot",
         "toutiao-search"
       ]
     },
     {
-      "title": "社会问题与生活方式",
-      "summary": "涵盖AA制婚姻、职场压力、消费观念、宠物投喂争议及健康警示等社会热点。",
+      "title": "高速服务区开水间标识被指中式英文",
+      "summary": "高速服务区开水间标识出现中式英语，引发网友吐槽。",
       "entryIndices": [
-        13,
-        40,
-        56,
-        76,
-        82,
-        85,
-        91,
-        98,
-        101,
-        105,
-        110,
-        112,
-        119,
-        120,
-        125,
-        128,
-        129,
-        155,
-        163,
-        164,
-        168,
-        169,
-        172,
-        173,
-        175,
-        177,
-        188,
-        189,
-        191,
-        193,
-        197,
-        199,
-        203,
-        211,
-        212,
-        223,
-        231,
-        234,
-        236,
-        237,
-        244,
-        247,
-        251
+        72,
+        182
       ],
       "sources": [
-        "weibo-search",
-        "baidu-hot",
         "toutiao-search",
-        "zhihu-search"
+        "baidu-hot"
       ]
     },
     {
-      "title": "影视奖项与热播剧",
-      "summary": "涉及《哪吒》获奖反应、蜘蛛侠票房、易烊千玺双影帝及《我的前半生》翻红。",
+      "title": "俄女子被诱骗进缅甸电诈园逃生",
+      "summary": "一名俄罗斯女子被诱骗至缅甸电诈园，通过游河逃生。",
       "entryIndices": [
-        24,
-        35,
-        68,
-        73,
-        151,
-        162,
-        181,
-        205,
-        207,
-        210,
-        214,
-        246
+        75
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "哥伦比亚强震已致上百人遇难",
+      "summary": "哥伦比亚发生强震，已造成上百人遇难。",
+      "entryIndices": [
+        76,
+        158,
+        170
+      ],
+      "sources": [
+        "douyin-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "马斯克：强烈推荐大家去中国看看",
+      "summary": "马斯克表示强烈推荐大家去中国看看，引发热议。",
+      "entryIndices": [
+        78
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "鄂尔多斯一警车被指擅自更换车标",
+      "summary": "鄂尔多斯一警车被指擅自更换车标，引发对警车管理的质疑。",
+      "entryIndices": [
+        81
+      ],
+      "sources": [
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "跳桥救人小哥彭清林又救回一条命",
+      "summary": "此前跳桥救人的彭清林再次救人，获赞“平民英雄”。",
+      "entryIndices": [
+        82
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "毛宁向世界分享中国水陆两栖车",
+      "summary": "中国外交部发言人毛宁向世界分享中国水陆两栖车。",
+      "entryIndices": [
+        87
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "男子在野生菌上写名字被捡走",
+      "summary": "男子在野生菌上写名字，结果被别人捡走，引发对食品安全和诚信的讨论。",
+      "entryIndices": [
+        92
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "媒体：星巴克该管管只坐不买的人",
+      "summary": "媒体发文呼吁星巴克管管只坐不买的人，引发对公共资源使用的讨论。",
+      "entryIndices": [
+        98
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "董宇辉下场做卫生巾了",
+      "summary": "董宇辉涉足卫生巾领域，引发关注。",
+      "entryIndices": [
+        103
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "公交司机称开公交直达拉萨",
+      "summary": "公交司机称开公交直达拉萨，公司回应称是玩笑。",
+      "entryIndices": [
+        107
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "武契奇：德国已经落后于中国",
+      "summary": "塞尔维亚总统武契奇表示德国已经落后于中国。",
+      "entryIndices": [
+        109
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "以为北京雨燕往南飞 结果是飞南非",
+      "summary": "科学家发现北京雨燕并非往南飞越冬，而是飞往南非。",
+      "entryIndices": [
+        112
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "沪指失守3950点",
+      "summary": "股市波动，沪指失守3950点。",
+      "entryIndices": [
+        114
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "解放军特种兵部署台海一线",
+      "summary": "解放军特种兵部署台海一线，引发关注。",
+      "entryIndices": [
+        118,
+        266
       ],
       "sources": [
         "toutiao-search",
-        "zhihu-search",
-        "weibo-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "赖清德叫嚣“台独”",
+      "summary": "赖清德叫嚣“台独”，引发各方批评。",
+      "entryIndices": [
+        124
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "中国裁军大使驳斥美方无端指责",
+      "summary": "中国裁军大使驳斥美方无端指责。",
+      "entryIndices": [
+        128
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "横店短剧盯上了游客",
+      "summary": "横店短剧开始盯上游客，引发对旅游体验的讨论。",
+      "entryIndices": [
+        136
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "31省上半年财政收入出炉",
+      "summary": "全国31省上半年财政收入数据公布。",
+      "entryIndices": [
+        144
+      ],
+      "sources": [
         "douyin-hot"
+      ]
+    },
+    {
+      "title": "宇树科技中签号出炉",
+      "summary": "宇树科技中签号出炉，引发全民抢购热潮。",
+      "entryIndices": [
+        145,
+        190,
+        239,
+        285
+      ],
+      "sources": [
+        "baidu-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "梁文锋跻身全球最富有50人之列",
+      "summary": "梁文锋跻身全球最富有50人之列。",
+      "entryIndices": [
+        153
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "中国印尼将在台岛以东演练",
+      "summary": "中国印尼将在台岛以东进行演练。",
+      "entryIndices": [
+        168
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "落马副部龙翔被判死缓",
+      "summary": "落马副部龙翔因贪腐2.61亿被判死缓。",
+      "entryIndices": [
+        174
+      ],
+      "sources": [
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "DeepSeek会偷偷给人取外号",
+      "summary": "AI DeepSeek被曝会偷偷给人取外号，引发网友讨论。",
+      "entryIndices": [
+        181
+      ],
+      "sources": [
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "国仪量子科创板上市",
+      "summary": "国仪量子在科创板上市。",
+      "entryIndices": [
+        198
+      ],
+      "sources": [
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "易烊千玺最年轻的金鸡百花双影帝",
+      "summary": "易烊千玺成为最年轻的金鸡百花双影帝。",
+      "entryIndices": [
+        203
+      ],
+      "sources": [
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "诺兰谈IMAX《奥德赛》",
+      "summary": "导演诺兰谈IMAX新片《奥德赛》。",
+      "entryIndices": [
+        208
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "燃青团真的拿世界冠军了",
+      "summary": "燃青团获得世界冠军。",
+      "entryIndices": [
+        216
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "上海交大男篮AUBL夺冠",
+      "summary": "上海交大男篮在AUBL夺冠。",
+      "entryIndices": [
+        221
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "英特尔新股发行规模增至200亿美元",
+      "summary": "英特尔新股发行规模大幅增加。",
+      "entryIndices": [
+        233
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "幼童吃糖果被卡喉 乘警成功施救",
+      "summary": "幼童吃糖果被卡喉，乘警成功施救。",
+      "entryIndices": [
+        237
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "曝唐探4肖央主演王宝强客串",
+      "summary": "电影《唐探4》阵容曝光，肖央主演，王宝强客串。",
+      "entryIndices": [
+        244
+      ],
+      "sources": [
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "龙餐馆出品方回应近期股价暴涨",
+      "summary": "电影《欢迎来龙餐馆》出品方回应近期股价暴涨。",
+      "entryIndices": [
+        259
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "萨日娜的观众缘从何而来",
+      "summary": "讨论演员萨日娜的观众缘。",
+      "entryIndices": [
+        261
+      ],
+      "sources": [
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "男子在住所杀害前女友开16度藏尸",
+      "summary": "男子在住所杀害前女友并将尸体藏尸16度冰箱。",
+      "entryIndices": [
+        264
+      ],
+      "sources": [
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "新冠病例增加怎么看 怎么办",
+      "summary": "针对近期新冠病例增加，专家给出建议。",
+      "entryIndices": [
+        267
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "游戏科学杨奇回应《黑神话：钟馗》进度",
+      "summary": "游戏科学杨奇回应新作《黑神话：钟馗》的进度。",
+      "entryIndices": [
+        284
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "《欢迎来龙餐馆》点燃暑期档",
+      "summary": "电影《欢迎来龙餐馆》票房表现亮眼，点燃暑期档。",
+      "entryIndices": [
+        292
+      ],
+      "sources": [
+        "baidu-hot"
       ]
     }
   ]
