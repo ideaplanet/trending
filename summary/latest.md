@@ -2,102 +2,90 @@
 
 ## 今日总览
 
-今日热点主要集中在历史纪念、自然灾害、体育赛事及娱乐动态等方面。首先，纪念江泽民同志诞辰100周年大会将举行，引发广泛关注。同时，日本战败投降81周年之际，关于靖国神社供奉、历史反省等话题持续发酵，中方及日方均有相关表态。河南周口贾鲁河堤防溃口成功合龙，防汛工作取得阶段性胜利。体育方面，中国男篮热身赛不敌乌拉圭，引发球迷讨论；张本美和、早田希娜在瑞典大满贯夺冠，张本智和也有出色表现。娱乐领域，王传君在《披荆斩棘》中谈及《爱情公寓》引发热议，胖东来闭店引发商户不舍。此外，旺旺品牌因经营问题引发关注，AI技术发展及多起社会新闻也占据热搜榜。
+今日热点聚焦于国内重大防汛救灾与历史纪念。河南周口贾鲁河溃口成功合龙，标志着抢险救灾取得阶段性胜利。同时，日本战败投降81周年引发各界对历史与和平的深刻反思，多地举行纪念活动。此外，印尼7.7级地震造成严重伤亡，牵动人心；胖东来闭店引发社会关注；中超及男篮热身赛、综艺《披荆斩棘》等娱乐体育话题也占据热搜榜。
 
 ## 话题列表
 
-### 1. 纪念江泽民诞辰与日本战败81周年相关话题
+### 1. 河南周口贾鲁河溃口成功合龙
 
-纪念江泽民同志诞辰100周年大会将举行，同时日本战败投降81周年引发历史反思。高市早苗参拜靖国神社及供奉祭祀费引发中日韩多方关注与谴责，日方部分言论被批不反省侵略历史，中方及日民众均呼吁正视历史。
+河南周口贾鲁河堤防发生117米溃口，经过紧急抢险，目前已成功合龙，当地宣布进入紧急防汛期。
 
-> 来源：toutiao-search, baidu-hot, douyin-hot, weibo-search | 涉及 21 条热搜
+> 来源：kuaishou-hot, toutiao-search, douyin-hot, baidu-hot | 涉及 9 条热搜
 
-### 2. 河南周口贾鲁河堤防溃口成功合龙
+### 2. 日本战败投降81周年及历史反思
 
-河南周口贾鲁河堤防发生117米溃口，经过紧急抢险，目前溃口已成功合龙，当地宣布进入紧急防汛期，现场出动“三蹦子”等设备运石料封堵。
+适逢日本战败投降81周年，中国外交部及驻日使馆敦促日方正视历史。同时，日本首相及政要参拜靖国神社引发争议，国际社会及国内民众纷纷发声，呼吁铭记历史、珍爱和平。
 
-> 来源：toutiao-search, douyin-hot, baidu-hot | 涉及 7 条热搜
+> 来源：baidu-hot, toutiao-search, douyin-hot, kuaishou-hot, weibo-search | 涉及 24 条热搜
 
-### 3. 中国男篮热身赛不敌乌拉圭
+### 3. 纪念江泽民同志诞辰100周年
 
-中国男篮在热身赛中以72:91不敌乌拉圭男篮，比赛结果引发球迷热议。
+今日举行纪念江泽民同志诞辰100周年大会，缅怀其卓越功勋。
 
-> 来源：kuaishou-hot, douyin-hot, weibo-search | 涉及 3 条热搜
+> 来源：baidu-hot, toutiao-search | 涉及 2 条热搜
 
-### 4. 王传君《披荆斩棘》谈及《爱情公寓》
+### 4. 印尼7.7级地震
 
-王传君在《披荆斩棘》节目中谈及《爱情公寓》，表示终于原谅了，杜华评价其坏人不像演的，刘畊宏演唱也将其唱哭。
+印尼托米尼湾及附近海域发生7.7级地震，造成严重人员伤亡，中国游客紧急避险。
 
-> 来源：weibo-search, baidu-hot, toutiao-search | 涉及 6 条热搜
+> 来源：kuaishou-hot, douyin-hot, baidu-hot | 涉及 4 条热搜
 
-### 5. 许昌胖东来闭店引发关注
+### 5. 胖东来闭店风波
 
-许昌胖东来闭店，周边商户及顾客表示不舍，引发关于其管理模式及影响的讨论。
+胖东来闭店引发周边商户及市民不舍，首批刑释人员入职后无一人离职，成为社会热议话题。
 
-> 来源：baidu-hot, kuaishou-hot, weibo-search | 涉及 5 条热搜
+> 来源：kuaishou-hot, baidu-hot, weibo-search, toutiao-search | 涉及 7 条热搜
 
-### 6. 张本美和、早田希娜瑞典大满贯夺冠
+### 6. 中超及男篮热身赛
 
-张本美和与早田希娜组合在瑞典大满贯夺冠，张本智和也取得4比0的胜利。
+中超联赛多场赛事进行，中国男篮热身赛不敌乌拉圭。国乒在瑞典大满贯赛事中表现引发关注。
 
-> 来源：weibo-search, baidu-hot, weibo-search | 涉及 3 条热搜
+> 来源：douyin-hot, kuaishou-hot, baidu-hot | 涉及 13 条热搜
 
-### 7. 中超及苏超赛事结果
+### 7. 《披荆斩棘》第四季热播
 
-中超成都蓉城3:2浙江队，上海申花4:1河南队，北京国安4:2天津津门虎；苏超及闽超也有多场比赛结果更新。
+综艺《披荆斩棘》第四季热播，王传君、曹骏等艺人表现引发讨论，初舞台排名及黑幕争议登上热搜。
 
-> 来源：douyin-hot, douyin-hot, douyin-hot, douyin-hot, douyin-hot, douyin-hot, douyin-hot, kuaishou-hot | 涉及 8 条热搜
+> 来源：baidu-hot, weibo-search, douyin-hot, kuaishou-hot | 涉及 15 条热搜
 
-### 8. 田径全锦赛及吴艳妮表现
+### 8. 南方多地暴雨洪涝
 
-吴艳妮在田径全锦赛女子百米预赛中以13秒06排名第一，决赛中陈妤颉夺冠。
+南方多地遭遇持续强降雨，苏州、北京等地出现暴雨、太湖水倒灌等险情，相关部门启动应急响应。
 
-> 来源：kuaishou-hot, toutiao-search, baidu-hot | 涉及 3 条热搜
+> 来源：baidu-hot, kuaishou-hot, toutiao-search | 涉及 5 条热搜
 
-### 9. 《披荆斩棘》初舞台及直播
+### 9. 旺旺集团经营危机
 
-《披荆斩棘》初舞台排名公布，曹骏位列第一，现场观众喊黑幕，直播也引发关注。
+旺旺集团面临重大经营危机，股价下跌，二公子回应配料表建议，引发网友热议。
 
-> 来源：weibo-search, weibo-search, baidu-hot, kuaishou-hot, weibo-search | 涉及 5 条热搜
+> 来源：baidu-hot, douyin-hot, weibo-search, toutiao-search | 涉及 6 条热搜
 
-### 10. 诺兰电影及《欢迎来龙餐馆》
+### 10. 纪念焦裕禄诞辰及马宗晋逝世
 
-诺兰电影《奥德赛》相关话题引发讨论，电影《欢迎来龙餐馆》票房破7亿并评分上涨。
+今日是焦裕禄同志诞辰104周年纪念日，中科院院士马宗晋逝世，各界缅怀先贤。
 
-> 来源：baidu-hot, baidu-hot, douyin-hot, baidu-hot | 涉及 4 条热搜
+> 来源：kuaishou-hot, toutiao-search | 涉及 4 条热搜
 
-### 11. 明星动态及演唱会
+### 11. 明星动态
 
-王祖贤现身网易总部，余文乐、郭麒麟、王俊凯等明星有新动态或演唱会举办，张睿被调侃像郭富城。
+王祖贤现身、余文乐暴瘦、郭麒麟暴瘦、张睿梦回新还珠等明星动态引发关注。
 
-> 来源：toutiao-search, toutiao-search, toutiao-search, baidu-hot, weibo-search, baidu-hot, baidu-hot, kuaishou-hot, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, douyin-hot, baidu-hot, baidu-hot, weibo-search, weibo-search, douyin-hot, weibo-search, douyin-hot, weibo-search | 涉及 23 条热搜
+> 来源：weibo-search, kuaishou-hot, baidu-hot, toutiao-search | 涉及 21 条热搜
 
-### 12. 旺旺品牌经营问题
+### 12. 电影《奥德赛》及《欢迎来龙餐馆》
 
-旺旺二公子回应配料表建议，旺旺发文感谢网友支招，但“旺旺为何卖不动”及“重大经营危机”话题引发担忧。
+诺兰新片《奥德赛》上映引发讨论，电影《欢迎来龙餐馆》票房破7亿并持续走高。
 
-> 来源：weibo-search, toutiao-search, baidu-hot, toutiao-search, baidu-hot | 涉及 5 条热搜
+> 来源：baidu-hot, douyin-hot | 涉及 9 条热搜
 
-### 13. AI技术发展及大模型动态
+### 13. AI技术发展
 
-美国大模型被指帮日本对AI进行投毒，OpenAI遭遇高层震荡，豆包进化到能学人唱歌，5岁孩童沉迷AI学暴力。
+AI技术持续突破，OpenAI高层震荡，豆包进化到能学人唱歌，特朗普发布AI视频。
 
-> 来源：baidu-hot, douyin-hot, douyin-hot, kuaishou-hot, baidu-hot, weibo-search | 涉及 6 条热搜
+> 来源：douyin-hot, weibo-search, baidu-hot | 涉及 5 条热搜
 
-### 14. 自然灾害及社会事件
+### 14. 社会热点与民生
 
-印尼发生7.7级地震致40死，苏州暴雨致太湖水倒灌，深圳进入暴雨戒备状态，宁夏盐池发生车祸，婴儿失踪36年后找到家人，30岁男子被送进特训营。
+涉及减肥骗局、驾校行业现状、保健品激素添加、诈骗案件、学车热潮等社会民生话题。
 
-> 来源：kuaishou-hot, baidu-hot, toutiao-search, baidu-hot, toutiao-search, baidu-hot, toutiao-search, baidu-hot, kuaishou-hot | 涉及 9 条热搜
-
-### 15. 童年动画及00后回信
-
-猫和老鼠、巴啦啦小魔仙、熊出没、喜羊羊等童年动画集体在抖音写信，00后也回信，引发集体回忆杀。
-
-> 来源：kuaishou-hot, douyin-hot, douyin-hot, douyin-hot, douyin-hot, douyin-hot, baidu-hot, douyin-hot, douyin-hot | 涉及 9 条热搜
-
-### 16. 谣言辨别及生活话题
-
-“我们为什么总是容易相信谣言”成为多个平台热搜，专家呼吁提高辨别能力。
-
-> 来源：toutiao-search, baidu-hot, kuaishou-hot, douyin-hot, weibo-search | 涉及 5 条热搜
+> 来源：kuaishou-hot, baidu-hot, weibo-search, toutiao-search | 涉及 23 条热搜
