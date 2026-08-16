@@ -2,144 +2,96 @@
 
 ## 今日总览
 
-今日热点聚焦于朱镕基同志遗体火化，引发全网深切缅怀。体育方面，吴艳妮全锦赛六连冠及阿森纳3-0曼城夺社区盾杯备受关注。经济与科技领域，北极航线常态化、卫星发射及AI技术发展成为焦点。此外，胖东来闭店热潮、低价旅游团乱象、俄乌冲突升级及中东局势紧张等话题也占据热搜榜前列。
+今日热搜中，前国务院总理朱镕基同志遗体18日火化引发全网深切缅怀，相关话题热度极高。体育方面，吴艳妮全锦赛三连冠及王艺迪、王曼昱在乒乓球赛事中的精彩表现备受关注。网红超市胖东来持续引发社会热议，其周边店主感叹生意受影响。此外，俄乌冲突持续激烈，俄军称击落大量无人机；中国经济数据及黄金市场动态也备受瞩目。同时，AI技术发展、侵华日军历史罪证曝光以及多起社会民生事件也占据热搜榜单。
 
 ## 话题列表
 
-### 1. 朱镕基同志遗体火化
+### 1. 朱镕基同志遗体18日火化
 
-朱镕基同志遗体于18日火化，引发全网深切缅怀。
+前国务院总理朱镕基同志的遗体于18日举行火化仪式，引发全网深切缅怀。
 
-> 来源：kuaishou-hot, baidu-hot, toutiao-search, douyin-hot, weibo-search | 涉及 5 条热搜
+> 来源：baidu-hot, toutiao-search, douyin-hot, weibo-search | 涉及 4 条热搜
 
-### 2. 吴艳妮全锦赛六连冠
+### 2. 吴艳妮全锦赛三连冠+六冠王
 
-吴艳妮在全锦赛中表现强势，成功加冕100米栏六冠王。
+中国田径名将吴艳妮在全锦赛中表现强势，成功卫冕并达成三连冠及六冠王伟业。
 
-> 来源：kuaishou-hot, baidu-hot, toutiao-search, douyin-hot | 涉及 6 条热搜
+> 来源：douyin-hot, baidu-hot, toutiao-search, weibo-search | 涉及 4 条热搜
 
-### 3. 披荆斩棘排名
+### 3. 王艺迪4:2战胜张本美和
 
-综艺节目《披荆斩棘》初舞台排名引发热议，梁龙送考小沈阳等互动成为焦点。
+在WTT相关赛事中，王艺迪以4:2的比分战胜日本选手张本美和，完成复仇。
 
-> 来源：weibo-search, baidu-hot, kuaishou-hot | 涉及 7 条热搜
+> 来源：douyin-hot, baidu-hot, weibo-search, toutiao-search | 涉及 4 条热搜
 
-### 4. 胖东来闭店热潮
+### 4. 王曼昱4:0蒯曼晋级决赛
 
-胖东来闭店期间收银口排长龙，周边店主感叹生意受影响，引发社会关注。
+王曼昱在比赛中以4:0横扫蒯曼，强势晋级决赛，展现出色竞技状态。
 
-> 来源：toutiao-search, kuaishou-hot, baidu-hot | 涉及 7 条热搜
+> 来源：weibo-search, douyin-hot, baidu-hot, weibo-search | 涉及 4 条热搜
 
-### 5. 北极航线常态化
+### 5. 胖东来周边店主：生意没了心气也没了
 
-中欧北极快航实现常态化运营，北极航线被中国跑成周班。
+网红超市胖东来持续引发社会关注，其周边店主感叹生意受影响，引发关于商业模式的讨论。
 
-> 来源：douyin-hot, kuaishou-hot, baidu-hot | 涉及 3 条热搜
+> 来源：toutiao-search, weibo-search, baidu-hot, weibo-search | 涉及 5 条热搜
 
-### 6. 卫星发射与开渔
+### 6. 北极航线被中国跑成周班了
 
-我国成功发射互联网低轨卫星，开渔季中国海警全力护航。
+中国北极航线实现常态化周班运营，标志着航运物流的新突破。
 
-> 来源：kuaishou-hot, douyin-hot | 涉及 2 条热搜
+> 来源：douyin-hot, baidu-hot | 涉及 2 条热搜
 
-### 7. 低价旅游团乱象
+### 7. 一组数据看中国经济的澎湃动能
 
-央视曝光低价徒步团及旅游团宰客内幕，引发公众对低价团安全的担忧。
+多组数据展示了中国工程机械出口增长、居民存款变化及黄金市场动态，反映经济复苏态势。
 
-> 来源：baidu-hot, toutiao-search, kuaishou-hot | 涉及 4 条热搜
+> 来源：baidu-hot, toutiao-search, douyin-hot, weibo-search | 涉及 8 条热搜
 
-### 8. 阿森纳3比0曼城
+### 8. 俄军称24小时击落1478架乌无人机
 
-阿森纳在社区盾杯中3-0大胜曼城，夺得新赛季首冠。
+俄乌冲突持续激烈，俄方称击落大量无人机，乌方特种兵渗透及俄电商物流中心受袭。
 
-> 来源：kuaishou-hot, baidu-hot, weibo-search | 涉及 4 条热搜
+> 来源：toutiao-search, baidu-hot, douyin-hot, weibo-search | 涉及 10 条热搜
 
-### 9. 俄乌冲突与中东局势
+### 9. 侵华日军南京暴行再添新证
 
-莫斯科遭大规模无人机袭击，俄火箭航天中心起火，俄乌战场持续激烈；中东方面，伊朗警告美军不得进入霍尔木兹海峡。
+历史文献曝光日军南京暴行细节，包括家信及新证，引发对历史的深刻反思。
 
-> 来源：toutiao-search, kuaishou-hot, baidu-hot | 涉及 11 条热搜
+> 来源：toutiao-search, douyin-hot, baidu-hot, weibo-search | 涉及 6 条热搜
 
-### 10. 张美祥教授逝世
+### 10. AI正在批量制造“幽灵”
 
-著名心血管病学家张美祥教授逝世，享年58岁。
+AI技术迅速发展，不仅在视频生成领域，更在抢购二手书、制造“幽灵”等方面引发关注。
 
-> 来源：kuaishou-hot, baidu-hot | 涉及 2 条热搜
+> 来源：baidu-hot, douyin-hot, weibo-search | 涉及 7 条热搜
 
-### 11. 深圳地铁事故
+### 11. 披荆斩棘哥哥/披哥
 
-深圳地铁15号线事故致1人死亡，事故原因正在调查中。
+综艺《披荆斩棘》相关话题热度居高不下，涉及初舞台排名、选手表现及观众反应。
 
-> 来源：kuaishou-hot | 涉及 1 条热搜
+> 来源：weibo-search, baidu-hot, douyin-hot, weibo-search | 涉及 11 条热搜
 
-### 12. AI技术发展
+### 12. C罗称今年或是职业生涯最后一年
 
-AI正在批量制造幽灵或生成内容，并在多个领域（如二手书、视频制作）展现应用潜力。
+C罗结婚仪式画面曝光，并透露今年可能是职业生涯最后一年，引发球迷热议。
 
-> 来源：baidu-hot, douyin-hot | 涉及 6 条热搜
+> 来源：baidu-hot, weibo-search, toutiao-search | 涉及 3 条热搜
 
-### 13. 南京大屠杀历史
+### 13. 央视曝光低价徒步团乱象
 
-南京大屠杀再添新证，侵华日军暴行相关历史资料引发关注。
+央视曝光低价团、夜爬封禁山峰等社会乱象，同时涉及市民投诉、台风天气及食品安全。
 
-> 来源：kuaishou-hot, toutiao-search, douyin-hot | 涉及 9 条热搜
+> 来源：baidu-hot, toutiao-search, weibo-search, douyin-hot | 涉及 16 条热搜
 
-### 14. 伊朗与美军对峙
+### 14. 体育赛事与运动员
 
-伊朗军方悬赏50亿土曼鼓励消灭美军，并警告美军不得进入霍尔木兹海峡。
+涵盖UFC、乒乓球、篮球、链球等多项赛事，包括马哈切夫卫冕、王曼昱晋级等。
 
-> 来源：toutiao-search, kuaishou-hot, baidu-hot | 涉及 7 条热搜
+> 来源：douyin-hot, baidu-hot, weibo-search, toutiao-search | 涉及 7 条热搜
 
-### 15. 经济与金融
+### 15. 明星动态与影视作品
 
-中国经济数据展现澎湃动能，段永平持仓曝光，金价走势引发讨论。
+涉及谷爱凌、鞠婧祎、丁禹兮、丁程鑫等多位明星的近况、作品及争议。
 
-> 来源：baidu-hot, toutiao-search, douyin-hot | 涉及 9 条热搜
-
-### 16. 电子竞技
-
-狼队战胜AG，iG晋级骑士之路，电竞比赛备受关注。
-
-> 来源：weibo-search, kuaishou-hot | 涉及 3 条热搜
-
-### 17. 健康与青少年
-
-17岁少年确诊胃癌离世，引发对青少年健康的关注。
-
-> 来源：baidu-hot, toutiao-search, weibo-search | 涉及 3 条热搜
-
-### 18. 社会事件
-
-西平命案嫌疑人逃亡始末引发讨论，台当局查扣机车事件持续发酵。
-
-> 来源：toutiao-search, baidu-hot | 涉及 4 条热搜
-
-### 19. 渔船开渔
-
-福建8000余艘渔船结束伏季休渔出海。
-
-> 来源：toutiao-search | 涉及 1 条热搜
-
-### 20. 油田泄漏
-
-陕西一油田原油泄漏被查。
-
-> 来源：kuaishou-hot | 涉及 1 条热搜
-
-### 21. 天气与救援
-
-南太行失联男子遇难，村支书抢险排涝，各地关注天气变化。
-
-> 来源：kuaishou-hot, toutiao-search, baidu-hot | 涉及 3 条热搜
-
-### 22. 美军舰/潜艇
-
-美军核潜艇耗资8亿修废，美军舰因故障在南海滞留。
-
-> 来源：toutiao-search, kuaishou-hot | 涉及 2 条热搜
-
-### 23. 靖国神社
-
-中国博主发布进入靖国神社视频，引发舆论关注。
-
-> 来源：kuaishou-hot, douyin-hot | 涉及 5 条热搜
+> 来源：weibo-search, baidu-hot, douyin-hot, toutiao-search | 涉及 31 条热搜

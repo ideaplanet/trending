@@ -1,353 +1,303 @@
 {
   "date": "2026-08-17",
-  "overview": "今日热点聚焦于朱镕基同志遗体火化，引发全网深切缅怀。体育方面，吴艳妮全锦赛六连冠及阿森纳3-0曼城夺社区盾杯备受关注。经济与科技领域，北极航线常态化、卫星发射及AI技术发展成为焦点。此外，胖东来闭店热潮、低价旅游团乱象、俄乌冲突升级及中东局势紧张等话题也占据热搜榜前列。",
+  "overview": "今日热搜中，前国务院总理朱镕基同志遗体18日火化引发全网深切缅怀，相关话题热度极高。体育方面，吴艳妮全锦赛三连冠及王艺迪、王曼昱在乒乓球赛事中的精彩表现备受关注。网红超市胖东来持续引发社会热议，其周边店主感叹生意受影响。此外，俄乌冲突持续激烈，俄军称击落大量无人机；中国经济数据及黄金市场动态也备受瞩目。同时，AI技术发展、侵华日军历史罪证曝光以及多起社会民生事件也占据热搜榜单。",
   "topics": [
     {
-      "title": "朱镕基同志遗体火化",
-      "summary": "朱镕基同志遗体于18日火化，引发全网深切缅怀。",
-      "entryIndices": [
-        0,
-        2,
-        3,
-        4,
-        185
-      ],
-      "sources": [
-        "kuaishou-hot",
-        "baidu-hot",
-        "toutiao-search",
-        "douyin-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "吴艳妮全锦赛六连冠",
-      "summary": "吴艳妮在全锦赛中表现强势，成功加冕100米栏六冠王。",
-      "entryIndices": [
-        5,
-        41,
-        73,
-        74,
-        122,
-        177
-      ],
-      "sources": [
-        "kuaishou-hot",
-        "baidu-hot",
-        "toutiao-search",
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "披荆斩棘排名",
-      "summary": "综艺节目《披荆斩棘》初舞台排名引发热议，梁龙送考小沈阳等互动成为焦点。",
+      "title": "朱镕基同志遗体18日火化",
+      "summary": "前国务院总理朱镕基同志的遗体于18日举行火化仪式，引发全网深切缅怀。",
       "entryIndices": [
         1,
-        32,
-        45,
-        105,
-        159,
-        261,
-        265
+        2,
+        3,
+        45
       ],
       "sources": [
-        "weibo-search",
         "baidu-hot",
-        "kuaishou-hot"
-      ]
-    },
-    {
-      "title": "胖东来闭店热潮",
-      "summary": "胖东来闭店期间收银口排长龙，周边店主感叹生意受影响，引发社会关注。",
-      "entryIndices": [
-        8,
-        29,
-        44,
-        69,
-        178,
-        225,
-        229
-      ],
-      "sources": [
         "toutiao-search",
-        "kuaishou-hot",
-        "baidu-hot"
+        "douyin-hot",
+        "weibo-search"
       ]
     },
     {
-      "title": "北极航线常态化",
-      "summary": "中欧北极快航实现常态化运营，北极航线被中国跑成周班。",
+      "title": "吴艳妮全锦赛三连冠+六冠王",
+      "summary": "中国田径名将吴艳妮在全锦赛中表现强势，成功卫冕并达成三连冠及六冠王伟业。",
       "entryIndices": [
-        9,
         15,
-        160
+        33,
+        102,
+        155
       ],
       "sources": [
         "douyin-hot",
-        "kuaishou-hot",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "卫星发射与开渔",
-      "summary": "我国成功发射互联网低轨卫星，开渔季中国海警全力护航。",
-      "entryIndices": [
-        10,
-        164
-      ],
-      "sources": [
-        "kuaishou-hot",
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "低价旅游团乱象",
-      "summary": "央视曝光低价徒步团及旅游团宰客内幕，引发公众对低价团安全的担忧。",
-      "entryIndices": [
-        17,
-        43,
-        171,
-        252
-      ],
-      "sources": [
         "baidu-hot",
         "toutiao-search",
-        "kuaishou-hot"
+        "weibo-search"
       ]
     },
     {
-      "title": "阿森纳3比0曼城",
-      "summary": "阿森纳在社区盾杯中3-0大胜曼城，夺得新赛季首冠。",
+      "title": "王艺迪4:2战胜张本美和",
+      "summary": "在WTT相关赛事中，王艺迪以4:2的比分战胜日本选手张本美和，完成复仇。",
       "entryIndices": [
         20,
-        24,
-        129,
-        256
-      ],
-      "sources": [
-        "kuaishou-hot",
-        "baidu-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "俄乌冲突与中东局势",
-      "summary": "莫斯科遭大规模无人机袭击，俄火箭航天中心起火，俄乌战场持续激烈；中东方面，伊朗警告美军不得进入霍尔木兹海峡。",
-      "entryIndices": [
-        23,
-        24,
         48,
         93,
-        98,
-        104,
-        149,
-        170,
-        202,
-        220,
-        269
+        173
       ],
       "sources": [
-        "toutiao-search",
-        "kuaishou-hot",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "张美祥教授逝世",
-      "summary": "著名心血管病学家张美祥教授逝世，享年58岁。",
-      "entryIndices": [
-        196,
-        215
-      ],
-      "sources": [
-        "kuaishou-hot",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "深圳地铁事故",
-      "summary": "深圳地铁15号线事故致1人死亡，事故原因正在调查中。",
-      "entryIndices": [
-        47
-      ],
-      "sources": [
-        "kuaishou-hot"
-      ]
-    },
-    {
-      "title": "AI技术发展",
-      "summary": "AI正在批量制造幽灵或生成内容，并在多个领域（如二手书、视频制作）展现应用潜力。",
-      "entryIndices": [
-        51,
-        76,
-        88,
-        240,
-        245,
-        267
-      ],
-      "sources": [
+        "douyin-hot",
         "baidu-hot",
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "南京大屠杀历史",
-      "summary": "南京大屠杀再添新证，侵华日军暴行相关历史资料引发关注。",
-      "entryIndices": [
-        57,
-        64,
-        65,
-        95,
-        100,
-        118,
-        193,
-        234,
-        248
-      ],
-      "sources": [
-        "kuaishou-hot",
-        "toutiao-search",
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "伊朗与美军对峙",
-      "summary": "伊朗军方悬赏50亿土曼鼓励消灭美军，并警告美军不得进入霍尔木兹海峡。",
-      "entryIndices": [
-        48,
-        80,
-        104,
-        149,
-        170,
-        202,
-        220
-      ],
-      "sources": [
-        "toutiao-search",
-        "kuaishou-hot",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "经济与金融",
-      "summary": "中国经济数据展现澎湃动能，段永平持仓曝光，金价走势引发讨论。",
-      "entryIndices": [
-        12,
-        13,
-        14,
-        35,
-        66,
-        89,
-        107,
-        140,
-        166
-      ],
-      "sources": [
-        "baidu-hot",
-        "toutiao-search",
-        "douyin-hot"
-      ]
-    },
-    {
-      "title": "电子竞技",
-      "summary": "狼队战胜AG，iG晋级骑士之路，电竞比赛备受关注。",
-      "entryIndices": [
-        96,
-        251,
-        280
-      ],
-      "sources": [
         "weibo-search",
-        "kuaishou-hot"
-      ]
-    },
-    {
-      "title": "健康与青少年",
-      "summary": "17岁少年确诊胃癌离世，引发对青少年健康的关注。",
-      "entryIndices": [
-        27,
-        38,
-        143
-      ],
-      "sources": [
-        "baidu-hot",
-        "toutiao-search",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "社会事件",
-      "summary": "西平命案嫌疑人逃亡始末引发讨论，台当局查扣机车事件持续发酵。",
-      "entryIndices": [
-        53,
-        120,
-        222,
-        250
-      ],
-      "sources": [
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "渔船开渔",
-      "summary": "福建8000余艘渔船结束伏季休渔出海。",
-      "entryIndices": [
-        238
-      ],
-      "sources": [
         "toutiao-search"
       ]
     },
     {
-      "title": "油田泄漏",
-      "summary": "陕西一油田原油泄漏被查。",
+      "title": "王曼昱4:0蒯曼晋级决赛",
+      "summary": "王曼昱在比赛中以4:0横扫蒯曼，强势晋级决赛，展现出色竞技状态。",
       "entryIndices": [
-        257
+        49,
+        94,
+        187,
+        214
       ],
       "sources": [
-        "kuaishou-hot"
+        "weibo-search",
+        "douyin-hot",
+        "baidu-hot",
+        "weibo-search"
       ]
     },
     {
-      "title": "天气与救援",
-      "summary": "南太行失联男子遇难，村支书抢险排涝，各地关注天气变化。",
+      "title": "胖东来周边店主：生意没了心气也没了",
+      "summary": "网红超市胖东来持续引发社会关注，其周边店主感叹生意受影响，引发关于商业模式的讨论。",
       "entryIndices": [
-        154,
-        227,
-        259
+        18,
+        54,
+        115,
+        177,
+        194
       ],
       "sources": [
-        "kuaishou-hot",
         "toutiao-search",
+        "weibo-search",
+        "baidu-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "北极航线被中国跑成周班了",
+      "summary": "中国北极航线实现常态化周班运营，标志着航运物流的新突破。",
+      "entryIndices": [
+        7,
+        128
+      ],
+      "sources": [
+        "douyin-hot",
         "baidu-hot"
       ]
     },
     {
-      "title": "美军舰/潜艇",
-      "summary": "美军核潜艇耗资8亿修废，美军舰因故障在南海滞留。",
+      "title": "一组数据看中国经济的澎湃动能",
+      "summary": "多组数据展示了中国工程机械出口增长、居民存款变化及黄金市场动态，反映经济复苏态势。",
       "entryIndices": [
-        59,
-        206
+        9,
+        10,
+        11,
+        58,
+        69,
+        85,
+        132,
+        168
       ],
       "sources": [
+        "baidu-hot",
         "toutiao-search",
-        "kuaishou-hot"
+        "douyin-hot",
+        "weibo-search"
       ]
     },
     {
-      "title": "靖国神社",
-      "summary": "中国博主发布进入靖国神社视频，引发舆论关注。",
+      "title": "俄军称24小时击落1478架乌无人机",
+      "summary": "俄乌冲突持续激烈，俄方称击落大量无人机，乌方特种兵渗透及俄电商物流中心受袭。",
       "entryIndices": [
+        14,
+        34,
+        39,
         75,
-        95,
-        118,
-        193,
-        234
+        76,
+        111,
+        147,
+        156,
+        189,
+        190
       ],
       "sources": [
-        "kuaishou-hot",
+        "toutiao-search",
+        "baidu-hot",
+        "douyin-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "侵华日军南京暴行再添新证",
+      "summary": "历史文献曝光日军南京暴行细节，包括家信及新证，引发对历史的深刻反思。",
+      "entryIndices": [
+        70,
+        121,
+        127,
+        139,
+        160,
+        202
+      ],
+      "sources": [
+        "toutiao-search",
+        "douyin-hot",
+        "baidu-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "AI正在批量制造“幽灵”",
+      "summary": "AI技术迅速发展，不仅在视频生成领域，更在抢购二手书、制造“幽灵”等方面引发关注。",
+      "entryIndices": [
+        17,
+        40,
+        51,
+        63,
+        88,
+        163,
+        258
+      ],
+      "sources": [
+        "baidu-hot",
+        "douyin-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "披荆斩棘哥哥/披哥",
+      "summary": "综艺《披荆斩棘》相关话题热度居高不下，涉及初舞台排名、选手表现及观众反应。",
+      "entryIndices": [
+        23,
+        25,
+        36,
+        41,
+        72,
+        74,
+        81,
+        92,
+        110,
+        118,
+        192
+      ],
+      "sources": [
+        "weibo-search",
+        "baidu-hot",
+        "douyin-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "C罗称今年或是职业生涯最后一年",
+      "summary": "C罗结婚仪式画面曝光，并透露今年可能是职业生涯最后一年，引发球迷热议。",
+      "entryIndices": [
+        53,
+        133,
+        220
+      ],
+      "sources": [
+        "baidu-hot",
+        "weibo-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "央视曝光低价徒步团乱象",
+      "summary": "央视曝光低价团、夜爬封禁山峰等社会乱象，同时涉及市民投诉、台风天气及食品安全。",
+      "entryIndices": [
+        13,
+        26,
+        35,
+        47,
+        50,
+        52,
+        65,
+        84,
+        87,
+        105,
+        116,
+        123,
+        135,
+        136,
+        153,
+        198
+      ],
+      "sources": [
+        "baidu-hot",
+        "toutiao-search",
+        "weibo-search",
         "douyin-hot"
+      ]
+    },
+    {
+      "title": "体育赛事与运动员",
+      "summary": "涵盖UFC、乒乓球、篮球、链球等多项赛事，包括马哈切夫卫冕、王曼昱晋级等。",
+      "entryIndices": [
+        68,
+        98,
+        113,
+        154,
+        171,
+        172,
+        197
+      ],
+      "sources": [
+        "douyin-hot",
+        "baidu-hot",
+        "weibo-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "明星动态与影视作品",
+      "summary": "涉及谷爱凌、鞠婧祎、丁禹兮、丁程鑫等多位明星的近况、作品及争议。",
+      "entryIndices": [
+        0,
+        4,
+        6,
+        12,
+        16,
+        19,
+        27,
+        31,
+        44,
+        49,
+        60,
+        71,
+        77,
+        82,
+        89,
+        101,
+        114,
+        122,
+        126,
+        129,
+        141,
+        145,
+        149,
+        151,
+        158,
+        166,
+        170,
+        181,
+        188,
+        185,
+        199
+      ],
+      "sources": [
+        "weibo-search",
+        "baidu-hot",
+        "douyin-hot",
+        "toutiao-search"
       ]
     }
   ]
