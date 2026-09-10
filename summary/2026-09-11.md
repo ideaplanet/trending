@@ -2,72 +2,60 @@
 
 ## 今日总览
 
-今日热点聚焦于青岛货轮火灾事故，习近平作出重要指示，要求全力搜救、查明原因。体育方面，中国女篮在世界杯四分之一决赛中不敌法国队，无缘四强，张子宇的表现成为讨论焦点。科技领域，苹果发布iPhone Duo及iPhone 18 Pro系列，折叠屏手机成为市场热点。此外，日本梅毒疫情蔓延、A股市场成交量创新低、反腐动态以及多起社会安全事件也占据热搜榜重要位置。
+今日热点聚焦于体育、社会民生及科技领域。中国女篮在世界杯四分之一决赛中不敌法国队，止步八强，引发球迷热议。青岛一外籍货轮发生火灾，造成25人遇难，事故现场图及后续调查备受关注。科技方面，苹果发布多邻国Duo手机引发热议，罗永浩等明星参与吐槽，同时iPhone 18系列及折叠屏手机也成为讨论焦点。教师节期间，学生致敬老师的同时，关于教师节送礼文化的讨论也登上热搜。此外，A股成交量创新低、油价上调等经济动态，以及国际局势如俄乌冲突、中东局势等也是今日关注重点。
 
 ## 话题列表
 
-### 1. 青岛货轮火灾致25人遇难，习近平作出重要指示
+### 1. 中国女篮不敌法国无缘世界杯四强
 
-青岛一外籍货轮发生火灾，造成重大人员伤亡，习近平作出重要指示，要求全力搜救、查明原因。
+中国女篮在世界杯四分之一决赛中不敌法国队，无缘四强，引发广泛关注。
 
-> 来源：weibo-search, toutiao-search, baidu-hot, kuaishou-hot | 涉及 8 条热搜
+> 来源：douyin-hot, toutiao-search, baidu-hot, baidu-hot, toutiao-search, toutiao-search, toutiao-search, weibo-search, weibo-search, weibo-search | 涉及 10 条热搜
 
-### 2. 中国女篮不敌法国无缘世界杯四强
+### 2. 青岛货轮火灾致25人遇难
 
-中国女篮在世界杯四分之一决赛中不敌法国队，止步八强，张子宇送出7次失误引发讨论。
+青岛一外籍货轮发生火灾，造成重大人员伤亡，官方确认遇难人数为25人。
 
-> 来源：douyin-hot, toutiao-search, baidu-hot, kuaishou-hot, weibo-search | 涉及 9 条热搜
+> 来源：toutiao-search, baidu-hot, weibo-search, toutiao-search, weibo-search | 涉及 5 条热搜
 
-### 3. 日本梅毒疫情引发关注
+### 3. 苹果发布多邻国Duo手机及iPhone 18系列引发热议
 
-日本梅毒病例激增，年轻人晒梅毒成潮流，呼吁孕妇优先使用“救命药”。
+苹果发布多邻国Duo手机引发网友对设计、定价及与多邻国关系的讨论，罗永浩等明星也参与吐槽，同时iPhone 18系列及折叠屏手机也成为讨论焦点。
 
-> 来源：weibo-search, kuaishou-hot, baidu-hot | 涉及 3 条热搜
+> 来源：weibo-search, toutiao-search, toutiao-search, weibo-search, weibo-search, douyin-hot, weibo-search, toutiao-search, baidu-hot, douyin-hot, baidu-hot, baidu-hot, douyin-hot, douyin-hot, weibo-search, weibo-search, douyin-hot, douyin-hot, douyin-hot, toutiao-search, douyin-hot, weibo-search | 涉及 22 条热搜
 
-### 4. 苹果秋季发布会及iPhone新品发布
+### 4. 教师节：致敬与反思
 
-苹果发布iPhone Duo及iPhone 18 Pro系列，折叠屏手机引发热议，罗永浩吐槽iPhone Duo。
+教师节期间，学生表达对老师的感谢，同时也引发了对教师节送礼文化及商业化的反思。
 
-> 来源：weibo-search, toutiao-search, baidu-hot, douyin-hot, kuaishou-hot | 涉及 15 条热搜
+> 来源：douyin-hot, zhihu-search, weibo-search, douyin-hot, baidu-hot, toutiao-search, baidu-hot, weibo-search | 涉及 8 条热搜
 
-### 5. 8月物价数据及资本市场动态
+### 5. 资本市场与经济动态
 
-8月物价数据反映消费提质扩容，证监会明确资本市场未来五年八大方向，A股成交量创年度新低。
+A股成交量创新低，油价上调，证监会明确资本市场八大方向，同时涉及医保、养老金及国际经济局势。
 
-> 来源：toutiao-search, baidu-hot, douyin-hot, kuaishou-hot | 涉及 7 条热搜
+> 来源：toutiao-search, douyin-hot, douyin-hot, baidu-hot, toutiao-search, baidu-hot, toutiao-search, weibo-search, baidu-hot, toutiao-search, toutiao-search, baidu-hot, toutiao-search, toutiao-search, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot | 涉及 25 条热搜
 
-### 6. 反腐动态及国安局内鬼事件
+### 6. 体育赛事动态
 
-内蒙古坚决拥护党中央决定，三“虎”同日被处理，国安干警与间谍成邻居事件引发关注。
+NBA球星杜兰特获球队欢迎，欧冠赛场大巴黎、巴萨、利物浦均有大胜，中国男排不敌韩国。
 
-> 来源：baidu-hot, kuaishou-hot, toutiao-search, weibo-search | 涉及 8 条热搜
+> 来源：douyin-hot, douyin-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot | 涉及 6 条热搜
 
-### 7. 多起社会安全事件引发关注
+### 7. 国际局势与地缘政治
 
-男童被悬吊致横纹肌溶解、男子性侵智力障碍女子获刑、美容诈骗、如厕限制等事件引发热议。
+俄乌冲突、中东局势紧张，菲律宾政坛变动，印度经济展望，以及中国海警在钓鱼岛巡航。
 
-> 来源：kuaishou-hot, baidu-hot, toutiao-search, weibo-search | 涉及 9 条热搜
+> 来源：toutiao-search, douyin-hot, toutiao-search, baidu-hot, toutiao-search, toutiao-search, toutiao-search, toutiao-search, toutiao-search, toutiao-search, baidu-hot, baidu-hot, toutiao-search, toutiao-search, weibo-search, toutiao-search, baidu-hot, toutiao-search | 涉及 18 条热搜
 
-### 8. 综艺与明星动态
+### 8. 娱乐圈动态与热点事件
 
-《花少8》播放量破亿，赵昭仪录节目突发哮喘，刘亦菲合照裁掉越南女星引争议，沈月商务争议。
+综艺《花少8》热度高，明星赵昭仪哮喘、郑钦文获联合国转发、越南女星回应合照争议等。
 
-> 来源：douyin-hot, kuaishou-hot, baidu-hot, weibo-search, toutiao-search | 涉及 27 条热搜
+> 来源：weibo-search, weibo-search, weibo-search, baidu-hot, weibo-search, weibo-search, weibo-search, weibo-search, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot | 涉及 36 条热搜
 
-### 9. 国际局势与地区冲突
+### 9. 社会民生与热点事件
 
-沙特南部遭胡塞武装袭击，俄方称可夷平基辅和北约，石平率团窜访台湾，中国海警在钓鱼岛巡航。
+涉及职场权益、教育争议、生活琐事及社会热点，如全勤奖争议、教师节送礼、学生资助等。
 
-> 来源：douyin-hot, toutiao-search, baidu-hot, kuaishou-hot | 涉及 6 条热搜
-
-### 10. 全球老龄化趋势加剧
-
-人类历史上首次老人比小孩多，日本百岁老人开拖拉机身亡。
-
-> 来源：kuaishou-hot, toutiao-search, baidu-hot | 涉及 4 条热搜
-
-### 11. 黄金投资与市场动态
-
-大妈买386万黄金被拦，罗杰斯称将中国股票留给女儿们，印度拟对小米启动调查。
-
-> 来源：weibo-search, toutiao-search, baidu-hot, kuaishou-hot | 涉及 6 条热搜
+> 来源：toutiao-search, weibo-search, toutiao-search, baidu-hot, baidu-hot, weibo-search, baidu-hot, weibo-search, baidu-hot, baidu-hot, weibo-search, douyin-hot, weibo-search, weibo-search, weibo-search, weibo-search, douyin-hot, baidu-hot, baidu-hot, weibo-search, weibo-search, weibo-search, douyin-hot, toutiao-search, weibo-search, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot | 涉及 31 条热搜
