@@ -1,400 +1,299 @@
 {
   "date": "2026-09-11",
-  "overview": "今日热点聚焦于体育、社会民生及科技领域。中国女篮在世界杯四分之一决赛中不敌法国队，止步八强，引发球迷热议。青岛一外籍货轮发生火灾，造成25人遇难，事故现场图及后续调查备受关注。科技方面，苹果发布多邻国Duo手机引发热议，罗永浩等明星参与吐槽，同时iPhone 18系列及折叠屏手机也成为讨论焦点。教师节期间，学生致敬老师的同时，关于教师节送礼文化的讨论也登上热搜。此外，A股成交量创新低、油价上调等经济动态，以及国际局势如俄乌冲突、中东局势等也是今日关注重点。",
+  "overview": "今日热点聚焦于青岛货轮火灾事故，习近平作出重要指示，强调全力搜救与查明原因。体育方面，中国女篮在世界杯中不敌法国队，无缘四强。国际局势方面，胡塞武装控制红海要地导致油价飙升，特朗普祝贺德国极右翼领导人遭默茨取消通话。科技领域，iPhone 18系列发布引发价格讨论，多邻国Duo形象走红，罗永浩吐槽苹果折叠屏抄袭。此外，A股市场成交量创新低，日本梅毒问题也引发关注。",
   "topics": [
     {
-      "title": "中国女篮不敌法国无缘世界杯四强",
-      "summary": "中国女篮在世界杯四分之一决赛中不敌法国队，无缘四强，引发广泛关注。",
-      "entryIndices": [
-        3,
-        5,
-        6,
-        96,
-        116,
-        148,
-        189,
-        223,
-        226,
-        230
-      ],
-      "sources": [
-        "douyin-hot",
-        "toutiao-search",
-        "baidu-hot",
-        "baidu-hot",
-        "toutiao-search",
-        "toutiao-search",
-        "toutiao-search",
-        "weibo-search",
-        "weibo-search",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "青岛货轮火灾致25人遇难",
-      "summary": "青岛一外籍货轮发生火灾，造成重大人员伤亡，官方确认遇难人数为25人。",
+      "title": "青岛货轮火灾致25人遇难，习近平作出重要指示",
+      "summary": "青岛发生外籍货轮火灾事故，造成重大人员伤亡。习近平对事故作出重要指示，强调全力搜救伤员、查明事故原因。事故现场画面曝光，引发社会高度关注。",
       "entryIndices": [
         1,
-        2,
-        4,
-        32,
-        118
-      ],
-      "sources": [
-        "toutiao-search",
-        "baidu-hot",
-        "weibo-search",
-        "toutiao-search",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "苹果发布多邻国Duo手机及iPhone 18系列引发热议",
-      "summary": "苹果发布多邻国Duo手机引发网友对设计、定价及与多邻国关系的讨论，罗永浩等明星也参与吐槽，同时iPhone 18系列及折叠屏手机也成为讨论焦点。",
-      "entryIndices": [
-        13,
-        19,
-        23,
-        24,
-        34,
-        40,
-        95,
-        107,
-        128,
-        133,
-        140,
-        146,
-        147,
-        151,
-        155,
-        162,
-        171,
-        175,
-        200,
-        228,
-        234,
-        251
-      ],
-      "sources": [
-        "weibo-search",
-        "toutiao-search",
-        "toutiao-search",
-        "weibo-search",
-        "weibo-search",
-        "douyin-hot",
-        "weibo-search",
-        "toutiao-search",
-        "baidu-hot",
-        "douyin-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "douyin-hot",
-        "douyin-hot",
-        "weibo-search",
-        "weibo-search",
-        "douyin-hot",
-        "douyin-hot",
-        "douyin-hot",
-        "toutiao-search",
-        "douyin-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "教师节：致敬与反思",
-      "summary": "教师节期间，学生表达对老师的感谢，同时也引发了对教师节送礼文化及商业化的反思。",
-      "entryIndices": [
+        6,
         7,
-        18,
-        37,
-        79,
-        168,
-        210,
-        249,
-        260
+        44,
+        70,
+        76,
+        194,
+        235
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "baidu-hot",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "中国女篮不敌法国无缘世界杯四强",
+      "summary": "在世界杯四分之一决赛中，中国女篮以较大分差不敌法国队，止步八强。媒体评价女篮表现及未来发展方向，韩旭等球员接受采访。",
+      "entryIndices": [
+        4,
+        16,
+        50,
+        90,
+        133,
+        154,
+        176,
+        227,
+        312,
+        345,
+        363,
+        381,
+        383,
+        388
       ],
       "sources": [
         "douyin-hot",
-        "zhihu-search",
-        "weibo-search",
-        "douyin-hot",
-        "baidu-hot",
+        "kuaishou-hot",
         "toutiao-search",
         "baidu-hot",
         "weibo-search"
       ]
     },
     {
-      "title": "资本市场与经济动态",
-      "summary": "A股成交量创新低，油价上调，证监会明确资本市场八大方向，同时涉及医保、养老金及国际经济局势。",
+      "title": "国际局势动荡致油价上涨，国内成品油迎年内第十二次上调",
+      "summary": "受胡塞武装控制红海要地影响，国际油价跳涨，国内成品油价格迎来年内第十二次上调。燃油车市场与加油站面临新挑战。",
       "entryIndices": [
-        9,
-        12,
-        16,
-        29,
-        36,
-        43,
-        54,
-        57,
-        76,
-        81,
-        90,
-        104,
-        112,
-        120,
-        128,
-        134,
-        154,
-        157,
-        163,
-        183,
-        195,
-        199,
-        206,
-        221,
-        237
-      ],
-      "sources": [
-        "toutiao-search",
-        "douyin-hot",
-        "douyin-hot",
-        "baidu-hot",
-        "toutiao-search",
-        "baidu-hot",
-        "toutiao-search",
-        "weibo-search",
-        "baidu-hot",
-        "toutiao-search",
-        "toutiao-search",
-        "baidu-hot",
-        "toutiao-search",
-        "toutiao-search",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "体育赛事动态",
-      "summary": "NBA球星杜兰特获球队欢迎，欧冠赛场大巴黎、巴萨、利物浦均有大胜，中国男排不敌韩国。",
-      "entryIndices": [
-        31,
-        35,
-        106,
-        177,
-        187,
-        208
-      ],
-      "sources": [
-        "douyin-hot",
-        "douyin-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "国际局势与地缘政治",
-      "summary": "俄乌冲突、中东局势紧张，菲律宾政坛变动，印度经济展望，以及中国海警在钓鱼岛巡航。",
-      "entryIndices": [
-        14,
+        2,
         22,
-        36,
-        43,
-        54,
-        76,
-        81,
-        94,
-        112,
-        126,
-        154,
-        157,
-        188,
-        192,
-        193,
-        206,
-        231,
-        245
+        46,
+        201,
+        183
       ],
       "sources": [
-        "toutiao-search",
-        "douyin-hot",
-        "toutiao-search",
         "baidu-hot",
-        "toutiao-search",
-        "toutiao-search",
-        "toutiao-search",
-        "toutiao-search",
-        "toutiao-search",
-        "toutiao-search",
-        "baidu-hot",
-        "baidu-hot",
-        "toutiao-search",
-        "toutiao-search",
-        "weibo-search",
-        "toutiao-search",
-        "baidu-hot",
+        "kuaishou-hot",
         "toutiao-search"
       ]
     },
     {
-      "title": "娱乐圈动态与热点事件",
-      "summary": "综艺《花少8》热度高，明星赵昭仪哮喘、郑钦文获联合国转发、越南女星回应合照争议等。",
+      "title": "特朗普祝贺德国极右翼领导人遭默茨取消通话",
+      "summary": "特朗普致电祝贺德国极右翼政党领导人，随后被德国总理默茨取消通话。德国国内对此反应强烈，专家分析极右翼抬头的影响。",
       "entryIndices": [
-        10,
-        17,
-        21,
-        25,
-        27,
-        30,
-        41,
-        48,
-        52,
-        53,
-        62,
-        67,
-        88,
-        92,
-        99,
-        101,
+        3,
+        18,
+        301,
+        425
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "iPhone 18/17系列发布及价格信息，多邻国Duo成热点",
+      "summary": "苹果发布iPhone 18系列及17系列降价信息，iPhone 18 Pro全球售价对比引发讨论。多邻国Duo形象因与iPhone Duo相似而走红，罗永浩吐槽苹果折叠屏抄袭。",
+      "entryIndices": [
+        5,
+        12,
+        42,
+        54,
         102,
-        113,
-        126,
-        129,
-        133,
-        139,
-        149,
-        166,
-        169,
-        194,
-        202,
-        209,
-        211,
-        219,
-        229,
-        238,
-        242,
-        244,
-        251,
-        257
+        116,
+        160,
+        240,
+        255,
+        307,
+        313,
+        341,
+        360,
+        390,
+        393,
+        414,
+        415
       ],
       "sources": [
         "weibo-search",
-        "weibo-search",
-        "weibo-search",
+        "baidu-hot",
+        "kuaishou-hot",
+        "toutiao-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "胡塞武装占领曼德海峡关键港口，红海局势紧张",
+      "summary": "胡塞武装宣布占领曼德海峡关键港口，沙特南部多地遭袭。红海局势紧张导致油价飙升，国际航运受影响。",
+      "entryIndices": [
+        22,
+        35,
+        126
+      ],
+      "sources": [
+        "baidu-hot",
+        "douyin-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "曼联欧冠首轮4-0大胜沙巴巴库",
+      "summary": "曼联在欧冠首轮比赛中以4-0大胜沙巴巴库，取得开门红。比赛过程及球员表现受到球迷讨论。",
+      "entryIndices": [
+        10,
+        58,
+        131,
+        281,
+        319
+      ],
+      "sources": [
+        "douyin-hot",
         "baidu-hot",
         "weibo-search",
-        "weibo-search",
-        "weibo-search",
-        "weibo-search",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "拜仁慕尼黑5-0大胜博德闪耀",
+      "summary": "拜仁慕尼黑在欧冠比赛中以5-0大胜博德闪耀，展现强大实力。",
+      "entryIndices": [
+        31,
+        152
+      ],
+      "sources": [
+        "kuaishou-hot",
         "baidu-hot"
       ]
     },
     {
-      "title": "社会民生与热点事件",
-      "summary": "涉及职场权益、教育争议、生活琐事及社会热点，如全勤奖争议、教师节送礼、学生资助等。",
+      "title": "苹果折叠屏手机发布引发争议",
+      "summary": "苹果发布折叠屏手机，但市场反响平平，被指参数无亮点。罗永浩连用“抄的”吐槽，引发网友热议。",
       "entryIndices": [
-        36,
-        51,
-        58,
-        69,
-        78,
-        85,
-        87,
-        88,
-        100,
-        110,
-        111,
-        117,
-        122,
-        131,
-        135,
-        142,
-        156,
-        159,
-        171,
-        182,
-        192,
-        196,
-        198,
-        202,
-        212,
-        220,
-        232,
-        239,
-        244,
-        247,
-        256
+        28,
+        146,
+        248,
+        252,
+        299,
+        322,
+        369,
+        389
       ],
       "sources": [
         "toutiao-search",
-        "weibo-search",
+        "baidu-hot",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "华为阔直板机型首销火爆",
+      "summary": "华为阔直板机型首销当日销量超18万台，表现亮眼。市场对比显示华为与小米在折叠屏领域的竞争。",
+      "entryIndices": [
+        54,
+        77,
+        277
+      ],
+      "sources": [
         "toutiao-search",
+        "kuaishou-hot",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "“梅姨”落网前视频首曝光",
+      "summary": "拐卖儿童嫌疑人“梅姨”落网前视频首次曝光，邻居称其下意识挡脸，引发公众关注。",
+      "entryIndices": [
+        8,
+        324
+      ],
+      "sources": [
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "教师节相关话题：送礼劫与束脩之礼",
+      "summary": "教师节期间，关于教师节送礼教程上架电商、教师节变成“送礼劫”的讨论增多。同时，学生复刻“束脩之礼”致敬老师成为新风尚。",
+      "entryIndices": [
+        30,
+        168,
+        209,
+        217,
+        256,
+        358,
+        423
+      ],
+      "sources": [
+        "zhihu-search",
         "baidu-hot",
-        "baidu-hot",
-        "weibo-search",
-        "baidu-hot",
-        "weibo-search",
-        "baidu-hot",
-        "baidu-hot",
-        "weibo-search",
+        "kuaishou-hot",
         "douyin-hot",
-        "weibo-search",
-        "weibo-search",
-        "weibo-search",
-        "weibo-search",
-        "douyin-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "911事件25周年纪念",
+      "summary": "911事件25周年之际，特展首设第7个默哀时刻，关于主谋审判的讨论也再次浮现。",
+      "entryIndices": [
+        65,
+        215,
+        237
+      ],
+      "sources": [
         "baidu-hot",
-        "baidu-hot",
-        "weibo-search",
-        "weibo-search",
-        "weibo-search",
+        "kuaishou-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "证监会定调资本市场，A股成交量创新低",
+      "summary": "证监会明确未来5年资本市场八大方向，年内中长期资金净买入A股超6000亿元。A股成交量创年度新低，引发市场思考。",
+      "entryIndices": [
+        11,
+        19,
+        41,
+        180,
+        290,
+        303,
+        308
+      ],
+      "sources": [
+        "kuaishou-hot",
         "douyin-hot",
         "toutiao-search",
-        "weibo-search",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
-        "baidu-hot",
         "baidu-hot"
+      ]
+    },
+    {
+      "title": "日本梅毒问题引发关注，呼吁孕妇优先用药",
+      "summary": "日本年轻人晒梅毒成潮流，政府呼吁孕妇优先使用梅毒“救命药”，引发社会担忧。",
+      "entryIndices": [
+        67,
+        323
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "中国男排不敌韩国无缘亚锦赛四强",
+      "summary": "中国男排在亚锦赛中1-3不敌韩国队，无缘四强。",
+      "entryIndices": [
+        148,
+        327
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "社会民生与突发新闻",
+      "summary": "包括多邻国Duo形象走红、罗永浩吐槽苹果、DeepSeek发布新模型、GPT-6发布、演员王新昉去世、三“虎”同日被处理、美股下跌等。",
+      "entryIndices": [
+        9,
+        34,
+        172,
+        210,
+        294,
+        282,
+        397,
+        401,
+        412,
+        417
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search",
+        "kuaishou-hot",
+        "baidu-hot",
+        "zhihu-search"
       ]
     }
   ]

@@ -2,60 +2,108 @@
 
 ## 今日总览
 
-今日热点聚焦于体育、社会民生及科技领域。中国女篮在世界杯四分之一决赛中不敌法国队，止步八强，引发球迷热议。青岛一外籍货轮发生火灾，造成25人遇难，事故现场图及后续调查备受关注。科技方面，苹果发布多邻国Duo手机引发热议，罗永浩等明星参与吐槽，同时iPhone 18系列及折叠屏手机也成为讨论焦点。教师节期间，学生致敬老师的同时，关于教师节送礼文化的讨论也登上热搜。此外，A股成交量创新低、油价上调等经济动态，以及国际局势如俄乌冲突、中东局势等也是今日关注重点。
+今日热点聚焦于青岛货轮火灾事故，习近平作出重要指示，强调全力搜救与查明原因。体育方面，中国女篮在世界杯中不敌法国队，无缘四强。国际局势方面，胡塞武装控制红海要地导致油价飙升，特朗普祝贺德国极右翼领导人遭默茨取消通话。科技领域，iPhone 18系列发布引发价格讨论，多邻国Duo形象走红，罗永浩吐槽苹果折叠屏抄袭。此外，A股市场成交量创新低，日本梅毒问题也引发关注。
 
 ## 话题列表
 
-### 1. 中国女篮不敌法国无缘世界杯四强
+### 1. 青岛货轮火灾致25人遇难，习近平作出重要指示
 
-中国女篮在世界杯四分之一决赛中不敌法国队，无缘四强，引发广泛关注。
+青岛发生外籍货轮火灾事故，造成重大人员伤亡。习近平对事故作出重要指示，强调全力搜救伤员、查明事故原因。事故现场画面曝光，引发社会高度关注。
 
-> 来源：douyin-hot, toutiao-search, baidu-hot, baidu-hot, toutiao-search, toutiao-search, toutiao-search, weibo-search, weibo-search, weibo-search | 涉及 10 条热搜
+> 来源：kuaishou-hot, baidu-hot, toutiao-search, weibo-search | 涉及 8 条热搜
 
-### 2. 青岛货轮火灾致25人遇难
+### 2. 中国女篮不敌法国无缘世界杯四强
 
-青岛一外籍货轮发生火灾，造成重大人员伤亡，官方确认遇难人数为25人。
+在世界杯四分之一决赛中，中国女篮以较大分差不敌法国队，止步八强。媒体评价女篮表现及未来发展方向，韩旭等球员接受采访。
 
-> 来源：toutiao-search, baidu-hot, weibo-search, toutiao-search, weibo-search | 涉及 5 条热搜
+> 来源：douyin-hot, kuaishou-hot, toutiao-search, baidu-hot, weibo-search | 涉及 14 条热搜
 
-### 3. 苹果发布多邻国Duo手机及iPhone 18系列引发热议
+### 3. 国际局势动荡致油价上涨，国内成品油迎年内第十二次上调
 
-苹果发布多邻国Duo手机引发网友对设计、定价及与多邻国关系的讨论，罗永浩等明星也参与吐槽，同时iPhone 18系列及折叠屏手机也成为讨论焦点。
+受胡塞武装控制红海要地影响，国际油价跳涨，国内成品油价格迎来年内第十二次上调。燃油车市场与加油站面临新挑战。
 
-> 来源：weibo-search, toutiao-search, toutiao-search, weibo-search, weibo-search, douyin-hot, weibo-search, toutiao-search, baidu-hot, douyin-hot, baidu-hot, baidu-hot, douyin-hot, douyin-hot, weibo-search, weibo-search, douyin-hot, douyin-hot, douyin-hot, toutiao-search, douyin-hot, weibo-search | 涉及 22 条热搜
+> 来源：baidu-hot, kuaishou-hot, toutiao-search | 涉及 5 条热搜
 
-### 4. 教师节：致敬与反思
+### 4. 特朗普祝贺德国极右翼领导人遭默茨取消通话
 
-教师节期间，学生表达对老师的感谢，同时也引发了对教师节送礼文化及商业化的反思。
+特朗普致电祝贺德国极右翼政党领导人，随后被德国总理默茨取消通话。德国国内对此反应强烈，专家分析极右翼抬头的影响。
 
-> 来源：douyin-hot, zhihu-search, weibo-search, douyin-hot, baidu-hot, toutiao-search, baidu-hot, weibo-search | 涉及 8 条热搜
+> 来源：toutiao-search | 涉及 4 条热搜
 
-### 5. 资本市场与经济动态
+### 5. iPhone 18/17系列发布及价格信息，多邻国Duo成热点
 
-A股成交量创新低，油价上调，证监会明确资本市场八大方向，同时涉及医保、养老金及国际经济局势。
+苹果发布iPhone 18系列及17系列降价信息，iPhone 18 Pro全球售价对比引发讨论。多邻国Duo形象因与iPhone Duo相似而走红，罗永浩吐槽苹果折叠屏抄袭。
 
-> 来源：toutiao-search, douyin-hot, douyin-hot, baidu-hot, toutiao-search, baidu-hot, toutiao-search, weibo-search, baidu-hot, toutiao-search, toutiao-search, baidu-hot, toutiao-search, toutiao-search, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot | 涉及 25 条热搜
+> 来源：weibo-search, baidu-hot, kuaishou-hot, toutiao-search, douyin-hot | 涉及 17 条热搜
 
-### 6. 体育赛事动态
+### 6. 胡塞武装占领曼德海峡关键港口，红海局势紧张
 
-NBA球星杜兰特获球队欢迎，欧冠赛场大巴黎、巴萨、利物浦均有大胜，中国男排不敌韩国。
+胡塞武装宣布占领曼德海峡关键港口，沙特南部多地遭袭。红海局势紧张导致油价飙升，国际航运受影响。
 
-> 来源：douyin-hot, douyin-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot | 涉及 6 条热搜
+> 来源：baidu-hot, douyin-hot, weibo-search | 涉及 3 条热搜
 
-### 7. 国际局势与地缘政治
+### 7. 曼联欧冠首轮4-0大胜沙巴巴库
 
-俄乌冲突、中东局势紧张，菲律宾政坛变动，印度经济展望，以及中国海警在钓鱼岛巡航。
+曼联在欧冠首轮比赛中以4-0大胜沙巴巴库，取得开门红。比赛过程及球员表现受到球迷讨论。
 
-> 来源：toutiao-search, douyin-hot, toutiao-search, baidu-hot, toutiao-search, toutiao-search, toutiao-search, toutiao-search, toutiao-search, toutiao-search, baidu-hot, baidu-hot, toutiao-search, toutiao-search, weibo-search, toutiao-search, baidu-hot, toutiao-search | 涉及 18 条热搜
+> 来源：douyin-hot, baidu-hot, weibo-search, kuaishou-hot | 涉及 5 条热搜
 
-### 8. 娱乐圈动态与热点事件
+### 8. 拜仁慕尼黑5-0大胜博德闪耀
 
-综艺《花少8》热度高，明星赵昭仪哮喘、郑钦文获联合国转发、越南女星回应合照争议等。
+拜仁慕尼黑在欧冠比赛中以5-0大胜博德闪耀，展现强大实力。
 
-> 来源：weibo-search, weibo-search, weibo-search, baidu-hot, weibo-search, weibo-search, weibo-search, weibo-search, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot | 涉及 36 条热搜
+> 来源：kuaishou-hot, baidu-hot | 涉及 2 条热搜
 
-### 9. 社会民生与热点事件
+### 9. 苹果折叠屏手机发布引发争议
 
-涉及职场权益、教育争议、生活琐事及社会热点，如全勤奖争议、教师节送礼、学生资助等。
+苹果发布折叠屏手机，但市场反响平平，被指参数无亮点。罗永浩连用“抄的”吐槽，引发网友热议。
 
-> 来源：toutiao-search, weibo-search, toutiao-search, baidu-hot, baidu-hot, weibo-search, baidu-hot, weibo-search, baidu-hot, baidu-hot, weibo-search, douyin-hot, weibo-search, weibo-search, weibo-search, weibo-search, douyin-hot, baidu-hot, baidu-hot, weibo-search, weibo-search, weibo-search, douyin-hot, toutiao-search, weibo-search, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot | 涉及 31 条热搜
+> 来源：toutiao-search, baidu-hot, douyin-hot | 涉及 8 条热搜
+
+### 10. 华为阔直板机型首销火爆
+
+华为阔直板机型首销当日销量超18万台，表现亮眼。市场对比显示华为与小米在折叠屏领域的竞争。
+
+> 来源：toutiao-search, kuaishou-hot, douyin-hot | 涉及 3 条热搜
+
+### 11. “梅姨”落网前视频首曝光
+
+拐卖儿童嫌疑人“梅姨”落网前视频首次曝光，邻居称其下意识挡脸，引发公众关注。
+
+> 来源：toutiao-search, weibo-search | 涉及 2 条热搜
+
+### 12. 教师节相关话题：送礼劫与束脩之礼
+
+教师节期间，关于教师节送礼教程上架电商、教师节变成“送礼劫”的讨论增多。同时，学生复刻“束脩之礼”致敬老师成为新风尚。
+
+> 来源：zhihu-search, baidu-hot, kuaishou-hot, douyin-hot, weibo-search | 涉及 7 条热搜
+
+### 13. 911事件25周年纪念
+
+911事件25周年之际，特展首设第7个默哀时刻，关于主谋审判的讨论也再次浮现。
+
+> 来源：baidu-hot, kuaishou-hot, toutiao-search | 涉及 3 条热搜
+
+### 14. 证监会定调资本市场，A股成交量创新低
+
+证监会明确未来5年资本市场八大方向，年内中长期资金净买入A股超6000亿元。A股成交量创年度新低，引发市场思考。
+
+> 来源：kuaishou-hot, douyin-hot, toutiao-search, baidu-hot | 涉及 7 条热搜
+
+### 15. 日本梅毒问题引发关注，呼吁孕妇优先用药
+
+日本年轻人晒梅毒成潮流，政府呼吁孕妇优先使用梅毒“救命药”，引发社会担忧。
+
+> 来源：kuaishou-hot, baidu-hot | 涉及 2 条热搜
+
+### 16. 中国男排不敌韩国无缘亚锦赛四强
+
+中国男排在亚锦赛中1-3不敌韩国队，无缘四强。
+
+> 来源：kuaishou-hot, baidu-hot | 涉及 2 条热搜
+
+### 17. 社会民生与突发新闻
+
+包括多邻国Duo形象走红、罗永浩吐槽苹果、DeepSeek发布新模型、GPT-6发布、演员王新昉去世、三“虎”同日被处理、美股下跌等。
+
+> 来源：weibo-search, toutiao-search, kuaishou-hot, baidu-hot, zhihu-search | 涉及 10 条热搜
