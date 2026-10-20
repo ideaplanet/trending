@@ -1,116 +1,29 @@
 {
-  "date": "2026-10-16",
-  "overview": "今日热点聚焦于科技、财经及社会民生。科技领域，特斯拉发布第二代Roadster跑车，宣称具备飞行能力，引发广泛关注；美股科技股上演“绝境反击”，市场情绪回暖。财经方面，李嘉诚近照公布，引发对其个人动态及时代变迁的讨论；深圳实施全市全天禁鸣喇叭5年新政，旨在改善交通环境；广交会开展，展示中国外贸活力；大闸蟹及多种海鲜价格集体回落，惠及消费者。社会民生方面，深圳禁鸣喇叭政策、母子街头游荡事件及包含35名中国人的涉诈团伙在马来西亚被捕等新闻引发公众对公共安全与治理的关注。此外，也门总统府遭袭、中朝新鸭绿江大桥开通等国际动态也占据热搜榜。",
+  "date": "2026-10-20",
+  "overview": "今日热点聚焦社会热点与经济动态。留学生身披旭日旗事件引发全民大讨论，人民日报及钧正平发声，留学生已道歉，舆论呼吁理性看待。法国多地爆发骚乱，马克龙宣布局部宵禁，引发国际关注。经济方面，一线城市二手房价连续上涨，前三季度GDP同比增长4.6%，展现经济韧性。此外，圆通深夜致歉回应孕妇被吓到先兆流产事件，董明珠关于技校禁止谈恋爱的言论，以及金鸡奖提名名单公布也备受瞩目。",
   "topics": [
     {
-      "title": "母子衣衫不整街头游荡事件",
-      "summary": "多部门介入调查母子街头游荡事件，官方回应引发关注，涉及孩子衣着及家庭状况。",
-      "entryIndices": [
-        0,
-        26,
-        40,
-        42,
-        74
-      ],
-      "sources": [
-        "weibo-search",
-        "baidu-hot",
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "李嘉诚近照公布",
-      "summary": "李嘉诚近期近照曝光，笑容满面，引发对其健康状况及时代变迁的广泛讨论。",
+      "title": "身披旭日旗中国留学生事件引发舆论热议",
+      "summary": "中国留学生身披旭日旗事件引发社会广泛关注，涉及遣返、开除及道歉等后续处理，人民日报及钧正平发声，舆论呼吁理性看待。",
       "entryIndices": [
         1,
-        113,
-        135,
-        186,
-        199,
-        225,
-        235
-      ],
-      "sources": [
-        "toutiao-search",
-        "baidu-hot",
-        "douyin-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "深圳全市全天禁鸣喇叭",
-      "summary": "深圳实施全市全天禁鸣喇叭政策，有效期5年，旨在改善城市交通环境。",
-      "entryIndices": [
-        6,
-        11,
-        110
-      ],
-      "sources": [
-        "baidu-hot",
-        "weibo-search",
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "特斯拉Roadster 2.0发布",
-      "summary": "特斯拉发布第二代Roadster跑车，宣称具备飞行能力，引发科技圈热议。",
-      "entryIndices": [
+        2,
         4,
-        35,
-        61,
-        147,
-        280
-      ],
-      "sources": [
-        "weibo-search",
-        "douyin-hot",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "严打公考围岗",
-      "summary": "人民日报发文严打“公考围岗”行为，整治公务员招考中的不正之风。",
-      "entryIndices": [
-        12,
-        99
-      ],
-      "sources": [
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "中朝新鸭绿江大桥开通",
-      "summary": "中朝新鸭绿江大桥正式开通，丹东市民对此表示自豪，促进双边交流。",
-      "entryIndices": [
+        5,
+        9,
+        36,
+        41,
+        43,
         51,
-        55,
-        149,
-        323
-      ],
-      "sources": [
-        "douyin-hot",
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "美股科技股绝境反击",
-      "summary": "美股科技股在经历调整后上演绝境反击，市场情绪回暖，引发投资者关注。",
-      "entryIndices": [
-        16,
-        17,
-        53,
-        74,
-        85,
-        117,
-        212,
-        258,
-        297,
-        333,
-        354,
-        359,
-        376
+        79,
+        82,
+        92,
+        104,
+        129,
+        141,
+        229,
+        236,
+        249
       ],
       "sources": [
         "toutiao-search",
@@ -120,211 +33,181 @@
       ]
     },
     {
-      "title": "包含35名中国人涉诈团伙在大马被捕",
-      "summary": "马来西亚警方逮捕包含35名中国人的涉诈团伙，涉及跨国电信诈骗案件。",
+      "title": "法国多地爆发骚乱 马克龙宣布局部宵禁",
+      "summary": "法国多地爆发抗议骚乱，暴力事件蔓延，马克龙宣布在多城实施局部宵禁，并访问科威特寻求支持。",
       "entryIndices": [
-        29,
-        224
-      ],
-      "sources": [
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "广交会开展",
-      "summary": "第140届广交会正式开展，展示中国外贸新成果，自动驾驶巴士等新产品亮相。",
-      "entryIndices": [
-        15,
-        158,
-        237,
-        345
-      ],
-      "sources": [
-        "douyin-hot",
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "大闸蟹和多种海鲜集体降价",
-      "summary": "大闸蟹及多种海鲜价格集体回落，成为近期市场热点，惠及消费者。",
-      "entryIndices": [
-        67,
-        248
-      ],
-      "sources": [
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "DeepSeek崩了/补偿",
-      "summary": "AI公司DeepSeek出现故障，随后发布补偿方案，引发用户关注。",
-      "entryIndices": [
-        49,
+        55,
         68,
-        278,
-        386
+        69,
+        75,
+        102,
+        116,
+        162,
+        191,
+        209,
+        225,
+        262,
+        295,
+        300
       ],
       "sources": [
-        "zhihu-search",
+        "toutiao-search",
+        "baidu-hot",
         "douyin-hot",
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "也门总统府遭袭",
-      "summary": "也门总统府遭5枚导弹袭击，冲突升级导致医院人满为患，局势紧张。",
-      "entryIndices": [
-        115,
-        172,
-        216,
-        253
-      ],
-      "sources": [
-        "douyin-hot",
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "中国第一颗原子弹爆炸成功62周年",
-      "summary": "纪念中国第一颗原子弹爆炸成功62周年，回顾历史，致敬先辈。",
-      "entryIndices": [
-        79
-      ],
-      "sources": [
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "尊界刹车踏板支架断裂",
-      "summary": "江淮汽车尊界V800车型被曝刹车踏板支架断裂，引发安全质疑。",
-      "entryIndices": [
-        76,
-        128,
-        154,
-        259
-      ],
-      "sources": [
-        "zhihu-search"
-      ]
-    },
-    {
-      "title": "男子为演霸总偷拆别人千万精装房",
-      "summary": "一男子为拍摄视频偷拆他人千万精装房，涉嫌违法，引发社会哗然。",
-      "entryIndices": [
-        71,
-        94
-      ],
-      "sources": [
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "中国内存突破",
-      "summary": "中国内存技术取得突破，长鑫科技等企业发力，引发国际关注。",
-      "entryIndices": [
-        114,
-        132,
-        145,
-        170,
-        341
-      ],
-      "sources": [
-        "weibo-search",
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "乌克兰爱国者拦截弹库存耗尽",
-      "summary": "美媒称乌克兰“爱国者”导弹库存彻底耗尽，乌军面临严峻挑战。",
-      "entryIndices": [
-        193,
-        269
-      ],
-      "sources": [
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "乌克兰遭美国背叛",
-      "summary": "泽连斯基称乌克兰遭美国背叛，引发国际社会对美乌关系的猜测。",
-      "entryIndices": [
-        266,
-        334
-      ],
-      "sources": [
-        "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "油价调整搁浅",
-      "summary": "本轮油价调整搁浅，成品油价格未作变动。",
-      "entryIndices": [
-        122
-      ],
-      "sources": [
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "北上广深楼市新政",
-      "summary": "北上广深楼市新政全部落地，各地出台措施稳定房地产市场。",
-      "entryIndices": [
-        231
-      ],
-      "sources": [
         "weibo-search"
       ]
     },
     {
-      "title": "快递员搭讪女业主",
-      "summary": "快递员因微信搭讪女业主被小区禁入，引发关于快递员服务规范与隐私边界的讨论。",
+      "title": "2026维密大秀回归 奚梦瑶刘雯等超模走秀",
+      "summary": "2026维密大秀回归，奚梦瑶、刘雯、单依纯等超模亮相，大码超模及科比女儿也参与走秀，引发时尚界关注。",
       "entryIndices": [
-        81,
-        103
+        34,
+        54,
+        56,
+        132,
+        149,
+        169,
+        174,
+        182,
+        188,
+        194,
+        199,
+        264,
+        270,
+        302,
+        311
+      ],
+      "sources": [
+        "douyin-hot",
+        "baidu-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "圆通深夜致歉回应孕妇被吓到先兆流产",
+      "summary": "圆通因快递员行为导致孕妇先兆流产事件引发关注，公司深夜致歉并回应，浙江省区网管负责人被罚。",
+      "entryIndices": [
+        0,
+        23,
+        143,
+        150
       ],
       "sources": [
         "weibo-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "AI逆向工程工具爆火",
-      "summary": "AI逆向工程工具REA爆火，引发关于软件知识产权与AI伦理的讨论。",
-      "entryIndices": [
-        312,
-        378
-      ],
-      "sources": [
-        "zhihu-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "日本秘密研发导弹",
-      "summary": "日本被指秘密研发射程超1000公里导弹，引发周边国家警惕。",
-      "entryIndices": [
-        254
-      ],
-      "sources": [
+        "baidu-hot",
         "toutiao-search"
       ]
     },
     {
-      "title": "日本重回战前状态",
-      "summary": "日本有识之士呼吁谨防日本重回战前状态，引发对军国主义复辟的担忧。",
+      "title": "C罗遭葡萄牙足协禁赛30天",
+      "summary": "葡萄牙足协宣布对C罗处以30天禁赛处罚，此前C罗已因停赛抵扣，目前正退出国家队集训营。",
       "entryIndices": [
-        223
+        11,
+        26,
+        42,
+        64,
+        66,
+        81,
+        95,
+        312
       ],
       "sources": [
+        "weibo-search",
+        "baidu-hot",
         "toutiao-search"
+      ]
+    },
+    {
+      "title": "中国经济韧性强 维稳政策频出",
+      "summary": "前三季度GDP同比增长4.6%，一线城市二手房价连续7个月上涨，央行及证监会出台多项政策举措稳市场。",
+      "entryIndices": [
+        8,
+        12,
+        15,
+        40,
+        65,
+        111,
+        155,
+        160,
+        166,
+        208,
+        228,
+        235,
+        278,
+        316,
+        328,
+        332
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search",
+        "baidu-hot",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "中纪委连打三“虎” 多名官员被双开",
+      "summary": "社保基金会原副理事长王文灵、国家林草局原局长张建龙等多名官员被开除党籍，金融监管领域反腐持续深入。",
+      "entryIndices": [
+        17,
+        170,
+        223,
+        238,
+        325,
+        334
+      ],
+      "sources": [
+        "douyin-hot",
+        "toutiao-search",
+        "baidu-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "董明珠称格力技工学校禁止谈恋爱",
+      "summary": "董明珠再次谈及格力技工学校管理，强调禁止谈恋爱，并关掉了技校小卖部，引发网友讨论。",
+      "entryIndices": [
+        10,
+        16,
+        18,
+        20,
+        207
+      ],
+      "sources": [
+        "baidu-hot",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "第39届金鸡奖提名名单公布",
+      "summary": "第39届金鸡奖提名名单正式公布，蒋龙、辛芷蕾等演员入围，引发观众热议。",
+      "entryIndices": [
+        202,
+        305,
+        335,
+        215
+      ],
+      "sources": [
+        "weibo-search",
+        "baidu-hot",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "曼城或因财务违规被扣分降级",
+      "summary": "曼城可能因财务违规被英超联盟巨额扣分，甚至导致降级，同时闪迪市值大涨。",
+      "entryIndices": [
+        27,
+        44,
+        231,
+        299
+      ],
+      "sources": [
+        "toutiao-search",
+        "douyin-hot",
+        "weibo-search",
+        "baidu-hot"
       ]
     }
   ]
