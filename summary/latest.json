@@ -1,252 +1,432 @@
 {
   "date": "2026-10-24",
-  "overview": "今日热点聚焦于西藏巴青7.0级地震的救援进展与成因分析，造成16死76伤，官方已公布破裂类型并严防不实信息。娱乐方面，明星云集VOGUE盛典，刘亦菲、迪丽热巴等红毯造型引发热议。商业领域，许家印买艺术品、娃哈哈人事变动及iPhone Duo发布引发市场关注。此外，神探李昌钰逝世、俄乌局势及A股市场动态也是今日焦点。",
+  "overview": "今日热点聚焦于西藏巴青7.0级地震，已致16死76伤，救援工作紧张进行，地面裂缝明显。国际方面，金价暴跌引发关注，国内克价跌破860元。台风蔷琵逼近华东沿海，路径出现大拐弯。娱乐界，神探李昌钰在扬州安葬，VOGUE盛典明星云集。科技圈，iPhone Duo正式开售引发热议。此外，许家印及恒大相关动态、海底捞小便案判决、娃哈哈人事变动等也占据热搜榜单。",
   "topics": [
     {
-      "title": "西藏巴青7.0级地震救援与成因",
-      "summary": "西藏巴青县发生7.0级地震，造成人员伤亡，救援工作正在进行。官方公布了成因（拉张型破裂），并提醒警惕不实信息。",
-      "entryIndices": [
-        1,
-        3,
-        8,
-        10,
-        44,
-        65,
-        69,
-        81,
-        88,
-        89,
-        110,
-        131,
-        152
-      ],
-      "sources": [
-        "toutiao-search",
-        "douyin-hot",
-        "baidu-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "明星云集VOGUE盛典",
-      "summary": "众多明星参加VOGUE盛典，刘亦菲、迪丽热巴、张小斐等在红毯和内场造型备受关注，引发热议。",
-      "entryIndices": [
-        21,
-        30,
-        35,
-        46,
-        55,
-        84,
-        92,
-        97,
-        98,
-        100,
-        101,
-        104,
-        116,
-        117,
-        121,
-        123,
-        130,
-        147,
-        168,
-        188,
-        199
-      ],
-      "sources": [
-        "weibo-search",
-        "toutiao-search",
-        "douyin-hot",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "商业热点与市场动态",
-      "summary": "涉及许家印买艺术品、娃哈哈人事变动、iPhone Duo发布、A股市场底部、金价下跌、社保骗局及人工智能就业影响等话题。",
-      "entryIndices": [
-        11,
-        13,
-        22,
-        31,
-        43,
-        56,
-        60,
-        67,
-        76,
-        78,
-        82,
-        91,
-        106,
-        111,
-        118,
-        122,
-        129,
-        149,
-        154,
-        182,
-        204
-      ],
-      "sources": [
-        "douyin-hot",
-        "toutiao-search",
-        "baidu-hot",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "社会热点与民生关注",
-      "summary": "涵盖遗产纠纷、未成年人侵权赔偿、金店熔金、社保骗局、健康养生、职场压力及校园心理问题等。",
+      "title": "西藏巴青地震救援与灾情",
+      "summary": "西藏巴青发生7.0级地震，造成16死76伤。救援工作紧张进行，包括人民子弟兵和直升机，暂未发现失联人员。地面出现裂缝，专家分析为拉张型破裂。",
       "entryIndices": [
         0,
+        1,
+        3,
+        4,
         12,
-        14,
-        18,
-        19,
-        39,
-        43,
-        48,
-        73,
-        80,
-        103,
-        114,
-        137,
-        158,
-        162,
-        164,
-        177,
-        189,
-        192
+        15,
+        28,
+        46,
+        52,
+        98,
+        113,
+        142,
+        167,
+        193,
+        267,
+        269
       ],
       "sources": [
         "weibo-search",
+        "toutiao-search",
+        "douyin-hot",
+        "kuaishou-hot",
+        "baidu-hot",
+        "zhihu-search"
+      ]
+    },
+    {
+      "title": "国际金价暴跌引发关注",
+      "summary": "国际金价暴跌，国内黄金克价跌破860元，金店出现排队抛售潮。",
+      "entryIndices": [
+        10,
+        19,
+        94
+      ],
+      "sources": [
+        "weibo-search",
+        "douyin-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "神探李昌钰在扬州安葬",
+      "summary": "著名法医李昌钰在扬州安葬，夫人扶灵痛哭，骨灰或与前妻合葬。",
+      "entryIndices": [
+        34,
+        112,
+        133,
+        147,
+        289
+      ],
+      "sources": [
+        "douyin-hot",
+        "kuaishou-hot",
         "baidu-hot",
         "toutiao-search"
       ]
     },
     {
-      "title": "国际局势与地缘政治",
-      "summary": "关注俄乌冲突停火谈判、中美关系、欧洲局势及日美动态等。",
+      "title": "台风蔷琵逼近华东沿海",
+      "summary": "台风蔷琵逼近华东沿海，路径出现大拐弯，气象部门持续发布预警。",
       "entryIndices": [
-        24,
-        34,
-        36,
-        60,
-        99,
-        102,
-        119,
-        124,
-        140,
-        148,
-        169,
-        186
+        9,
+        79,
+        108,
+        111,
+        272,
+        285
       ],
       "sources": [
+        "kuaishou-hot",
         "douyin-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "许家印及恒大相关动态",
+      "summary": "许家印被曝曾花13亿港元买艺术品，恒大清盘再进一步，已回收约34亿港元。",
+      "entryIndices": [
+        6,
+        187,
+        300
+      ],
+      "sources": [
+        "toutiao-search",
         "toutiao-search",
         "baidu-hot"
       ]
     },
     {
-      "title": "S16全球总决赛与电竞热点",
-      "summary": "围绕S16全球总决赛、GEN对战iG、Faker夺冠展望及原神7.2版本更新展开讨论。",
+      "title": "LPL夏季赛及S16相关",
+      "summary": "IG对阵GEN，TES对阵HLE，S16前瞻。GEN翻盘iG，TES惨败。Faker不确定能否夺冠，Zeus表现亮眼。",
       "entryIndices": [
-        4,
-        7,
-        40,
-        58,
-        125,
+        8,
+        24,
+        36,
+        38,
+        73,
+        91,
+        100,
+        104,
+        149,
+        201,
+        217,
+        236,
+        242,
+        247,
+        283
+      ],
+      "sources": [
+        "douyin-hot",
+        "douyin-hot",
+        "baidu-hot",
+        "douyin-hot",
+        "weibo-search",
+        "weibo-search",
+        "weibo-search",
+        "weibo-search",
+        "weibo-search",
+        "weibo-search",
+        "weibo-search",
+        "weibo-search",
+        "weibo-search",
+        "weibo-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "VOGUE盛典及明星红毯",
+      "summary": "迪丽热巴、刘亦菲、欧阳娜娜、周也、关晓彤等明星亮相VOGUE盛典。杨紫造型被吐槽，刘亦菲连续三年压轴。",
+      "entryIndices": [
+        23,
+        39,
+        43,
+        44,
+        59,
+        60,
+        84,
+        115,
+        131,
+        134,
         135,
-        206
+        140,
+        146,
+        157,
+        160,
+        173,
+        176,
+        180,
+        186,
+        202,
+        227,
+        234,
+        242,
+        260,
+        262,
+        264,
+        271,
+        277,
+        280,
+        297,
+        298
       ],
       "sources": [
         "weibo-search",
+        "weibo-search",
+        "baidu-hot",
+        "weibo-search",
         "douyin-hot",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "神探李昌钰逝世",
-      "summary": "著名刑事鉴识专家李昌钰在扬州安葬，其一生成就及身后事引发关注。",
-      "entryIndices": [
-        5,
-        28,
-        86,
-        127
-      ],
-      "sources": [
+        "kuaishou-hot",
+        "kuaishou-hot",
+        "douyin-hot",
+        "kuaishou-hot",
+        "douyin-hot",
+        "weibo-search",
+        "weibo-search",
+        "douyin-hot",
+        "weibo-search",
+        "weibo-search",
         "toutiao-search",
+        "kuaishou-hot",
+        "baidu-hot",
+        "weibo-search",
+        "kuaishou-hot",
         "douyin-hot",
-        "baidu-hot"
+        "baidu-hot",
+        "weibo-search",
+        "kuaishou-hot",
+        "baidu-hot",
+        "kuaishou-hot",
+        "kuaishou-hot",
+        "kuaishou-hot",
+        "kuaishou-hot",
+        "kuaishou-hot",
+        "kuaishou-hot",
+        "kuaishou-hot",
+        "kuaishou-hot"
       ]
     },
     {
-      "title": "NBA赛事",
-      "summary": "76人队大逆转击败骑士队。",
+      "title": "国际局势动态：俄乌、日美及辽宁舰",
+      "summary": "俄乌同意局部停火，普京表态。日美勾连，辽宁舰现身菲律宾家门口。美军公开太空杀器。法国民众谴责打砸抢。",
       "entryIndices": [
-        66,
-        208
+        29,
+        30,
+        35,
+        62,
+        71,
+        76,
+        80,
+        85,
+        87,
+        118,
+        137,
+        162,
+        190,
+        208,
+        209,
+        212,
+        234,
+        254,
+        268,
+        299
       ],
       "sources": [
+        "kuaishou-hot",
         "douyin-hot",
+        "kuaishou-hot",
+        "toutiao-search",
+        "toutiao-search",
+        "kuaishou-hot",
+        "douyin-hot",
+        "douyin-hot",
+        "toutiao-search",
+        "baidu-hot",
+        "kuaishou-hot",
+        "toutiao-search",
+        "kuaishou-hot",
+        "toutiao-search",
+        "toutiao-search",
+        "toutiao-search",
+        "baidu-hot",
+        "kuaishou-hot",
         "baidu-hot"
       ]
     },
     {
-      "title": "秋日生活与流行趋势",
-      "summary": "包括秋日穿搭、红叶观赏、短剧热潮、宠物趣事、健康小贴士及各类生活小技巧。",
+      "title": "iPhone Duo正式开售及市场反应",
+      "summary": "iPhone Duo正式开售，每人限购2部，溢价腰斩。博主手撕磨砂膜，多款软件适配。",
       "entryIndices": [
-        2,
-        9,
-        16,
-        20,
-        27,
-        32,
-        41,
-        45,
-        52,
-        54,
-        59,
-        71,
-        75,
-        79,
-        87,
-        91,
-        103,
-        107,
-        109,
-        112,
-        117,
-        120,
-        123,
-        127,
-        132,
-        133,
-        137,
-        141,
-        145,
-        150,
-        157,
-        163,
-        167,
-        171,
-        175,
-        176,
-        180,
-        183,
+        31,
+        70,
+        161,
         185,
-        187,
-        193,
-        197,
-        201,
-        202,
-        203,
-        205
+        189,
+        199,
+        214,
+        290,
+        295
+      ],
+      "sources": [
+        "weibo-search",
+        "weibo-search",
+        "douyin-hot",
+        "douyin-hot",
+        "douyin-hot",
+        "baidu-hot",
+        "baidu-hot",
+        "baidu-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "娃哈哈董事长辞职传闻",
+      "summary": "娃哈哈集团董事长被曝辞职，90后掌门被曝辞职，引发市场动荡。",
+      "entryIndices": [
+        47,
+        230
       ],
       "sources": [
         "baidu-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "海底捞小便案判决及细节",
+      "summary": "未成年人向火锅小便，家长被判赔220万。海底捞小便案细节披露，商家索赔2300万，最终赔220万。",
+      "entryIndices": [
+        17,
+        20,
+        55
+      ],
+      "sources": [
+        "baidu-hot",
+        "toutiao-search",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "长征精神及相关纪念活动",
+      "summary": "数字看长征，红军走上街头，长征六号火箭发射，纪念长征胜利。",
+      "entryIndices": [
+        11,
+        96,
+        128,
+        152,
+        163,
+        168,
+        181,
+        192,
+        228,
+        251,
+        284,
+        286
+      ],
+      "sources": [
+        "toutiao-search",
+        "weibo-search",
+        "baidu-hot",
         "douyin-hot",
+        "baidu-hot",
+        "toutiao-search",
+        "kuaishou-hot",
         "zhihu-search",
+        "toutiao-search",
+        "douyin-hot",
+        "baidu-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "健康养生及生活贴士",
+      "summary": "钟南山心梗后仍坚持运动，35岁后女性多练肌肉，老年人养生重在护阳，13岁男生确诊糖尿病。",
+      "entryIndices": [
+        41,
+        54,
+        75,
+        117,
+        129,
+        153,
+        179,
+        249,
+        261,
+        287
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "weibo-search",
+        "weibo-search",
+        "toutiao-search",
+        "douyin-hot",
+        "toutiao-search",
+        "baidu-hot",
+        "toutiao-search",
+        "douyin-hot",
         "weibo-search"
+      ]
+    },
+    {
+      "title": "红果短剧及短剧市场",
+      "summary": "红果短剧开始“筛人”，全网“戒断”红果，房企20万拍短剧，TVB坚持手搓短剧。",
+      "entryIndices": [
+        27,
+        49,
+        88,
+        174,
+        188
+      ],
+      "sources": [
+        "baidu-hot",
+        "weibo-search",
+        "baidu-hot",
+        "baidu-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "火箭云",
+      "summary": "网友拍到绝美火箭云，北京夜空出现美丽云层。",
+      "entryIndices": [
+        106,
+        204
+      ],
+      "sources": [
+        "douyin-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "尚公主",
+      "summary": "尚公主开播，引发网友讨论。",
+      "entryIndices": [
+        177,
+        235,
+        291
+      ],
+      "sources": [
+        "douyin-hot",
+        "douyin-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "王楚钦退赛",
+      "summary": "王楚钦多次退赛，引发是否会被赋零分的讨论。",
+      "entryIndices": [
+        164,
+        166
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "13岁男生确诊糖尿病",
+      "summary": "17岁男生确诊严重糖尿病，专家提醒。",
+      "entryIndices": [
+        117
+      ],
+      "sources": [
+        "toutiao-search"
       ]
     }
   ]

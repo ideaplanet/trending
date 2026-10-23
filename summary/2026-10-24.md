@@ -2,60 +2,114 @@
 
 ## 今日总览
 
-今日热点聚焦于西藏巴青7.0级地震的救援进展与成因分析，造成16死76伤，官方已公布破裂类型并严防不实信息。娱乐方面，明星云集VOGUE盛典，刘亦菲、迪丽热巴等红毯造型引发热议。商业领域，许家印买艺术品、娃哈哈人事变动及iPhone Duo发布引发市场关注。此外，神探李昌钰逝世、俄乌局势及A股市场动态也是今日焦点。
+今日热点聚焦于西藏巴青7.0级地震，已致16死76伤，救援工作紧张进行，地面裂缝明显。国际方面，金价暴跌引发关注，国内克价跌破860元。台风蔷琵逼近华东沿海，路径出现大拐弯。娱乐界，神探李昌钰在扬州安葬，VOGUE盛典明星云集。科技圈，iPhone Duo正式开售引发热议。此外，许家印及恒大相关动态、海底捞小便案判决、娃哈哈人事变动等也占据热搜榜单。
 
 ## 话题列表
 
-### 1. 西藏巴青7.0级地震救援与成因
+### 1. 西藏巴青地震救援与灾情
 
-西藏巴青县发生7.0级地震，造成人员伤亡，救援工作正在进行。官方公布了成因（拉张型破裂），并提醒警惕不实信息。
+西藏巴青发生7.0级地震，造成16死76伤。救援工作紧张进行，包括人民子弟兵和直升机，暂未发现失联人员。地面出现裂缝，专家分析为拉张型破裂。
 
-> 来源：toutiao-search, douyin-hot, baidu-hot, weibo-search | 涉及 13 条热搜
+> 来源：weibo-search, toutiao-search, douyin-hot, kuaishou-hot, baidu-hot, zhihu-search | 涉及 16 条热搜
 
-### 2. 明星云集VOGUE盛典
+### 2. 国际金价暴跌引发关注
 
-众多明星参加VOGUE盛典，刘亦菲、迪丽热巴、张小斐等在红毯和内场造型备受关注，引发热议。
+国际金价暴跌，国内黄金克价跌破860元，金店出现排队抛售潮。
 
-> 来源：weibo-search, toutiao-search, douyin-hot, baidu-hot | 涉及 21 条热搜
+> 来源：weibo-search, douyin-hot, kuaishou-hot | 涉及 3 条热搜
 
-### 3. 商业热点与市场动态
+### 3. 神探李昌钰在扬州安葬
 
-涉及许家印买艺术品、娃哈哈人事变动、iPhone Duo发布、A股市场底部、金价下跌、社保骗局及人工智能就业影响等话题。
+著名法医李昌钰在扬州安葬，夫人扶灵痛哭，骨灰或与前妻合葬。
 
-> 来源：douyin-hot, toutiao-search, baidu-hot, weibo-search | 涉及 21 条热搜
+> 来源：douyin-hot, kuaishou-hot, baidu-hot, toutiao-search | 涉及 5 条热搜
 
-### 4. 社会热点与民生关注
+### 4. 台风蔷琵逼近华东沿海
 
-涵盖遗产纠纷、未成年人侵权赔偿、金店熔金、社保骗局、健康养生、职场压力及校园心理问题等。
+台风蔷琵逼近华东沿海，路径出现大拐弯，气象部门持续发布预警。
 
-> 来源：weibo-search, baidu-hot, toutiao-search | 涉及 19 条热搜
+> 来源：kuaishou-hot, douyin-hot, baidu-hot | 涉及 6 条热搜
 
-### 5. 国际局势与地缘政治
+### 5. 许家印及恒大相关动态
 
-关注俄乌冲突停火谈判、中美关系、欧洲局势及日美动态等。
+许家印被曝曾花13亿港元买艺术品，恒大清盘再进一步，已回收约34亿港元。
 
-> 来源：douyin-hot, toutiao-search, baidu-hot | 涉及 12 条热搜
+> 来源：toutiao-search, toutiao-search, baidu-hot | 涉及 3 条热搜
 
-### 6. S16全球总决赛与电竞热点
+### 6. LPL夏季赛及S16相关
 
-围绕S16全球总决赛、GEN对战iG、Faker夺冠展望及原神7.2版本更新展开讨论。
+IG对阵GEN，TES对阵HLE，S16前瞻。GEN翻盘iG，TES惨败。Faker不确定能否夺冠，Zeus表现亮眼。
 
-> 来源：weibo-search, douyin-hot, baidu-hot | 涉及 7 条热搜
+> 来源：douyin-hot, douyin-hot, baidu-hot, douyin-hot, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search, weibo-search | 涉及 15 条热搜
 
-### 7. 神探李昌钰逝世
+### 7. VOGUE盛典及明星红毯
 
-著名刑事鉴识专家李昌钰在扬州安葬，其一生成就及身后事引发关注。
+迪丽热巴、刘亦菲、欧阳娜娜、周也、关晓彤等明星亮相VOGUE盛典。杨紫造型被吐槽，刘亦菲连续三年压轴。
 
-> 来源：toutiao-search, douyin-hot, baidu-hot | 涉及 4 条热搜
+> 来源：weibo-search, weibo-search, baidu-hot, weibo-search, douyin-hot, kuaishou-hot, kuaishou-hot, douyin-hot, kuaishou-hot, douyin-hot, weibo-search, weibo-search, douyin-hot, weibo-search, weibo-search, toutiao-search, kuaishou-hot, baidu-hot, weibo-search, kuaishou-hot, douyin-hot, baidu-hot, weibo-search, kuaishou-hot, baidu-hot, kuaishou-hot, kuaishou-hot, kuaishou-hot, kuaishou-hot, kuaishou-hot, kuaishou-hot, kuaishou-hot, kuaishou-hot | 涉及 31 条热搜
 
-### 8. NBA赛事
+### 8. 国际局势动态：俄乌、日美及辽宁舰
 
-76人队大逆转击败骑士队。
+俄乌同意局部停火，普京表态。日美勾连，辽宁舰现身菲律宾家门口。美军公开太空杀器。法国民众谴责打砸抢。
+
+> 来源：kuaishou-hot, douyin-hot, kuaishou-hot, toutiao-search, toutiao-search, kuaishou-hot, douyin-hot, douyin-hot, toutiao-search, baidu-hot, kuaishou-hot, toutiao-search, kuaishou-hot, toutiao-search, toutiao-search, toutiao-search, baidu-hot, kuaishou-hot, baidu-hot | 涉及 20 条热搜
+
+### 9. iPhone Duo正式开售及市场反应
+
+iPhone Duo正式开售，每人限购2部，溢价腰斩。博主手撕磨砂膜，多款软件适配。
+
+> 来源：weibo-search, weibo-search, douyin-hot, douyin-hot, douyin-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot | 涉及 9 条热搜
+
+### 10. 娃哈哈董事长辞职传闻
+
+娃哈哈集团董事长被曝辞职，90后掌门被曝辞职，引发市场动荡。
+
+> 来源：baidu-hot, baidu-hot | 涉及 2 条热搜
+
+### 11. 海底捞小便案判决及细节
+
+未成年人向火锅小便，家长被判赔220万。海底捞小便案细节披露，商家索赔2300万，最终赔220万。
+
+> 来源：baidu-hot, toutiao-search, kuaishou-hot | 涉及 3 条热搜
+
+### 12. 长征精神及相关纪念活动
+
+数字看长征，红军走上街头，长征六号火箭发射，纪念长征胜利。
+
+> 来源：toutiao-search, weibo-search, baidu-hot, douyin-hot, baidu-hot, toutiao-search, kuaishou-hot, zhihu-search, toutiao-search, douyin-hot, baidu-hot, kuaishou-hot | 涉及 12 条热搜
+
+### 13. 健康养生及生活贴士
+
+钟南山心梗后仍坚持运动，35岁后女性多练肌肉，老年人养生重在护阳，13岁男生确诊糖尿病。
+
+> 来源：kuaishou-hot, weibo-search, weibo-search, toutiao-search, douyin-hot, toutiao-search, baidu-hot, toutiao-search, douyin-hot, weibo-search | 涉及 10 条热搜
+
+### 14. 红果短剧及短剧市场
+
+红果短剧开始“筛人”，全网“戒断”红果，房企20万拍短剧，TVB坚持手搓短剧。
+
+> 来源：baidu-hot, weibo-search, baidu-hot, baidu-hot, baidu-hot | 涉及 5 条热搜
+
+### 15. 火箭云
+
+网友拍到绝美火箭云，北京夜空出现美丽云层。
 
 > 来源：douyin-hot, baidu-hot | 涉及 2 条热搜
 
-### 9. 秋日生活与流行趋势
+### 16. 尚公主
 
-包括秋日穿搭、红叶观赏、短剧热潮、宠物趣事、健康小贴士及各类生活小技巧。
+尚公主开播，引发网友讨论。
 
-> 来源：baidu-hot, douyin-hot, zhihu-search, weibo-search | 涉及 46 条热搜
+> 来源：douyin-hot, douyin-hot, weibo-search | 涉及 3 条热搜
+
+### 17. 王楚钦退赛
+
+王楚钦多次退赛，引发是否会被赋零分的讨论。
+
+> 来源：kuaishou-hot, weibo-search | 涉及 2 条热搜
+
+### 18. 13岁男生确诊糖尿病
+
+17岁男生确诊严重糖尿病，专家提醒。
+
+> 来源：toutiao-search | 涉及 1 条热搜
