@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-28",
+  "overview": "今日热点主要集中在姆巴佩涉华不当言论引发的连锁反应上。中国足协与皇马交涉，外交部回应，多家品牌如蒙牛、东鹏饮料等宣布解约，西甲及央视介入，舆论强烈抵制。此外，周群飞以1270亿身家成为中国新晋女首富引发关注。在民生方面，西藏地震救援、彩民中大奖及胖东来退差价等话题热度较高。国际方面，德国总统时隔8年再访华，辽宁舰编队远洋训练展示海军实力。科技领域红米K100发布，体育赛事方面孙颖莎及多支电竞战队比赛备受瞩目。",
+  "topics": [
+    {
+      "title": "姆巴佩涉华不当言论引众怒，中企集体解约，中国足协与皇马交涉",
+      "summary": "姆巴佩因不当言论引发争议，中国足协与皇马严正交涉，外交部回应，多家品牌宣布解约，西甲及央视介入，舆论强烈抵制。",
+      "entryIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        15,
+        16,
+        22,
+        26,
+        27,
+        32,
+        36,
+        37,
+        48,
+        52,
+        58,
+        59,
+        63,
+        69,
+        79,
+        84,
+        102,
+        107,
+        124,
+        125,
+        134,
+        138,
+        141,
+        145,
+        147,
+        154,
+        160,
+        170,
+        188,
+        189,
+        195,
+        239
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search",
+        "baidu-hot",
+        "kuaishou-hot",
+        "douyin-hot",
+        "zhihu-search"
+      ]
+    },
+    {
+      "title": "周群飞成中国新晋女首富",
+      "summary": "周群飞以1270亿身家成为中国新晋女首富。",
+      "entryIndices": [
+        5,
+        18
+      ],
+      "sources": [
+        "weibo-search",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "金价大跌引发抢购潮",
+      "summary": "金价持续大跌，准妈妈等消费者趁机购买金饰。",
+      "entryIndices": [
+        45,
+        55
+      ],
+      "sources": [
+        "zhihu-search",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "德国总统时隔8年再访华",
+      "summary": "德国总统施泰因迈尔抵达安徽开启访华行程，引发关注。",
+      "entryIndices": [
+        14,
+        131,
+        151
+      ],
+      "sources": [
+        "douyin-hot",
+        "baidu-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "祖国大地丰收景象",
+      "summary": "各地呈现丰收景象，新疆沙漠种出热带水果等农业新成果。",
+      "entryIndices": [
+        9,
+        43,
+        159,
+        204
+      ],
+      "sources": [
+        "douyin-hot",
+        "baidu-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "辽宁舰编队远洋训练",
+      "summary": "辽宁舰编队赴菲律宾远洋训练，展示海军实力。",
+      "entryIndices": [
+        51,
+        176
+      ],
+      "sources": [
+        "douyin-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "胖东来退差价、彩民中奖、地震救援",
+      "summary": "西藏地震救援、彩民中大奖、胖东来退差价等民生热点。",
+      "entryIndices": [
+        8,
+        38,
+        50,
+        71,
+        111,
+        208,
+        222
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "baidu-hot",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "王会民贪4.36亿获死缓",
+      "summary": "王会民贪4.36亿获死缓。",
+      "entryIndices": [
+        110,
+        174,
+        175
+      ],
+      "sources": [
+        "toutiao-search",
+        "kuaishou-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "红米K100发布、苹果新品",
+      "summary": "红米K100发布及预售，苹果新品及问题回应。",
+      "entryIndices": [
+        47,
+        61,
+        89,
+        109,
+        218,
+        234,
+        241
+      ],
+      "sources": [
+        "weibo-search",
+        "douyin-hot",
+        "toutiao-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "体育赛事：TES、AL、JDG、孙颖莎",
+      "summary": "TES、AL、JDG战队比赛，孙颖莎比赛，凯恩金球奖。",
+      "entryIndices": [
+        20,
+        29,
+        67,
+        87,
+        132,
+        149,
+        191,
+        237,
+        238,
+        235,
+        200
+      ],
+      "sources": [
+        "zhihu-search",
+        "kuaishou-hot",
+        "douyin-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "明星动态：邓超Angelababy合体、范丞丞、薛之谦",
+      "summary": "邓超Angelababy合体，范丞丞、薛之谦等明星动态。",
+      "entryIndices": [
+        33,
+        99,
+        104,
+        120,
+        129,
+        150,
+        175,
+        183,
+        201,
+        213,
+        233
+      ],
+      "sources": [
+        "baidu-hot",
+        "weibo-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "社会现象：缅北回流、追星被骗、婚礼外卖",
+      "summary": "缅北回流人员、追星被骗、婚礼外卖等社会现象。",
+      "entryIndices": [
+        54,
+        70,
+        74,
+        206,
+        65,
+        144
+      ],
+      "sources": [
+        "baidu-hot",
+        "kuaishou-hot",
+        "toutiao-search"
+      ]
+    }
+  ]
+}
