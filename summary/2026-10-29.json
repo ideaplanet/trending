@@ -1,0 +1,379 @@
+{
+  "date": "2026-10-29",
+  "overview": "今日热点聚焦于国内外重大事件。国内方面，国务院原副总理刘延东同志逝世引发全国哀悼，举国悲痛。国际方面，西班牙发生严重高铁相撞事故，已致68人死亡，引发全球关注。体育与娱乐领域，iG战队时隔多年晋级淘汰赛引发电竞圈狂欢，姆巴佩言论风波及皇马道歉持续发酵，Hello Kitty因争议联名事件致歉。此外，巴基斯坦关闭对台航司领空、美联储维持利率不变、苹果发布触屏MacBook等也是今日关注焦点。",
+  "topics": [
+    {
+      "title": "国务院原副总理刘延东逝世",
+      "summary": "国务院原副总理刘延东同志逝世，引发全国哀悼。相关遗像、悼念活动及官方回应成为舆论焦点。",
+      "entryIndices": [
+        1,
+        2,
+        4,
+        6,
+        13,
+        167,
+        261,
+        426
+      ],
+      "sources": [
+        "toutiao-search",
+        "baidu-hot",
+        "douyin-hot",
+        "kuaishou-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "西班牙列车相撞事故致68人死亡",
+      "summary": "西班牙发生严重高铁相撞事故，造成重大人员伤亡。事故关键录音曝光，西班牙宣布全国哀悼。",
+      "entryIndices": [
+        21,
+        29,
+        31,
+        41,
+        53,
+        75,
+        93,
+        143,
+        263,
+        395
+      ],
+      "sources": [
+        "weibo-search",
+        "kuaishou-hot",
+        "toutiao-search",
+        "douyin-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "姆巴佩言论风波及皇马道歉",
+      "summary": "姆巴佩发表争议言论引发轩然大波，皇马官方就其言论致歉。人民日报等媒体发声，姆巴佩球衣遭抛售。",
+      "entryIndices": [
+        5,
+        8,
+        18,
+        27,
+        69,
+        85,
+        123,
+        131,
+        140,
+        153,
+        170,
+        191,
+        200,
+        311,
+        321,
+        399,
+        400,
+        418,
+        432,
+        435
+      ],
+      "sources": [
+        "weibo-search",
+        "kuaishou-hot",
+        "baidu-hot",
+        "toutiao-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "Hello Kitty及三丽鸥致歉",
+      "summary": "Hello Kitty因与争议日剧联名引发不满，三丽鸥及Hello Kitty深夜致歉，并终止相关联名。",
+      "entryIndices": [
+        0,
+        23,
+        35,
+        38,
+        55,
+        337,
+        348
+      ],
+      "sources": [
+        "weibo-search",
+        "baidu-hot",
+        "kuaishou-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "iG战队时隔多年晋级淘汰赛",
+      "summary": "iG战队在S16比赛中表现出色，时隔2565天再次晋级淘汰赛，引发电竞圈热烈讨论。",
+      "entryIndices": [
+        14,
+        32,
+        68,
+        92,
+        107,
+        108,
+        114,
+        118,
+        136,
+        155,
+        158
+      ],
+      "sources": [
+        "weibo-search",
+        "baidu-hot",
+        "toutiao-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "23岁抗癌博主夏夏离世",
+      "summary": "23岁抗癌博主夏夏在抗癌5年后不幸离世，其生前经历及父母送别引发网友关注与哀悼。",
+      "entryIndices": [
+        40,
+        62,
+        78,
+        251,
+        287,
+        331
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "weibo-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "巴基斯坦对台湾地区航司关闭领空",
+      "summary": "巴基斯坦宣布对台湾地区航司关闭领空，引发国际关注，外交部对此表示支持。",
+      "entryIndices": [
+        19,
+        80,
+        106,
+        166
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "toutiao-search",
+        "baidu-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "美联储宣布维持利率不变",
+      "summary": "美联储宣布维持利率不变，并暗示将减少议息频次，对全球金融市场产生影响。",
+      "entryIndices": [
+        65,
+        73,
+        159,
+        162
+      ],
+      "sources": [
+        "baidu-hot",
+        "zhihu-search",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "苹果发布首款触控屏MacBook Pro",
+      "summary": "苹果发布首款触控屏MacBook Pro，引发科技圈关注，关于手机涨价及新功能讨论增多。",
+      "entryIndices": [
+        25,
+        247,
+        378,
+        384,
+        356
+      ],
+      "sources": [
+        "weibo-search",
+        "baidu-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "中国科技与AI发展",
+      "summary": "中国智能算力规模全球第二，华为发布麒麟9050芯片，AI产业成为发展重点。",
+      "entryIndices": [
+        20,
+        57,
+        83,
+        137,
+        257,
+        262,
+        368,
+        380,
+        398
+      ],
+      "sources": [
+        "douyin-hot",
+        "baidu-hot",
+        "toutiao-search",
+        "zhihu-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "中国经济与政治发展",
+      "summary": "全国秋粮收获进度过八成，全面从严治党、新质生产力等成为政策讨论热点。",
+      "entryIndices": [
+        12,
+        22,
+        54,
+        74,
+        56,
+        24,
+        244,
+        246,
+        273,
+        281,
+        301,
+        313,
+        352,
+        360,
+        371,
+        389,
+        392
+      ],
+      "sources": [
+        "baidu-hot",
+        "toutiao-search",
+        "kuaishou-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "娱乐圈动态",
+      "summary": "《剑来》、《十日终焉》等剧集引发讨论，多位艺人动态及综艺更新成为热点。",
+      "entryIndices": [
+        30,
+        42,
+        79,
+        104,
+        121,
+        129,
+        150,
+        176,
+        199,
+        208,
+        229,
+        236,
+        250,
+        254,
+        261,
+        265,
+        275,
+        282,
+        283,
+        291,
+        316,
+        324,
+        341,
+        364,
+        382,
+        391,
+        405,
+        411,
+        419,
+        437,
+        443
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "体育赛事动态",
+      "summary": "WTT蒙彼利埃冠军赛、NBA伤病潮等赛事及运动员动态持续更新。",
+      "entryIndices": [
+        34,
+        95,
+        112,
+        173,
+        206,
+        279,
+        308,
+        314,
+        163,
+        233,
+        236,
+        261,
+        317,
+        362,
+        408
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search",
+        "baidu-hot",
+        "kuaishou-hot",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "社会热点与民生",
+      "summary": "女子欠1700元被限高、男子在菲律宾被绑架等社会事件引发关注，各类生活小贴士也备受青睐。",
+      "entryIndices": [
+        16,
+        58,
+        81,
+        125,
+        131,
+        141,
+        147,
+        163,
+        202,
+        244,
+        252,
+        266,
+        289,
+        298,
+        326,
+        343,
+        373,
+        406,
+        422,
+        445
+      ],
+      "sources": [
+        "weibo-search",
+        "baidu-hot",
+        "kuaishou-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "生活方式与旅游",
+      "summary": "秋日旅游、各地秋景、美食探店及健康养生话题成为网民关注重点。",
+      "entryIndices": [
+        9,
+        45,
+        94,
+        130,
+        148,
+        160,
+        177,
+        201,
+        205,
+        248,
+        269,
+        277,
+        284,
+        293,
+        318,
+        335,
+        359,
+        372,
+        383,
+        396,
+        401,
+        412,
+        433
+      ],
+      "sources": [
+        "douyin-hot",
+        "kuaishou-hot",
+        "toutiao-search",
+        "baidu-hot",
+        "weibo-search"
+      ]
+    }
+  ]
+}
