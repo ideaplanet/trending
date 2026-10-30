@@ -1,97 +1,49 @@
-# 2026-10-29 热点总结
+# 2026-10-31 热点总结
 
 ## 今日总览
 
-今日热点聚焦于国内外重大事件。国内方面，国务院原副总理刘延东同志逝世引发全国哀悼，举国悲痛。国际方面，西班牙发生严重高铁相撞事故，已致68人死亡，引发全球关注。体育与娱乐领域，iG战队时隔多年晋级淘汰赛引发电竞圈狂欢，姆巴佩言论风波及皇马道歉持续发酵，Hello Kitty因争议联名事件致歉。此外，巴基斯坦关闭对台航司领空、美联储维持利率不变、苹果发布触屏MacBook等也是今日关注焦点。
+今日热点聚焦于国家重大会议与国防建设。中共中央举行新闻发布会并召开二十届五中全会，部署管党治党与民生大事。军事方面，四川舰成功起降攻击-21无人机，南部战区在黄岩岛开展战备警巡，展现强大国防实力。经济领域，金价大幅跳水引发关注，英特尔股价暴跌超25%，证监会强调全力稳市场。国际方面，日本访华团在731部队陈列馆谢罪，俄外长访美，乌克兰局势持续牵动人心。娱乐上，小沈阳夺得《披荆斩棘》冠军，姆巴佩代言风波引发热议。
 
 ## 话题列表
 
-### 1. 国务院原副总理刘延东逝世
+### 1. 中共中央举行新闻发布会，二十届五中全会召开
 
-国务院原副总理刘延东同志逝世，引发全国哀悼。相关遗像、悼念活动及官方回应成为舆论焦点。
+中共中央举行新闻发布会，介绍二十届五中全会精神，部署管党治党、民生保障及人事任免等重大事项，强调解决干好干坏一个样的问题。
 
-> 来源：toutiao-search, baidu-hot, douyin-hot, kuaishou-hot, weibo-search | 涉及 8 条热搜
+> 来源：douyin-hot, kuaishou-hot, weibo-search, toutiao-search, baidu-hot | 涉及 12 条热搜
 
-### 2. 西班牙列车相撞事故致68人死亡
+### 2. 中国海空兵力在黄岩岛战备警巡，四川舰起降无人机
 
-西班牙发生严重高铁相撞事故，造成重大人员伤亡。事故关键录音曝光，西班牙宣布全国哀悼。
+中国海军在黄岩岛开展战备警巡，四川舰成功起降攻击-21无人机，展现海军现代化建设成果，国防部回应称从容应对侵权挑衅。
 
-> 来源：weibo-search, kuaishou-hot, toutiao-search, douyin-hot, baidu-hot | 涉及 10 条热搜
+> 来源：douyin-hot, toutiao-search | 涉及 5 条热搜
 
-### 3. 姆巴佩言论风波及皇马道歉
+### 3. 日本访华团谢罪731部队，俄外长访美，乌克兰局势
 
-姆巴佩发表争议言论引发轩然大波，皇马官方就其言论致歉。人民日报等媒体发声，姆巴佩球衣遭抛售。
+日本访华团参访731部队罪证陈列馆并谢罪，俄外长穿休闲装访美，乌克兰局势持续紧张，日籍女子在韩遇刺等国际事件引发关注。
 
-> 来源：weibo-search, kuaishou-hot, baidu-hot, toutiao-search, douyin-hot | 涉及 20 条热搜
+> 来源：kuaishou-hot, toutiao-search, baidu-hot | 涉及 10 条热搜
 
-### 4. Hello Kitty及三丽鸥致歉
+### 4. 金价跳水，英特尔大跌，证监会发声，恒大物业出售
 
-Hello Kitty因与争议日剧联名引发不满，三丽鸥及Hello Kitty深夜致歉，并终止相关联名。
+金价大幅跳水引发市场关注，英特尔股价暴跌超25%市值蒸发近1500亿美元，证监会强调全力稳市场稳预期，恒大物业七折出售。
 
-> 来源：weibo-search, baidu-hot, kuaishou-hot, toutiao-search | 涉及 7 条热搜
+> 来源：weibo-search, toutiao-search, baidu-hot | 涉及 16 条热搜
 
-### 5. iG战队时隔多年晋级淘汰赛
+### 5. 披荆斩棘成团，小沈阳夺冠，姆巴佩解约，影之刃零
 
-iG战队在S16比赛中表现出色，时隔2565天再次晋级淘汰赛，引发电竞圈热烈讨论。
+小沈阳在《披荆斩棘》中夺冠，姆巴佩因争议被央视叫停相关赛事广告，游戏《影之刃零》获海外高分好评，引发玩家热议。
 
-> 来源：weibo-search, baidu-hot, toutiao-search, douyin-hot | 涉及 11 条热搜
+> 来源：weibo-search, kuaishou-hot, douyin-hot, zhihu-search, baidu-hot | 涉及 14 条热搜
 
-### 6. 23岁抗癌博主夏夏离世
+### 6. 孙颖莎晋级，王曼昱出局，林丹杯，C罗戴帽
 
-23岁抗癌博主夏夏在抗癌5年后不幸离世，其生前经历及父母送别引发网友关注与哀悼。
+乒乓球赛场，孙颖莎晋级，王曼昱出局；林丹杯开赛，C罗上演帽子戏法，各项体育赛事持续更新战报。
 
-> 来源：kuaishou-hot, weibo-search, toutiao-search | 涉及 6 条热搜
+> 来源：weibo-search, douyin-hot, baidu-hot, kuaishou-hot | 涉及 12 条热搜
 
-### 7. 巴基斯坦对台湾地区航司关闭领空
+### 7. 街道试点共享儿女，医院停诊，拔罐烧伤，保姆盗窃
 
-巴基斯坦宣布对台湾地区航司关闭领空，引发国际关注，外交部对此表示支持。
+社会民生方面，街道试点共享儿女服务引发争议，广东一医院因收入下降停诊，拔罐烧伤、保姆偷转老人巨款等案件频发。
 
-> 来源：kuaishou-hot, toutiao-search, baidu-hot, weibo-search | 涉及 4 条热搜
-
-### 8. 美联储宣布维持利率不变
-
-美联储宣布维持利率不变，并暗示将减少议息频次，对全球金融市场产生影响。
-
-> 来源：baidu-hot, zhihu-search, toutiao-search, weibo-search | 涉及 4 条热搜
-
-### 9. 苹果发布首款触控屏MacBook Pro
-
-苹果发布首款触控屏MacBook Pro，引发科技圈关注，关于手机涨价及新功能讨论增多。
-
-> 来源：weibo-search, baidu-hot, toutiao-search | 涉及 5 条热搜
-
-### 10. 中国科技与AI发展
-
-中国智能算力规模全球第二，华为发布麒麟9050芯片，AI产业成为发展重点。
-
-> 来源：douyin-hot, baidu-hot, toutiao-search, zhihu-search, weibo-search | 涉及 9 条热搜
-
-### 11. 中国经济与政治发展
-
-全国秋粮收获进度过八成，全面从严治党、新质生产力等成为政策讨论热点。
-
-> 来源：baidu-hot, toutiao-search, kuaishou-hot, weibo-search | 涉及 17 条热搜
-
-### 12. 娱乐圈动态
-
-《剑来》、《十日终焉》等剧集引发讨论，多位艺人动态及综艺更新成为热点。
-
-> 来源：weibo-search, toutiao-search, douyin-hot | 涉及 31 条热搜
-
-### 13. 体育赛事动态
-
-WTT蒙彼利埃冠军赛、NBA伤病潮等赛事及运动员动态持续更新。
-
-> 来源：weibo-search, toutiao-search, baidu-hot, kuaishou-hot, douyin-hot | 涉及 15 条热搜
-
-### 14. 社会热点与民生
-
-女子欠1700元被限高、男子在菲律宾被绑架等社会事件引发关注，各类生活小贴士也备受青睐。
-
-> 来源：weibo-search, baidu-hot, kuaishou-hot, toutiao-search | 涉及 20 条热搜
-
-### 15. 生活方式与旅游
-
-秋日旅游、各地秋景、美食探店及健康养生话题成为网民关注重点。
-
-> 来源：douyin-hot, kuaishou-hot, toutiao-search, baidu-hot, weibo-search | 涉及 23 条热搜
+> 来源：baidu-hot, kuaishou-hot, toutiao-search, weibo-search | 涉及 21 条热搜
