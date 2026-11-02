@@ -1,373 +1,363 @@
 {
-  "date": "2026-11-01",
-  "overview": "今日热点聚焦于体育竞技、科技动态及社会民生。在电竞领域，LPL战队BLG在S16淘汰赛中以2比0击败LCK战队HLE，成功晋级八强。体育方面，孙颖莎在WTT蒙彼利埃冠军赛中苦战七局，以4比3险胜早田希娜晋级四强，同时国乒包揽女单四强席位。此外，无锡队夺得苏超冠军，江苏省委书记省长亲自颁奖引发关注。科技与航天领域，我国公布了首次载人登月的乘组计划，未来将有两名中国人登陆月球。经济方面，国际金价暴跌创近一年新低，引发市场热议。社会热点则包括央视曝光高价低质药品、日本官员引导鞠躬争议以及多起健康警示事件。",
+  "date": "2026-11-03",
+  "overview": "今日热点聚焦于国乒男队表现引发的争议、WTT赛事结果、央行降息与A股护盘政策、脂肪肝成第一大肝病、金价波动、美国飞机坠毁、内塔尼亚胡政治危机以及导演江小鱼离世等事件。经济方面，央行降息与证监会部署增量资金入市提振了市场信心。健康领域，脂肪肝取代乙肝成为我国第一大肝病引发关注。国际方面，美国飞机坠毁及以色列政局动荡占据头条。此外，短剧《后会友期》爆火及影之刃零游戏热度高企也是文化娱乐领域的焦点。",
   "topics": [
     {
-      "title": "S16世界赛：BLG力克HLE晋级八强",
-      "summary": "LPL二号种子BLG在S16淘汰赛中战胜LCK二号种子HLE，成功晋级八强。HLE止步十六强，BLG晋级世界赛八强。",
+      "title": "国乒男队表现引关注，WTT赛事结果出炉",
+      "summary": "新华社发文追问国乒男队近期表现，WTT蒙彼利埃站赛事结束，孙颖莎夺冠，吴宜泽、丁俊晖等选手晋级或止步，王楚钦领跑冠军榜。",
       "entryIndices": [
         0,
-        27,
-        32,
-        42,
-        66,
-        68,
-        83,
-        98,
-        108,
-        180,
-        184,
-        188,
-        235,
-        246,
-        257,
-        357
-      ],
-      "sources": [
-        "weibo-search",
-        "baidu-hot",
-        "zhihu-search",
-        "douyin-hot",
-        "kuaishou-hot",
-        "toutiao-search"
-      ]
-    },
-    {
-      "title": "无锡队夺得苏超冠军",
-      "summary": "无锡队在苏超联赛中夺冠，江苏省委书记和省长为其颁奖，引发广泛关注。",
-      "entryIndices": [
-        1,
-        4,
-        12,
-        44,
+        24,
+        47,
         75,
-        93,
-        218,
-        239,
-        266
-      ],
-      "sources": [
-        "toutiao-search",
-        "douyin-hot",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "孙颖莎4比3险胜早田希娜",
-      "summary": "在WTT蒙彼利埃冠军赛中，孙颖莎与早田希娜激战七局，最终以4比3险胜晋级四强。",
-      "entryIndices": [
-        3,
-        15,
-        52,
-        126,
+        79,
+        9,
+        19,
+        29,
+        51,
         160,
-        206,
-        270,
-        306,
-        322,
-        363,
-        364,
-        368,
-        382,
-        387,
-        392
+        229
       ],
       "sources": [
+        "weibo-search",
         "kuaishou-hot",
-        "toutiao-search",
-        "douyin-hot",
         "weibo-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "国乒包揽WTT冠军赛女单四强",
-      "summary": "中国乒乓球队在WTT蒙彼利埃冠军赛中表现强势，包揽女单四强席位，而男单则无缘四强。",
-      "entryIndices": [
-        35,
-        72,
-        102,
-        111,
-        146,
-        148,
-        265,
-        283,
-        303,
-        335,
-        344,
-        353,
-        369
-      ],
-      "sources": [
-        "toutiao-search",
         "baidu-hot",
+        "toutiao-search",
+        "douyin-hot",
+        "douyin-hot",
+        "kuaishou-hot",
         "douyin-hot",
         "weibo-search",
-        "kuaishou-hot"
-      ]
-    },
-    {
-      "title": "我国公布首次载人登月乘组计划",
-      "summary": "中国公布了首次载人登月的乘组计划，未来将有两名中国人登陆月球。",
-      "entryIndices": [
-        10,
-        20,
-        182,
-        193
-      ],
-      "sources": [
-        "douyin-hot",
         "toutiao-search"
       ]
     },
     {
-      "title": "DeepSeek发布全新Agent架构",
-      "summary": "DeepSeek重磅发布AI Agent架构，引发科技界关注，讨论其与英伟达CUDA的竞争。",
+      "title": "央行降息与A股增量资金，证监会部署稳市场",
+      "summary": "央行宣布再贷款利率降至1%，证监会部署增量资金入市，拟修订回购规则，市场迎来千亿级资金支持。",
       "entryIndices": [
-        59,
-        167,
-        174,
-        253,
-        346
+        11,
+        33,
+        80,
+        121,
+        126,
+        183,
+        209,
+        230,
+        220,
+        241,
+        240
       ],
       "sources": [
+        "toutiao-search",
+        "baidu-hot",
         "baidu-hot",
         "toutiao-search",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "国际金价暴跌创近一年新低",
-      "summary": "受多重因素影响，国际金价大幅下跌，创近一年新低，引发市场关注。",
-      "entryIndices": [
-        90,
-        100,
-        191,
-        261,
-        309,
-        351
-      ],
-      "sources": [
-        "kuaishou-hot",
         "toutiao-search",
-        "weibo-search"
-      ]
-    },
-    {
-      "title": "央视曝光2388元蜜丸成本仅40元",
-      "summary": "央视曝光一款售价2388元的蜜丸，经检测含有镇痛药，但成本仅40元。",
-      "entryIndices": [
-        7,
-        30,
-        196
-      ],
-      "sources": [
         "baidu-hot",
-        "toutiao-search",
-        "kuaishou-hot"
-      ]
-    },
-    {
-      "title": "新动能释放助力经济稳增长",
-      "summary": "多地经济数据发布，显示新动能持续释放，助力经济稳增长，江苏首富夫妇身家暴涨。",
-      "entryIndices": [
-        9,
-        18,
-        26,
-        101,
-        137
-      ],
-      "sources": [
-        "weibo-search",
         "baidu-hot",
-        "kuaishou-hot"
+        "baidu-hot",
+        "baidu-hot",
+        "baidu-hot",
+        "toutiao-search"
       ]
     },
     {
-      "title": "高市屡次引导外国领导人向日旗鞠躬",
-      "summary": "日本高市官员被指多次引导外国领导人在访日期间向日本国旗鞠躬，引发争议。",
+      "title": "脂肪肝成我国第一大肝脏疾病",
+      "summary": "多方数据显示，脂肪肝已取代乙肝成为我国第一大肝病，且正侵袭年轻人。",
       "entryIndices": [
         6,
-        49,
-        81,
-        181
+        28,
+        238
       ],
       "sources": [
         "toutiao-search",
-        "baidu-hot"
-      ]
-    },
-    {
-      "title": "中国空间站将迎首位外籍航天员",
-      "summary": "中国空间站将迎来首位外籍航天员，标志着中国航天国际合作的新进展。",
-      "entryIndices": [
-        272
-      ],
-      "sources": [
+        "baidu-hot",
         "kuaishou-hot"
       ]
     },
     {
-      "title": "巴青地震及刚果（金）埃博拉疫情",
-      "summary": "青海巴青地震灾区安置点降雪，刚果（金）埃博拉疫情已致5026人死亡，中国使馆发布提醒。",
+      "title": "金价波动引关注，大克重金饰热销",
+      "summary": "金价经历大跌后出现反弹，市场呈现“越跌越买”现象，大克重金镯销量走高。",
       "entryIndices": [
-        255,
-        271,
-        312,
-        324,
-        377
+        44,
+        58,
+        150,
+        154,
+        156,
+        193,
+        206,
+        213
       ],
       "sources": [
         "kuaishou-hot",
+        "toutiao-search",
+        "weibo-search",
+        "kuaishou-hot",
+        "toutiao-search",
+        "kuaishou-hot",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "美国飞机坠毁致9人遇难",
+      "summary": "美国发生飞机坠毁事故造成9人遇难，飞行员坠毁前发出绝望呼救。",
+      "entryIndices": [
+        3,
+        128
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "以色列政局动荡，内塔尼亚胡面临下台压力",
+      "summary": "多方分析认为内塔尼亚胡可能被赶下台，美国中期选举出现“十一月惊奇”。",
+      "entryIndices": [
+        48,
+        135,
+        157,
+        222,
+        243
+      ],
+      "sources": [
+        "toutiao-search",
         "baidu-hot",
+        "baidu-hot",
+        "kuaishou-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "导演江小鱼因病离世",
+      "summary": "导演江小鱼（江小鱼）因病离世，引发行业哀悼。",
+      "entryIndices": [
+        63,
+        65,
+        82
+      ],
+      "sources": [
+        "toutiao-search",
+        "kuaishou-hot",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "红果短剧《后会友期》及明星动态",
+      "summary": "短剧《后会友期》引发热议，蔡文静、青稚白小纯等明星相关话题登上热搜。",
+      "entryIndices": [
+        36,
+        109,
+        129,
+        134,
+        192,
+        195,
+        197,
+        205,
+        207,
+        218,
+        239,
+        252
+      ],
+      "sources": [
+        "weibo-search",
+        "weibo-search",
+        "weibo-search",
+        "weibo-search",
+        "douyin-hot",
+        "douyin-hot",
+        "weibo-search",
+        "douyin-hot",
+        "weibo-search",
+        "douyin-hot",
+        "weibo-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "多海域连发航行警告，军事演练进行中",
+      "summary": "多地连发航行警告，东海部分海域进行军事演练禁止驶入。",
+      "entryIndices": [
+        4,
+        234
+      ],
+      "sources": [
+        "douyin-hot",
         "toutiao-search"
       ]
     },
     {
-      "title": "中国海警位台湾岛以东海域巡查",
-      "summary": "中国海警和海军编队在台湾岛以东海域进行执法巡查，展示维护国家主权的决心。",
+      "title": "社保欠缴处罚有了全国统一尺度",
+      "summary": "社保欠缴逾期不缴将面临1至3倍罚款，处罚标准已全国统一。",
       "entryIndices": [
-        205,
-        329,
-        370
+        18,
+        69,
+        111
       ],
       "sources": [
+        "kuaishou-hot",
         "toutiao-search",
         "baidu-hot"
       ]
     },
     {
-      "title": "娱乐圈动态及综艺热点",
-      "summary": "涵盖明星恋情、综艺表现、演唱会及影视作品热度，如肖战、刘诗诗、关晓彤等人的相关话题。",
+      "title": "彩票中奖过期兑奖被拒",
+      "summary": "男子中1113万彩票因过期2天被拒兑奖，引发关注。",
       "entryIndices": [
-        21,
-        41,
-        51,
-        70,
-        105,
-        122,
-        123,
-        140,
-        161,
-        162,
-        176,
-        190,
-        192,
-        193,
-        198,
-        210,
-        221,
-        227,
-        233,
-        240,
-        252,
-        268,
-        277,
-        282,
-        289,
-        290,
-        295,
-        298,
-        301,
-        315,
-        325,
-        348,
-        355,
-        366,
-        372,
-        376,
-        380,
-        396,
-        399,
-        400,
-        404,
-        412,
-        413,
-        416,
-        424,
-        428,
-        429
+        16,
+        54,
+        101
+      ],
+      "sources": [
+        "toutiao-search",
+        "baidu-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "美股三大指数高开",
+      "summary": "美股三大指数高开，科技股普遍反弹。",
+      "entryIndices": [
+        57,
+        173
       ],
       "sources": [
         "weibo-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "多名高官被查",
+      "summary": "河北邢台市委书记杨猛、安徽六安原书记叶露中、广州原书记郭永航被查。",
+      "entryIndices": [
+        90,
+        151,
+        214
+      ],
+      "sources": [
+        "baidu-hot",
+        "toutiao-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "校园安全事故频发",
+      "summary": "多地发生儿童在校内被撞致脑死亡等悲剧，引发社会对校园安全的担忧。",
+      "entryIndices": [
+        97,
+        102,
+        120
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "kuaishou-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "俄乌局势及中俄合作",
+      "summary": "普京批准中俄铁路协定，泽连斯基提出停火条件，台名嘴言论引争议。",
+      "entryIndices": [
+        60,
+        70,
+        110,
+        141,
+        168,
+        188,
+        224,
+        233
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "baidu-hot",
+        "toutiao-search",
+        "baidu-hot",
+        "baidu-hot",
+        "toutiao-search",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "全国多地迎来降温降雪",
+      "summary": "长春、大连等地迎来雨夹雪，我国南北温差达60多度，初冬雪景刷屏。",
+      "entryIndices": [
+        34,
+        55,
+        170,
+        216,
+        248
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "kuaishou-hot",
+        "kuaishou-hot",
+        "douyin-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "游戏《影之刃零》热度高企",
+      "summary": "《影之刃零》销量突破400万，吸金超10亿，其中式美学引发讨论。",
+      "entryIndices": [
+        30,
+        43,
+        66,
+        72,
+        148,
+        187
+      ],
+      "sources": [
+        "douyin-hot",
         "baidu-hot",
         "douyin-hot",
         "toutiao-search",
-        "zhihu-search"
-      ]
-    },
-    {
-      "title": "健康警示：胃癌与整形风险",
-      "summary": "多起健康事件引发关注，包括31岁老师脑出血、年轻人患胃癌、注射生长因子致面部畸形等。",
-      "entryIndices": [
-        38,
-        86,
-        164,
-        304,
-        310,
-        323,
-        375
-      ],
-      "sources": [
-        "kuaishou-hot",
-        "weibo-search",
-        "baidu-hot",
+        "douyin-hot",
         "toutiao-search"
       ]
     },
     {
-      "title": "社会热点与消费趋势",
-      "summary": "涉及离婚、诈骗、金价下跌、快剪理发店兴起、省钱意识等社会现象。",
+      "title": "李佳琦直播间售Token",
+      "summary": "李佳琦直播间半小时卖出2万亿Token，引发市场关注。",
       "entryIndices": [
-        13,
-        43,
-        54,
-        61,
-        97,
-        117,
-        128,
-        149,
-        197,
-        202,
-        207,
-        243,
-        251,
-        257,
-        261,
-        276,
-        317,
-        342,
-        351,
-        375,
-        401,
-        414,
-        425
+        17,
+        81
       ],
       "sources": [
-        "weibo-search",
         "baidu-hot",
-        "kuaishou-hot",
-        "toutiao-search"
+        "kuaishou-hot"
       ]
     },
     {
-      "title": "国际局势与抗议活动",
-      "summary": "德国、意大利多地爆发抗议，美国中期选举出现“十月惊奇”，俄乌局势及G20外长会动态。",
+      "title": "演员邵万林去世",
+      "summary": "演员邵万林去世，导演江小鱼也因病离世。",
       "entryIndices": [
-        58,
-        96,
-        124,
-        247,
-        279,
-        291,
-        406,
-        410,
-        418,
-        432
+        46,
+        63,
+        65,
+        82,
+        100
       ],
       "sources": [
         "toutiao-search",
-        "baidu-hot"
+        "toutiao-search",
+        "kuaishou-hot",
+        "douyin-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "菲律宾发言人到中国使馆留言区撒泼",
+      "summary": "菲律宾发言人就涉华问题在使馆留言区发表不当言论。",
+      "entryIndices": [
+        70,
+        223
+      ],
+      "sources": [
+        "baidu-hot",
+        "weibo-search"
       ]
     }
   ]

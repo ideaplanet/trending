@@ -1,109 +1,127 @@
-# 2026-11-01 热点总结
+# 2026-11-03 热点总结
 
 ## 今日总览
 
-今日热点聚焦于体育竞技、科技动态及社会民生。在电竞领域，LPL战队BLG在S16淘汰赛中以2比0击败LCK战队HLE，成功晋级八强。体育方面，孙颖莎在WTT蒙彼利埃冠军赛中苦战七局，以4比3险胜早田希娜晋级四强，同时国乒包揽女单四强席位。此外，无锡队夺得苏超冠军，江苏省委书记省长亲自颁奖引发关注。科技与航天领域，我国公布了首次载人登月的乘组计划，未来将有两名中国人登陆月球。经济方面，国际金价暴跌创近一年新低，引发市场热议。社会热点则包括央视曝光高价低质药品、日本官员引导鞠躬争议以及多起健康警示事件。
+今日热点聚焦于国乒男队表现引发的争议、WTT赛事结果、央行降息与A股护盘政策、脂肪肝成第一大肝病、金价波动、美国飞机坠毁、内塔尼亚胡政治危机以及导演江小鱼离世等事件。经济方面，央行降息与证监会部署增量资金入市提振了市场信心。健康领域，脂肪肝取代乙肝成为我国第一大肝病引发关注。国际方面，美国飞机坠毁及以色列政局动荡占据头条。此外，短剧《后会友期》爆火及影之刃零游戏热度高企也是文化娱乐领域的焦点。
 
 ## 话题列表
 
-### 1. S16世界赛：BLG力克HLE晋级八强
+### 1. 国乒男队表现引关注，WTT赛事结果出炉
 
-LPL二号种子BLG在S16淘汰赛中战胜LCK二号种子HLE，成功晋级八强。HLE止步十六强，BLG晋级世界赛八强。
+新华社发文追问国乒男队近期表现，WTT蒙彼利埃站赛事结束，孙颖莎夺冠，吴宜泽、丁俊晖等选手晋级或止步，王楚钦领跑冠军榜。
 
-> 来源：weibo-search, baidu-hot, zhihu-search, douyin-hot, kuaishou-hot, toutiao-search | 涉及 16 条热搜
+> 来源：weibo-search, kuaishou-hot, weibo-search, baidu-hot, toutiao-search, douyin-hot, douyin-hot, kuaishou-hot, douyin-hot, weibo-search, toutiao-search | 涉及 11 条热搜
 
-### 2. 无锡队夺得苏超冠军
+### 2. 央行降息与A股增量资金，证监会部署稳市场
 
-无锡队在苏超联赛中夺冠，江苏省委书记和省长为其颁奖，引发广泛关注。
+央行宣布再贷款利率降至1%，证监会部署增量资金入市，拟修订回购规则，市场迎来千亿级资金支持。
 
-> 来源：toutiao-search, douyin-hot, baidu-hot | 涉及 9 条热搜
+> 来源：toutiao-search, baidu-hot, baidu-hot, toutiao-search, toutiao-search, baidu-hot, baidu-hot, baidu-hot, baidu-hot, baidu-hot, toutiao-search | 涉及 11 条热搜
 
-### 3. 孙颖莎4比3险胜早田希娜
+### 3. 脂肪肝成我国第一大肝脏疾病
 
-在WTT蒙彼利埃冠军赛中，孙颖莎与早田希娜激战七局，最终以4比3险胜晋级四强。
+多方数据显示，脂肪肝已取代乙肝成为我国第一大肝病，且正侵袭年轻人。
 
-> 来源：kuaishou-hot, toutiao-search, douyin-hot, weibo-search, baidu-hot | 涉及 15 条热搜
+> 来源：toutiao-search, baidu-hot, kuaishou-hot | 涉及 3 条热搜
 
-### 4. 国乒包揽WTT冠军赛女单四强
+### 4. 金价波动引关注，大克重金饰热销
 
-中国乒乓球队在WTT蒙彼利埃冠军赛中表现强势，包揽女单四强席位，而男单则无缘四强。
+金价经历大跌后出现反弹，市场呈现“越跌越买”现象，大克重金镯销量走高。
 
-> 来源：toutiao-search, baidu-hot, douyin-hot, weibo-search, kuaishou-hot | 涉及 13 条热搜
+> 来源：kuaishou-hot, toutiao-search, weibo-search, kuaishou-hot, toutiao-search, kuaishou-hot, toutiao-search, weibo-search | 涉及 8 条热搜
 
-### 5. 我国公布首次载人登月乘组计划
+### 5. 美国飞机坠毁致9人遇难
 
-中国公布了首次载人登月的乘组计划，未来将有两名中国人登陆月球。
+美国发生飞机坠毁事故造成9人遇难，飞行员坠毁前发出绝望呼救。
 
-> 来源：douyin-hot, toutiao-search | 涉及 4 条热搜
+> 来源：kuaishou-hot, kuaishou-hot | 涉及 2 条热搜
 
-### 6. DeepSeek发布全新Agent架构
+### 6. 以色列政局动荡，内塔尼亚胡面临下台压力
 
-DeepSeek重磅发布AI Agent架构，引发科技界关注，讨论其与英伟达CUDA的竞争。
+多方分析认为内塔尼亚胡可能被赶下台，美国中期选举出现“十一月惊奇”。
 
-> 来源：baidu-hot, toutiao-search, weibo-search | 涉及 5 条热搜
+> 来源：toutiao-search, baidu-hot, baidu-hot, kuaishou-hot, kuaishou-hot | 涉及 5 条热搜
 
-### 7. 国际金价暴跌创近一年新低
+### 7. 导演江小鱼因病离世
 
-受多重因素影响，国际金价大幅下跌，创近一年新低，引发市场关注。
+导演江小鱼（江小鱼）因病离世，引发行业哀悼。
 
-> 来源：kuaishou-hot, toutiao-search, weibo-search | 涉及 6 条热搜
+> 来源：toutiao-search, kuaishou-hot, douyin-hot | 涉及 3 条热搜
 
-### 8. 央视曝光2388元蜜丸成本仅40元
+### 8. 红果短剧《后会友期》及明星动态
 
-央视曝光一款售价2388元的蜜丸，经检测含有镇痛药，但成本仅40元。
+短剧《后会友期》引发热议，蔡文静、青稚白小纯等明星相关话题登上热搜。
 
-> 来源：baidu-hot, toutiao-search, kuaishou-hot | 涉及 3 条热搜
+> 来源：weibo-search, weibo-search, weibo-search, weibo-search, douyin-hot, douyin-hot, weibo-search, douyin-hot, weibo-search, douyin-hot, weibo-search, douyin-hot | 涉及 12 条热搜
 
-### 9. 新动能释放助力经济稳增长
+### 9. 多海域连发航行警告，军事演练进行中
 
-多地经济数据发布，显示新动能持续释放，助力经济稳增长，江苏首富夫妇身家暴涨。
+多地连发航行警告，东海部分海域进行军事演练禁止驶入。
 
-> 来源：weibo-search, baidu-hot, kuaishou-hot | 涉及 5 条热搜
+> 来源：douyin-hot, toutiao-search | 涉及 2 条热搜
 
-### 10. 高市屡次引导外国领导人向日旗鞠躬
+### 10. 社保欠缴处罚有了全国统一尺度
 
-日本高市官员被指多次引导外国领导人在访日期间向日本国旗鞠躬，引发争议。
+社保欠缴逾期不缴将面临1至3倍罚款，处罚标准已全国统一。
 
-> 来源：toutiao-search, baidu-hot | 涉及 4 条热搜
+> 来源：kuaishou-hot, toutiao-search, baidu-hot | 涉及 3 条热搜
 
-### 11. 中国空间站将迎首位外籍航天员
+### 11. 彩票中奖过期兑奖被拒
 
-中国空间站将迎来首位外籍航天员，标志着中国航天国际合作的新进展。
+男子中1113万彩票因过期2天被拒兑奖，引发关注。
 
-> 来源：kuaishou-hot | 涉及 1 条热搜
+> 来源：toutiao-search, baidu-hot, baidu-hot | 涉及 3 条热搜
 
-### 12. 巴青地震及刚果（金）埃博拉疫情
+### 12. 美股三大指数高开
 
-青海巴青地震灾区安置点降雪，刚果（金）埃博拉疫情已致5026人死亡，中国使馆发布提醒。
+美股三大指数高开，科技股普遍反弹。
 
-> 来源：kuaishou-hot, baidu-hot, toutiao-search | 涉及 5 条热搜
+> 来源：weibo-search, baidu-hot | 涉及 2 条热搜
 
-### 13. 中国海警位台湾岛以东海域巡查
+### 13. 多名高官被查
 
-中国海警和海军编队在台湾岛以东海域进行执法巡查，展示维护国家主权的决心。
+河北邢台市委书记杨猛、安徽六安原书记叶露中、广州原书记郭永航被查。
 
-> 来源：toutiao-search, baidu-hot | 涉及 3 条热搜
+> 来源：baidu-hot, toutiao-search, toutiao-search | 涉及 3 条热搜
 
-### 14. 娱乐圈动态及综艺热点
+### 14. 校园安全事故频发
 
-涵盖明星恋情、综艺表现、演唱会及影视作品热度，如肖战、刘诗诗、关晓彤等人的相关话题。
+多地发生儿童在校内被撞致脑死亡等悲剧，引发社会对校园安全的担忧。
 
-> 来源：weibo-search, baidu-hot, douyin-hot, toutiao-search, zhihu-search | 涉及 47 条热搜
+> 来源：kuaishou-hot, kuaishou-hot, weibo-search | 涉及 3 条热搜
 
-### 15. 健康警示：胃癌与整形风险
+### 15. 俄乌局势及中俄合作
 
-多起健康事件引发关注，包括31岁老师脑出血、年轻人患胃癌、注射生长因子致面部畸形等。
+普京批准中俄铁路协定，泽连斯基提出停火条件，台名嘴言论引争议。
 
-> 来源：kuaishou-hot, weibo-search, baidu-hot, toutiao-search | 涉及 7 条热搜
+> 来源：kuaishou-hot, baidu-hot, toutiao-search, baidu-hot, baidu-hot, toutiao-search, toutiao-search, weibo-search | 涉及 8 条热搜
 
-### 16. 社会热点与消费趋势
+### 16. 全国多地迎来降温降雪
 
-涉及离婚、诈骗、金价下跌、快剪理发店兴起、省钱意识等社会现象。
+长春、大连等地迎来雨夹雪，我国南北温差达60多度，初冬雪景刷屏。
 
-> 来源：weibo-search, baidu-hot, kuaishou-hot, toutiao-search | 涉及 23 条热搜
+> 来源：kuaishou-hot, kuaishou-hot, kuaishou-hot, douyin-hot, kuaishou-hot | 涉及 5 条热搜
 
-### 17. 国际局势与抗议活动
+### 17. 游戏《影之刃零》热度高企
 
-德国、意大利多地爆发抗议，美国中期选举出现“十月惊奇”，俄乌局势及G20外长会动态。
+《影之刃零》销量突破400万，吸金超10亿，其中式美学引发讨论。
 
-> 来源：toutiao-search, baidu-hot | 涉及 10 条热搜
+> 来源：douyin-hot, baidu-hot, douyin-hot, toutiao-search, douyin-hot, toutiao-search | 涉及 6 条热搜
+
+### 18. 李佳琦直播间售Token
+
+李佳琦直播间半小时卖出2万亿Token，引发市场关注。
+
+> 来源：baidu-hot, kuaishou-hot | 涉及 2 条热搜
+
+### 19. 演员邵万林去世
+
+演员邵万林去世，导演江小鱼也因病离世。
+
+> 来源：toutiao-search, toutiao-search, kuaishou-hot, douyin-hot, toutiao-search | 涉及 5 条热搜
+
+### 20. 菲律宾发言人到中国使馆留言区撒泼
+
+菲律宾发言人就涉华问题在使馆留言区发表不当言论。
+
+> 来源：baidu-hot, weibo-search | 涉及 2 条热搜
