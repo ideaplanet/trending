@@ -1,0 +1,589 @@
+{
+  "date": "2026-11-04",
+  "overview": "今日热点聚焦于国际政治动态、体育赛事以及社会民生话题。国际方面，王毅外长与菲律宾外长通话，强调菲方少数政客不可容忍，引发广泛关注；美国中期选举进入终局，特朗普表态将结束对以援助，局势紧张。体育领域，曼联在欧联杯中3-2逆转罗马终结连败，TES与IG的S16淘汰赛对决也备受电竞迷关注。此外，刘延东同志遗体火化引发缅怀，黄金价格波动、苹果系统天气Bug及iPhone 18涨价传闻成为科技焦点。社会民生方面，南京多所高中推迟上学时间、女子玩手机患“手机痴呆症”等话题引发讨论。",
+  "topics": [
+    {
+      "title": "王毅同菲律宾外长通电话",
+      "summary": "王毅外长与菲律宾外长拉扎罗通电话，强调菲方少数政客丧失理智不可容忍，同时针对菲方发言人到中国使馆留言区撒泼一事进行回应，引发舆论关注。",
+      "entryIndices": [
+        1,
+        2,
+        148,
+        162,
+        174,
+        198,
+        285,
+        109
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "baidu-hot",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "美国中期选举进入终局",
+      "summary": "媒体称美国中期选举进入终局时刻，特朗普回应中期选举魔咒，民主党关键战区爆发内讧，引发全球关注。",
+      "entryIndices": [
+        3,
+        68,
+        144,
+        338,
+        326
+      ],
+      "sources": [
+        "toutiao-search",
+        "weibo-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "曼联3-2逆转罗马终结连败",
+      "summary": "曼联在欧联杯中让二追三，以3-2逆转罗马，终结了此前的9场不胜，比赛过程跌宕起伏。",
+      "entryIndices": [
+        4,
+        82,
+        120,
+        124,
+        329,
+        366
+      ],
+      "sources": [
+        "douyin-hot",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "S16淘汰赛TES对战IG",
+      "summary": "S16淘汰赛迎来内战，TES与IG狭路相逢，比赛中的精彩操作如TheShy单杀369等成为讨论焦点。",
+      "entryIndices": [
+        5,
+        19,
+        57,
+        132,
+        286,
+        337,
+        367
+      ],
+      "sources": [
+        "weibo-search",
+        "douyin-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "刘延东同志遗体火化",
+      "summary": "刘延东同志遗体在京火化，引发社会各界缅怀。",
+      "entryIndices": [
+        8,
+        18
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "黄金价格大幅下跌",
+      "summary": "黄金价格从暴涨转为暴跌，女子乘高铁买金，引发市场对金价走势的讨论。",
+      "entryIndices": [
+        70,
+        71,
+        126,
+        225
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "toutiao-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "iPhone天气Bug及新机传闻",
+      "summary": "苹果系统自带天气出现Bug，国行Apple智能功能上线，美股开盘苹果股价大跌，同时有消息称iPhone 18将于明年3月发布并涨价。",
+      "entryIndices": [
+        15,
+        34,
+        116,
+        121,
+        153,
+        235
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "2026世界互联网大会乌镇峰会开幕",
+      "summary": "2026世界互联网大会乌镇峰会开幕，千年乌镇迎来新变化，蔡崇信在峰会上谈AI，吸引全球媒体目光。",
+      "entryIndices": [
+        14,
+        23,
+        30,
+        251,
+        370
+      ],
+      "sources": [
+        "douyin-hot",
+        "toutiao-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "老中医去世后刻药方",
+      "summary": "一位老中医去世后，将生前100个药方刻在墓碑上，引发网友对中医传承的关注。",
+      "entryIndices": [
+        13,
+        27
+      ],
+      "sources": [
+        "toutiao-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "女子每天玩手机10小时患手机痴呆症",
+      "summary": "多名女子因每天长时间玩手机，出现记忆力下降、认知障碍等症状，被诊断为“手机痴呆症”，引发健康警示。",
+      "entryIndices": [
+        22,
+        35,
+        55
+      ],
+      "sources": [
+        "baidu-hot",
+        "weibo-search",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "46岁高圆圆红毛衣生图",
+      "summary": "46岁高圆圆身穿红毛衣的生图引发热议，她在“上班和上进间选择上山”的话题也受到关注。",
+      "entryIndices": [
+        45,
+        128,
+        247
+      ],
+      "sources": [
+        "toutiao-search",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "斯诺克国锦赛八强产生",
+      "summary": "斯诺克国锦赛进入八强阶段，赵心童、丁俊晖、王楚钦等选手晋级，比赛精彩纷呈。",
+      "entryIndices": [
+        42,
+        56,
+        106,
+        150,
+        199,
+        242,
+        324,
+        359,
+        372
+      ],
+      "sources": [
+        "douyin-hot",
+        "toutiao-search",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "北京国安亚冠首败泰港",
+      "summary": "北京国安在亚冠联赛中4-7不敌泰港，遭遇首败，拉莫斯染红离场。",
+      "entryIndices": [
+        76,
+        131,
+        214
+      ],
+      "sources": [
+        "toutiao-search",
+        "douyin-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "西乙球员相撞伤重离世",
+      "summary": "西乙一名球员与门将相撞后伤重离世，肇事门将被立案，西班牙足协暂停赛事悼念。",
+      "entryIndices": [
+        64,
+        65,
+        80,
+        107,
+        230,
+        261
+      ],
+      "sources": [
+        "baidu-hot",
+        "douyin-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "“画地为牢”成网络爆梗",
+      "summary": "“画地为牢”一词因厉娜等明星相关话题走红，成为今年最热的爆梗之一，央视频也玩梗。",
+      "entryIndices": [
+        21,
+        73,
+        115,
+        213,
+        284
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "weibo-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "胖东来回应茶叶里有头发",
+      "summary": "胖东来回应茶叶里有头发一事，承诺赔偿10倍，引发对商超服务质量的讨论。",
+      "entryIndices": [
+        226,
+        274
+      ],
+      "sources": [
+        "baidu-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "南京多所高中推迟上学时间",
+      "summary": "南京、苏州等多地高中缩短学生在校时间，推迟上学，引发家长和学生关注。",
+      "entryIndices": [
+        53,
+        130,
+        164
+      ],
+      "sources": [
+        "baidu-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "特斯拉10月销量跌至第8",
+      "summary": "10月新能源汽车销量榜出炉，特斯拉跌至第8名。",
+      "entryIndices": [
+        7
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "比亚迪月销量顶美国一个季度",
+      "summary": "比亚迪纯电月销量惊人，顶美国一个季度，展现中国车企实力。",
+      "entryIndices": [
+        306
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "雪豹凌小寒抢救无效病亡",
+      "summary": "雪豹“凌小寒”抢救无效病亡，引发网友对野生动物保护的惋惜。",
+      "entryIndices": [
+        138,
+        146
+      ],
+      "sources": [
+        "kuaishou-hot",
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "万圣节",
+      "summary": "万圣节相关话题登上热搜。",
+      "entryIndices": [
+        28
+      ],
+      "sources": [
+        "zhihu-search"
+      ]
+    },
+    {
+      "title": "披荆斩棘",
+      "summary": "综艺节目《披荆斩棘》相关话题。",
+      "entryIndices": [
+        59
+      ],
+      "sources": [
+        "zhihu-search"
+      ]
+    },
+    {
+      "title": "湖人VS热火",
+      "summary": "NBA湖人队与热火队比赛相关话题。",
+      "entryIndices": [
+        91
+      ],
+      "sources": [
+        "zhihu-search"
+      ]
+    },
+    {
+      "title": "王者荣耀",
+      "summary": "游戏《王者荣耀》相关话题。",
+      "entryIndices": [
+        159
+      ],
+      "sources": [
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "菏泽村委换届欲收回千亩地",
+      "summary": "菏泽村委换届期间欲收回千亩地，引发关注。",
+      "entryIndices": [
+        192
+      ],
+      "sources": [
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "陈奕迅一家取关黄泽林",
+      "summary": "陈奕迅一家取关黄泽林，引发粉丝猜测。",
+      "entryIndices": [
+        216
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "美坠机遇难女副驾最后短信",
+      "summary": "美坠机遇难女副驾最后发送的短信曝光。",
+      "entryIndices": [
+        222
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "福建舰与罗斯福号同处南海",
+      "summary": "专家分析福建舰与罗斯福号同处南海的战略意义。",
+      "entryIndices": [
+        227
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "民房护墙石竟是金代古墓碑",
+      "summary": "河南一民房护墙石被鉴定为金代古墓碑。",
+      "entryIndices": [
+        240
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "乌军地下室关押人员遭断骨性虐待",
+      "summary": "乌克兰军队被曝在地下室关押人员并实施断骨性虐待。",
+      "entryIndices": [
+        244
+      ],
+      "sources": [
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "电诈园区搬到马达加斯加",
+      "summary": "调查显示电诈园区已搬到马达加斯加。",
+      "entryIndices": [
+        257
+      ],
+      "sources": [
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "玄彬说孙艺珍不让演爱情戏就不演",
+      "summary": "玄彬回应与孙艺珍恋情，表示对方不让演爱情戏就不演。",
+      "entryIndices": [
+        262
+      ],
+      "sources": [
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "男子无罪仍被羁押64天",
+      "summary": "一名男子被证明无罪后仍被羁押64天，引发司法公正讨论。",
+      "entryIndices": [
+        268
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "亚足联官宣亚洲杯延期",
+      "summary": "亚足联宣布亚洲杯延期。",
+      "entryIndices": [
+        272
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "今后买菜逛超市将有新变化",
+      "summary": "国家发改委等部门发布通知，未来超市购物将有新变化。",
+      "entryIndices": [
+        277
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "林心如被催生二胎称老了",
+      "summary": "林心如回应催生二胎话题，表示自己老了。",
+      "entryIndices": [
+        289
+      ],
+      "sources": [
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "霍尔木兹海峡一船只遭袭",
+      "summary": "霍尔木兹海峡一船只遭袭致1人死亡。",
+      "entryIndices": [
+        292
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "万岁山王婆说媒帅哥遭女粉狂追",
+      "summary": "万岁山王婆说媒现场，帅哥遭女粉狂追。",
+      "entryIndices": [
+        298
+      ],
+      "sources": [
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "假海归厂二代诈骗3女子",
+      "summary": "一男子冒充海归厂二代诈骗三名女子。",
+      "entryIndices": [
+        302
+      ],
+      "sources": [
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "嫁金钗",
+      "summary": "短剧《嫁金钗》相关话题。",
+      "entryIndices": [
+        312
+      ],
+      "sources": [
+        "zhihu-search"
+      ]
+    },
+    {
+      "title": "泰国15岁高尔夫球手遭雷击离世",
+      "summary": "泰国一名15岁高尔夫球手在比赛中遭雷击不幸离世。",
+      "entryIndices": [
+        314
+      ],
+      "sources": [
+        "baidu-hot"
+      ]
+    },
+    {
+      "title": "蔡天凤案凶器DNA与前夫吻合",
+      "summary": "蔡天凤案凶器DNA与前夫吻合，案件持续发酵。",
+      "entryIndices": [
+        318
+      ],
+      "sources": [
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "村民打百米深井致房屋开裂",
+      "summary": "村民打百米深井连抽5天导致3户房屋开裂。",
+      "entryIndices": [
+        322
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "佛州坠机副驾年仅20岁",
+      "summary": "美佛州坠机事故遇难女副驾年仅20岁。",
+      "entryIndices": [
+        336
+      ],
+      "sources": [
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "美国将孔子学院列为威胁",
+      "summary": "美国将孔子学院列为威胁。",
+      "entryIndices": [
+        341
+      ],
+      "sources": [
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "俄方：欧洲不能参加乌克兰问题谈判",
+      "summary": "俄罗斯方面表示欧洲不能参加乌克兰问题谈判。",
+      "entryIndices": [
+        349
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "2036年夏奥会申办名单敲定",
+      "summary": "2036年夏季奥运会申办名单敲定。",
+      "entryIndices": [
+        356
+      ],
+      "sources": [
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "以色列大选将对国际局势有何影响",
+      "summary": "专家分析以色列大选对国际局势的影响。",
+      "entryIndices": [
+        369
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "厉娜自曝低谷期吃抗抑郁药",
+      "summary": "厉娜自曝在低谷期曾吃抗抑郁药。",
+      "entryIndices": [
+        371
+      ],
+      "sources": [
+        "kuaishou-hot"
+      ]
+    }
+  ]
+}
