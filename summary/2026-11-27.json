@@ -1,0 +1,207 @@
+{
+  "date": "2026-11-27",
+  "overview": "今日热点聚焦体育赛事与反腐倡廉。体育方面，U17国足在世少赛中以8:0大胜斐济，时隔21年晋级淘汰赛，展现强劲攻势；反观中国男篮在世预赛中以80:82惜败沙特，杜锋坦言球队处于悬崖边缘，引发广泛讨论。经济与科技领域，金价下跌刺激消费热情，神舟二十三号及载人航天任务稳步推进，英伟达CEO黄仁勋辞职引发关注。此外，中纪委密集通报多名省部级官员被查，反腐力度持续加大；哈尔滨冰雪旅游持续火爆，成为冬日热门话题。",
+  "topics": [
+    {
+      "title": "U17国足8:0大胜斐济晋级世界杯32强",
+      "summary": "U17国足在世少赛小组赛中以8:0大胜斐济，时隔21年再次晋级淘汰赛，展现了强劲的攻击力和团队配合。",
+      "entryIndices": [
+        2,
+        3,
+        34,
+        38,
+        101,
+        102,
+        140
+      ],
+      "sources": [
+        "douyin-hot",
+        "kuaishou-hot",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "中国男篮世预赛不敌沙特男篮",
+      "summary": "中国男篮在世预赛中以80:82惜败沙特，杜锋表示球队处于悬崖边缘，引发球迷对球队现状的担忧与热议。",
+      "entryIndices": [
+        6,
+        7,
+        13,
+        17,
+        80,
+        158,
+        168,
+        169
+      ],
+      "sources": [
+        "douyin-hot",
+        "kuaishou-hot",
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "中纪委连打三“虎”",
+      "summary": "中纪委密集通报多名省部级官员被查，包括中宣部原副部长蔡赴朝等，反腐力度持续加大，引发社会关注。",
+      "entryIndices": [
+        26,
+        49,
+        63,
+        106,
+        129,
+        133
+      ],
+      "sources": [
+        "toutiao-search",
+        "kuaishou-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "金价下跌消费者购金热情高涨",
+      "summary": "受国际金价波动影响，国内金价下跌刺激了消费者的购金热情，金店生意火爆。",
+      "entryIndices": [
+        1,
+        87
+      ],
+      "sources": [
+        "toutiao-search",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "神舟二十三号及载人航天进展",
+      "summary": "神舟二十三号准备就绪，神舟二十四号直播备受关注，中国载人航天事业稳步推进，神舟飞天遇上超级月亮引发热议。",
+      "entryIndices": [
+        8,
+        138,
+        155,
+        180,
+        187,
+        192,
+        200
+      ],
+      "sources": [
+        "weibo-search",
+        "douyin-hot",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "港交所公开谴责许家印",
+      "summary": "港交所对恒大主席许家印采取公开谴责措施，显示对恒大违规行为的持续监管。",
+      "entryIndices": [
+        129
+      ],
+      "sources": [
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "中方回应美日俄等国际事务",
+      "summary": "中方就美国关税、日方核污染水排放、俄军机飞越台岛等议题作出强硬回应，强调主权与原则。",
+      "entryIndices": [
+        14,
+        19,
+        44,
+        70,
+        83,
+        165,
+        176
+      ],
+      "sources": [
+        "douyin-hot",
+        "toutiao-search",
+        "kuaishou-hot"
+      ]
+    },
+    {
+      "title": "SpaceX申请部署百万颗卫星",
+      "summary": "马斯克旗下的SpaceX申请部署百万颗卫星，引发关于太空竞赛和算力竞争的讨论。",
+      "entryIndices": [
+        16,
+        47,
+        178
+      ],
+      "sources": [
+        "zhihu-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "董明珠回应争议及许飞事件",
+      "summary": "董明珠就留学生招聘争议及汽车行业“老鼠”言论引发热议；许飞身材及厉娜相关话题也登上热搜。",
+      "entryIndices": [
+        5,
+        12,
+        39,
+        71,
+        77,
+        115,
+        124,
+        151,
+        159,
+        172,
+        204
+      ],
+      "sources": [
+        "toutiao-search",
+        "weibo-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "哈尔滨冰雪旅游与冬日穿搭",
+      "summary": "哈尔滨冰雪旅游持续火爆，各地冬日穿搭、赏雪、美食成为社交媒体热门话题。",
+      "entryIndices": [
+        23,
+        35,
+        90,
+        95,
+        121,
+        145,
+        154,
+        162,
+        183,
+        188,
+        195
+      ],
+      "sources": [
+        "douyin-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "社会热点事件汇总",
+      "summary": "太原金屋大厦火灾、可可西里失联人员获救、女子打赏50万追回等社会新闻引发关注。",
+      "entryIndices": [
+        29,
+        64,
+        66,
+        91,
+        117,
+        166
+      ],
+      "sources": [
+        "toutiao-search",
+        "kuaishou-hot",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "英伟达黄仁勋辞职及算力竞争",
+      "summary": "英伟达CEO黄仁勋辞职，AI算力成为全球竞争焦点，国产GPU加速追赶。",
+      "entryIndices": [
+        75,
+        132,
+        178,
+        197
+      ],
+      "sources": [
+        "zhihu-search",
+        "toutiao-search"
+      ]
+    }
+  ]
+}
