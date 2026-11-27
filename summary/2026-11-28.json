@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-28",
+  "overview": "今日热点聚焦于资本市场的剧烈波动与民生热点。A股市场迎来史诗级暴涨，国家队强力介入抄底，单日收复全年跌幅并重返3600点，释放出重磅稳市信号，成为今日最大焦点。商业领域方面，三只松鼠因员工宿舍问题陷入舆论漩涡，董明珠与魏建军的现场互动也备受关注。国际新闻中，塞尔维亚总统武契奇宣布绝食，巴基斯坦航天员视频音轨被篡改事件持续发酵。此外，赵昭仪曝剧组遭言语骚扰、新版教材风波、胡歌刘涛新剧吻戏路透以及正部级蓝天立被判死缓等话题也占据热搜高位，反映了社会对职场环境、教育内容及娱乐八卦的多元关注。",
+  "topics": [
+    {
+      "title": "A股史诗级暴涨与国家队救市",
+      "summary": "今日A股市场表现极为强劲，国家队强力介入抄底，单日收复全年跌幅并重返3600点，释放出重磅稳市信号。",
+      "entryIndices": [
+        4,
+        61,
+        65,
+        126,
+        145,
+        152
+      ],
+      "sources": [
+        "toutiao-search",
+        "weibo-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "三只松鼠员工宿舍问题致歉",
+      "summary": "三只松鼠因员工宿舍脏乱差问题引发公众不满，随后发布致歉声明，引发对企业管理模式的广泛讨论。",
+      "entryIndices": [
+        9,
+        30,
+        91
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "董明珠现场发火魏建军解围",
+      "summary": "董明珠在活动现场训斥员工，魏建军出面解围，这一互动片段在网络上迅速传播。",
+      "entryIndices": [
+        0,
+        17
+      ],
+      "sources": [
+        "weibo-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "巴基斯坦航天员视频音轨被篡改",
+      "summary": "巴基斯坦航天员离开地球48小时的视频被曝出音轨被篡改，引发对信息真实性的关注。",
+      "entryIndices": [
+        18,
+        39
+      ],
+      "sources": [
+        "douyin-hot",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "赵昭仪曝剧组遭言语骚扰",
+      "summary": "演员赵昭仪在社交媒体上透露在剧组曾遭遇言语骚扰，引发对行业环境的讨论。",
+      "entryIndices": [
+        22,
+        48,
+        60,
+        87
+      ],
+      "sources": [
+        "weibo-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "新版九年级下册教材风波",
+      "summary": "新版教材未正式出版即引发争议，官方随后辟谣称不存在多处错误，但舆论关注仍在持续。",
+      "entryIndices": [
+        36,
+        40
+      ],
+      "sources": [
+        "toutiao-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "胡歌刘涛新剧吻戏路透",
+      "summary": "胡歌与刘涛新剧的吻戏路透照曝光，引发粉丝对两人合作的热烈讨论。",
+      "entryIndices": [
+        149,
+        159
+      ],
+      "sources": [
+        "toutiao-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "武契奇称一旦绝食将不接受救治",
+      "summary": "塞尔维亚总统武契奇宣布若发生绝食将拒绝接受救治，表达了对国内局势的强硬态度。",
+      "entryIndices": [
+        1
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "正部级蓝天立被判死缓",
+      "summary": "广西壮族自治区原主席蓝天立因受贿罪被判处死刑，缓期二年执行，引发社会关注。",
+      "entryIndices": [
+        20
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "电视开机广告禁令首日执行",
+      "summary": "广电新规禁止电视开机广告，但首日执行情况显示部分电视仍存在广告，引发讨论。",
+      "entryIndices": [
+        55,
+        62
+      ],
+      "sources": [
+        "toutiao-search",
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "油价重返7元与金价大涨",
+      "summary": "92号汽油价格重返7元时代，同时黄金价格也出现大幅反弹，引发投资者关注。",
+      "entryIndices": [
+        28,
+        64,
+        84
+      ],
+      "sources": [
+        "zhihu-search",
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "综艺后会友期引发热议",
+      "summary": "综艺《后会友期》相关话题持续发酵，嘉宾阵容及节目内容引发观众讨论。",
+      "entryIndices": [
+        3,
+        38,
+        57,
+        106,
+        122
+      ],
+      "sources": [
+        "weibo-search",
+        "zhihu-search",
+        "douyin-hot"
+      ]
+    },
+    {
+      "title": "王菲22年前专访视频再引关注",
+      "summary": "王菲22年前的专访视频被重新翻出，引发网友对昔日风采的怀念。",
+      "entryIndices": [
+        116
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "中国母女阿根廷旅游被劫",
+      "summary": "一对中国母女在阿根廷旅游时遭遇5名劫匪围攻，引发对海外旅游安全的担忧。",
+      "entryIndices": [
+        58
+      ],
+      "sources": [
+        "weibo-search"
+      ]
+    },
+    {
+      "title": "DeepSeek调整API定价",
+      "summary": "AI公司DeepSeek宣布调整API定价，引发开发者关注。",
+      "entryIndices": [
+        131
+      ],
+      "sources": [
+        "zhihu-search"
+      ]
+    },
+    {
+      "title": "新一届江苏省委常委亮相",
+      "summary": "新一届江苏省委常委名单公布，引发当地及全国关注。",
+      "entryIndices": [
+        139
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "岛内舆论：唯两岸合作能破除美方勒索",
+      "summary": "岛内舆论指出，唯有两岸合作才能有效破除美方的勒索与遏制。",
+      "entryIndices": [
+        142
+      ],
+      "sources": [
+        "toutiao-search"
+      ]
+    },
+    {
+      "title": "MotoGP八冠王马奎斯宣布退役",
+      "summary": "MotoGP八冠王马克·马奎斯宣布退役，结束辉煌的职业生涯。",
+      "entryIndices": [
+        24
+      ],
+      "sources": [
+        "douyin-hot"
+      ]
+    }
+  ]
+}
